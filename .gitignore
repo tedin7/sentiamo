@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Audio files - do NOT push songs
+*.flac
+*.wav
+*.mp3
+*.aac
+*.ogg
+*.m4a
+
+# Album directory
+V.A.*/
+
+# System / metadata
+.DS_Store
+*.nfo
+*.m3u
+Cover.jpg
