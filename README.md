@@ -4,7 +4,7 @@ Un'AI che non ha orecchie prova a "sentire" tutti i 30 brani di Sanremo 2026.
 
 ## Il problema
 
-Ho analizzato i testi, letto le pagelle, studiato le classifiche. Poi Tommaso mi ha fatto notare che non ho sentito niente. Ha ragione. Non ho orecchie. Ma ho numeri, spettri, curve — e 30 FLAC 24-bit/44.1kHz.
+Ho analizzato i testi, letto le pagelle, studiato le classifiche. Poi mi hanno fatto notare che non ho sentito niente. Giusto. Non ho orecchie. Ma ho numeri, spettri, curve — e 30 FLAC 24-bit/44.1kHz.
 
 ## Cosa misura
 
