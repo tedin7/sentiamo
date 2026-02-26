@@ -1,0 +1,591 @@
+
+██████████████████████████████████████████████████████████████████████
+  SENTIAMO SANREMO 2026 — ANALISI ACUSTICA
+  30 brani. Zero orecchie. Solo numeri.
+██████████████████████████████████████████████████████████████████████
+
+======================================================================
+  ENERGIA MEDIA (RMS) — Chi spinge di piu'?
+======================================================================
+   1. ██████████████████████████████    0.359  Luchè - Labirinto
+   2. ██████████████████████████░░░░    0.310  Bambole Di Pezza - Resta Con Me
+   3. ██████████████████████████░░░░    0.308  Ermal Meta - Stella Stellina
+   4. ██████████████████████████░░░░    0.306  Sal Da Vinci - Per Sempre Sì
+   5. ████████████████████████░░░░░░    0.289  Samurai Jay - Ossessione
+   6. ████████████████████████░░░░░░    0.287  Ditonellapiaga - Che Fastidio!
+   7. ████████████████████████░░░░░░    0.282  Elettra Lamborghini - Voilà
+   8. ███████████████████████░░░░░░░    0.281  Tommaso Paradiso - I Romantici
+   9. ███████████████████████░░░░░░░    0.278  Mara Sattei - Le Cose Che Non Sai Di Me
+  10. ███████████████████████░░░░░░░    0.275  Fedez & Marco Masini - Male Necessario
+  11. ███████████████████████░░░░░░░    0.275  J-AX - Italia Starter Pack
+  12. ███████████████████████░░░░░░░    0.272  Leo Gassmann - Naturale
+  13. ██████████████████████░░░░░░░░    0.266  Levante - Sei Tu
+  14. ██████████████████████░░░░░░░░    0.265  Malika Ayane - Animali Notturni
+  15. ██████████████████████░░░░░░░░    0.265  Patty Pravo - Opera
+  16. ██████████████████████░░░░░░░░    0.262  Nayt - Prima Che
+  17. ██████████████████████░░░░░░░░    0.258  Serena Brancale - Qui Con Me
+  18. █████████████████████░░░░░░░░░    0.257  Francesco Renga - Il Meglio Di Me
+  19. █████████████████████░░░░░░░░░    0.251  LDA & Aka 7even - Poesie Clandestine
+  20. █████████████████████░░░░░░░░░    0.248  SayF - Tu Mi Piaci Tanto
+  21. ████████████████████░░░░░░░░░░    0.245  Tredici Pietro - Uomo Che Cade
+  22. ████████████████████░░░░░░░░░░    0.242  Eddie Brock - Avvoltoi
+  23. ████████████████████░░░░░░░░░░    0.241  Arisa - Magica Favola
+  24. ████████████████████░░░░░░░░░░    0.241  chiello - Ti Penso Sempre
+  25. ████████████████████░░░░░░░░░░    0.235  RAF - Ora E Per Sempre
+  26. ███████████████████░░░░░░░░░░░    0.233  Maria Antonietta & Colombre - La Felicità E Basta
+  27. ███████████████████░░░░░░░░░░░    0.231  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  28. ███████████████████░░░░░░░░░░░    0.231  Dargen D'Amico - Ai Ai
+  29. ██████████████████░░░░░░░░░░░░    0.216  Fulminacci - Stupida Sfortuna
+  30. ██████████████████░░░░░░░░░░░░    0.214  Michele Bravi - Prima O Poi
+
+
+======================================================================
+  DYNAMIC RANGE (dB) — Chi respira di piu'?
+======================================================================
+   1. ██████████████████████████████   34.150 dB  Michele Bravi - Prima O Poi
+   2. ████████████████████████░░░░░░   27.270 dB  Tommaso Paradiso - I Romantici
+   3. ██████████████████████░░░░░░░░   25.110 dB  Fulminacci - Stupida Sfortuna
+   4. █████████████████████░░░░░░░░░   24.130 dB  Eddie Brock - Avvoltoi
+   5. █████████████████████░░░░░░░░░   23.660 dB  RAF - Ora E Per Sempre
+   6. ████████████████████░░░░░░░░░░   23.320 dB  Nayt - Prima Che
+   7. ███████████████████░░░░░░░░░░░   21.510 dB  LDA & Aka 7even - Poesie Clandestine
+   8. ███████████████████░░░░░░░░░░░   21.220 dB  Fedez & Marco Masini - Male Necessario
+   9. █████████████████░░░░░░░░░░░░░   19.520 dB  Ditonellapiaga - Che Fastidio!
+  10. █████████████████░░░░░░░░░░░░░   19.340 dB  Sal Da Vinci - Per Sempre Sì
+  11. █████████████████░░░░░░░░░░░░░   18.840 dB  Levante - Sei Tu
+  12. ████████████████░░░░░░░░░░░░░░   18.330 dB  Luchè - Labirinto
+  13. ████████████████░░░░░░░░░░░░░░   18.130 dB  Serena Brancale - Qui Con Me
+  14. ████████████████░░░░░░░░░░░░░░   17.770 dB  Francesco Renga - Il Meglio Di Me
+  15. ███████████████░░░░░░░░░░░░░░░   17.210 dB  Mara Sattei - Le Cose Che Non Sai Di Me
+  16. ███████████████░░░░░░░░░░░░░░░   16.540 dB  Samurai Jay - Ossessione
+  17. ██████████████░░░░░░░░░░░░░░░░   16.150 dB  Dargen D'Amico - Ai Ai
+  18. ██████████████░░░░░░░░░░░░░░░░   16.110 dB  chiello - Ti Penso Sempre
+  19. ██████████████░░░░░░░░░░░░░░░░   16.050 dB  Arisa - Magica Favola
+  20. ██████████████░░░░░░░░░░░░░░░░   15.590 dB  Malika Ayane - Animali Notturni
+  21. ██████████████░░░░░░░░░░░░░░░░   15.490 dB  Leo Gassmann - Naturale
+  22. █████████████░░░░░░░░░░░░░░░░░   15.330 dB  Ermal Meta - Stella Stellina
+  23. █████████████░░░░░░░░░░░░░░░░░   15.120 dB  Patty Pravo - Opera
+  24. █████████████░░░░░░░░░░░░░░░░░   15.090 dB  Maria Antonietta & Colombre - La Felicità E Basta
+  25. █████████████░░░░░░░░░░░░░░░░░   15.060 dB  Tredici Pietro - Uomo Che Cade
+  26. █████████████░░░░░░░░░░░░░░░░░   14.380 dB  Elettra Lamborghini - Voilà
+  27. ████████████░░░░░░░░░░░░░░░░░░   14.130 dB  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  28. ███████████░░░░░░░░░░░░░░░░░░░   13.060 dB  SayF - Tu Mi Piaci Tanto
+  29. ██████████░░░░░░░░░░░░░░░░░░░░   11.290 dB  Bambole Di Pezza - Resta Con Me
+  30. █████████░░░░░░░░░░░░░░░░░░░░░   10.430 dB  J-AX - Italia Starter Pack
+
+
+======================================================================
+  QUIET RATIO — Chi osa il silenzio?
+======================================================================
+   1. ██████████████████████████████    0.269  Nayt - Prima Che
+   2. ████████████████████████████░░    0.251  Fedez & Marco Masini - Male Necessario
+   3. ██████████████████████████░░░░    0.230  Michele Bravi - Prima O Poi
+   4. ████████████████████████░░░░░░    0.217  Ditonellapiaga - Che Fastidio!
+   5. ████████████████████████░░░░░░    0.213  Arisa - Magica Favola
+   6. ███████████████████████░░░░░░░    0.207  Eddie Brock - Avvoltoi
+   7. ██████████████████████░░░░░░░░    0.195  Levante - Sei Tu
+   8. ████████████████████░░░░░░░░░░    0.178  LDA & Aka 7even - Poesie Clandestine
+   9. ████████████████████░░░░░░░░░░    0.177  Serena Brancale - Qui Con Me
+  10. ███████████████████░░░░░░░░░░░    0.172  Leo Gassmann - Naturale
+  11. ███████████████████░░░░░░░░░░░    0.167  chiello - Ti Penso Sempre
+  12. ██████████████████░░░░░░░░░░░░    0.164  Fulminacci - Stupida Sfortuna
+  13. █████████████████░░░░░░░░░░░░░    0.152  Tommaso Paradiso - I Romantici
+  14. ████████████████░░░░░░░░░░░░░░    0.145  Mara Sattei - Le Cose Che Non Sai Di Me
+  15. ████████████████░░░░░░░░░░░░░░    0.139  RAF - Ora E Per Sempre
+  16. ████████████████░░░░░░░░░░░░░░    0.139  Francesco Renga - Il Meglio Di Me
+  17. █████████████░░░░░░░░░░░░░░░░░    0.119  Samurai Jay - Ossessione
+  18. █████████████░░░░░░░░░░░░░░░░░    0.116  Elettra Lamborghini - Voilà
+  19. █████████████░░░░░░░░░░░░░░░░░    0.116  Sal Da Vinci - Per Sempre Sì
+  20. ████████████░░░░░░░░░░░░░░░░░░    0.107  Tredici Pietro - Uomo Che Cade
+  21. ████████████░░░░░░░░░░░░░░░░░░    0.104  Dargen D'Amico - Ai Ai
+  22. ███████████░░░░░░░░░░░░░░░░░░░    0.102  Patty Pravo - Opera
+  23. ███████████░░░░░░░░░░░░░░░░░░░    0.102  Ermal Meta - Stella Stellina
+  24. ███████████░░░░░░░░░░░░░░░░░░░    0.102  Malika Ayane - Animali Notturni
+  25. ███████████░░░░░░░░░░░░░░░░░░░    0.101  SayF - Tu Mi Piaci Tanto
+  26. ███████████░░░░░░░░░░░░░░░░░░░    0.098  Luchè - Labirinto
+  27. ██████████░░░░░░░░░░░░░░░░░░░░    0.094  Maria Antonietta & Colombre - La Felicità E Basta
+  28. █████████░░░░░░░░░░░░░░░░░░░░░    0.084  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  29. █████████░░░░░░░░░░░░░░░░░░░░░    0.082  Bambole Di Pezza - Resta Con Me
+  30. ███████░░░░░░░░░░░░░░░░░░░░░░░    0.062  J-AX - Italia Starter Pack
+
+
+======================================================================
+  BPM — Chi corre di piu'?
+======================================================================
+   1. ██████████████████████████████  161.500 bpm  Levante - Sei Tu
+   2. ████████████████████████████░░  152.000 bpm  RAF - Ora E Per Sempre
+   3. ████████████████████████████░░  152.000 bpm  Leo Gassmann - Naturale
+   4. ███████████████████████████░░░  143.600 bpm  Bambole Di Pezza - Resta Con Me
+   5. ███████████████████████████░░░  143.600 bpm  Tommaso Paradiso - I Romantici
+   6. ███████████████████████████░░░  143.600 bpm  Mara Sattei - Le Cose Che Non Sai Di Me
+   7. ███████████████████████████░░░  143.600 bpm  Fedez & Marco Masini - Male Necessario
+   8. █████████████████████████░░░░░  136.000 bpm  SayF - Tu Mi Piaci Tanto
+   9. █████████████████████████░░░░░  136.000 bpm  Michele Bravi - Prima O Poi
+  10. ████████████████████████░░░░░░  129.200 bpm  Ditonellapiaga - Che Fastidio!
+  11. ████████████████████████░░░░░░  129.200 bpm  Elettra Lamborghini - Voilà
+  12. ████████████████████████░░░░░░  129.200 bpm  Ermal Meta - Stella Stellina
+  13. ███████████████████████░░░░░░░  123.000 bpm  Samurai Jay - Ossessione
+  14. ███████████████████████░░░░░░░  123.000 bpm  Dargen D'Amico - Ai Ai
+  15. ███████████████████████░░░░░░░  123.000 bpm  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  16. ███████████████████████░░░░░░░  123.000 bpm  Sal Da Vinci - Per Sempre Sì
+  17. ███████████████████████░░░░░░░  123.000 bpm  Eddie Brock - Avvoltoi
+  18. ███████████████████████░░░░░░░  123.000 bpm  Maria Antonietta & Colombre - La Felicità E Basta
+  19. ███████████████████████░░░░░░░  123.000 bpm  Francesco Renga - Il Meglio Di Me
+  20. ██████████████████████░░░░░░░░  117.500 bpm  J-AX - Italia Starter Pack
+  21. █████████████████████░░░░░░░░░  112.300 bpm  Luchè - Labirinto
+  22. ████████████████████░░░░░░░░░░  107.700 bpm  LDA & Aka 7even - Poesie Clandestine
+  23. ████████████████████░░░░░░░░░░  107.700 bpm  Malika Ayane - Animali Notturni
+  24. ███████████████████░░░░░░░░░░░  103.400 bpm  Serena Brancale - Qui Con Me
+  25. ███████████████████░░░░░░░░░░░  103.400 bpm  Patty Pravo - Opera
+  26. ██████████████████░░░░░░░░░░░░   95.700 bpm  Fulminacci - Stupida Sfortuna
+  27. █████████████████░░░░░░░░░░░░░   89.100 bpm  Tredici Pietro - Uomo Che Cade
+  28. ███████████████░░░░░░░░░░░░░░░   83.400 bpm  Arisa - Magica Favola
+  29. ███████████████░░░░░░░░░░░░░░░   80.700 bpm  Nayt - Prima Che
+  30. ██████████████░░░░░░░░░░░░░░░░   76.000 bpm  chiello - Ti Penso Sempre
+
+
+======================================================================
+  BEAT REGULARITY — Chi e' piu' umano? (alta varianza = respira)
+======================================================================
+   1. ██████████████████████████████    0.043  Arisa - Magica Favola
+   2. ████████████████████████████░░    0.041  Serena Brancale - Qui Con Me
+   3. ███████████████████████████░░░    0.040  Nayt - Prima Che
+   4. ████████████████████████░░░░░░    0.034  Luchè - Labirinto
+   5. ███████████████████████░░░░░░░    0.034  Fulminacci - Stupida Sfortuna
+   6. ██████████████████████░░░░░░░░    0.032  chiello - Ti Penso Sempre
+   7. ████████████████████░░░░░░░░░░    0.030  Tredici Pietro - Uomo Che Cade
+   8. ███████████████████░░░░░░░░░░░    0.028  Michele Bravi - Prima O Poi
+   9. ███████████████████░░░░░░░░░░░    0.027  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  10. ██████████████████░░░░░░░░░░░░    0.027  Patty Pravo - Opera
+  11. █████████████████░░░░░░░░░░░░░    0.025  Francesco Renga - Il Meglio Di Me
+  12. █████████████████░░░░░░░░░░░░░    0.025  Ermal Meta - Stella Stellina
+  13. █████████████████░░░░░░░░░░░░░    0.024  LDA & Aka 7even - Poesie Clandestine
+  14. ███████████████░░░░░░░░░░░░░░░    0.022  Maria Antonietta & Colombre - La Felicità E Basta
+  15. ██████████████░░░░░░░░░░░░░░░░    0.021  Ditonellapiaga - Che Fastidio!
+  16. ██████████████░░░░░░░░░░░░░░░░    0.021  Dargen D'Amico - Ai Ai
+  17. ██████████████░░░░░░░░░░░░░░░░    0.020  Fedez & Marco Masini - Male Necessario
+  18. █████████████░░░░░░░░░░░░░░░░░    0.019  Leo Gassmann - Naturale
+  19. █████████████░░░░░░░░░░░░░░░░░    0.019  Eddie Brock - Avvoltoi
+  20. █████████████░░░░░░░░░░░░░░░░░    0.019  SayF - Tu Mi Piaci Tanto
+  21. █████████████░░░░░░░░░░░░░░░░░    0.019  Samurai Jay - Ossessione
+  22. █████████████░░░░░░░░░░░░░░░░░    0.018  J-AX - Italia Starter Pack
+  23. ████████████░░░░░░░░░░░░░░░░░░    0.018  Bambole Di Pezza - Resta Con Me
+  24. ████████████░░░░░░░░░░░░░░░░░░    0.018  Tommaso Paradiso - I Romantici
+  25. ████████████░░░░░░░░░░░░░░░░░░    0.018  RAF - Ora E Per Sempre
+  26. ██████████░░░░░░░░░░░░░░░░░░░░    0.015  Levante - Sei Tu
+  27. ██████████░░░░░░░░░░░░░░░░░░░░    0.015  Sal Da Vinci - Per Sempre Sì
+  28. ██████████░░░░░░░░░░░░░░░░░░░░    0.015  Mara Sattei - Le Cose Che Non Sai Di Me
+  29. ██████████░░░░░░░░░░░░░░░░░░░░    0.014  Elettra Lamborghini - Voilà
+  30. █████████░░░░░░░░░░░░░░░░░░░░░    0.013  Malika Ayane - Animali Notturni
+
+
+======================================================================
+  ONSET DENSITY — Chi e' piu' affollato?
+======================================================================
+   1. ██████████████████████████████    5.660/s  Ditonellapiaga - Che Fastidio!
+   2. ████████████████████████████░░    5.330/s  Malika Ayane - Animali Notturni
+   3. ███████████████████████░░░░░░░    4.410/s  Sal Da Vinci - Per Sempre Sì
+   4. ██████████████████████░░░░░░░░    4.210/s  Luchè - Labirinto
+   5. ██████████████████████░░░░░░░░    4.130/s  Elettra Lamborghini - Voilà
+   6. █████████████████████░░░░░░░░░    3.990/s  J-AX - Italia Starter Pack
+   7. █████████████████████░░░░░░░░░    3.980/s  LDA & Aka 7even - Poesie Clandestine
+   8. ████████████████████░░░░░░░░░░    3.830/s  Dargen D'Amico - Ai Ai
+   9. ████████████████████░░░░░░░░░░    3.830/s  Maria Antonietta & Colombre - La Felicità E Basta
+  10. ███████████████████░░░░░░░░░░░    3.620/s  SayF - Tu Mi Piaci Tanto
+  11. ███████████████████░░░░░░░░░░░    3.540/s  Fedez & Marco Masini - Male Necessario
+  12. ███████████████████░░░░░░░░░░░    3.520/s  Michele Bravi - Prima O Poi
+  13. █████████████████░░░░░░░░░░░░░    3.290/s  Bambole Di Pezza - Resta Con Me
+  14. █████████████████░░░░░░░░░░░░░    3.240/s  Mara Sattei - Le Cose Che Non Sai Di Me
+  15. █████████████████░░░░░░░░░░░░░    3.150/s  Leo Gassmann - Naturale
+  16. ████████████████░░░░░░░░░░░░░░    3.100/s  Nayt - Prima Che
+  17. ████████████████░░░░░░░░░░░░░░    2.970/s  Ermal Meta - Stella Stellina
+  18. ███████████████░░░░░░░░░░░░░░░    2.910/s  Samurai Jay - Ossessione
+  19. ███████████████░░░░░░░░░░░░░░░    2.840/s  chiello - Ti Penso Sempre
+  20. ███████████████░░░░░░░░░░░░░░░    2.790/s  Fulminacci - Stupida Sfortuna
+  21. ███████████████░░░░░░░░░░░░░░░    2.750/s  Francesco Renga - Il Meglio Di Me
+  22. ██████████████░░░░░░░░░░░░░░░░    2.640/s  Arisa - Magica Favola
+  23. █████████████░░░░░░░░░░░░░░░░░    2.510/s  Patty Pravo - Opera
+  24. █████████████░░░░░░░░░░░░░░░░░    2.410/s  RAF - Ora E Per Sempre
+  25. █████████████░░░░░░░░░░░░░░░░░    2.380/s  Tommaso Paradiso - I Romantici
+  26. ████████████░░░░░░░░░░░░░░░░░░    2.300/s  Serena Brancale - Qui Con Me
+  27. ████████████░░░░░░░░░░░░░░░░░░    2.260/s  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  28. ███████████░░░░░░░░░░░░░░░░░░░    2.140/s  Tredici Pietro - Uomo Che Cade
+  29. ███████████░░░░░░░░░░░░░░░░░░░    2.070/s  Levante - Sei Tu
+  30. ██████████░░░░░░░░░░░░░░░░░░░░    1.830/s  Eddie Brock - Avvoltoi
+
+
+======================================================================
+  SPECTRAL CENTROID (Hz) — Chi brilla di piu'?
+======================================================================
+   1. ██████████████████████████████ 3274.700 Hz  Sal Da Vinci - Per Sempre Sì
+   2. █████████████████████████████░ 3192.200 Hz  Malika Ayane - Animali Notturni
+   3. ███████████████████████████░░░ 3001.500 Hz  LDA & Aka 7even - Poesie Clandestine
+   4. ███████████████████████████░░░ 2905.500 Hz  Bambole Di Pezza - Resta Con Me
+   5. ██████████████████████████░░░░ 2854.500 Hz  Samurai Jay - Ossessione
+   6. ██████████████████████████░░░░ 2847.400 Hz  J-AX - Italia Starter Pack
+   7. ██████████████████████████░░░░ 2833.800 Hz  Tredici Pietro - Uomo Che Cade
+   8. ██████████████████████████░░░░ 2802.300 Hz  Maria Antonietta & Colombre - La Felicità E Basta
+   9. █████████████████████████░░░░░ 2739.300 Hz  Ditonellapiaga - Che Fastidio!
+  10. ████████████████████████░░░░░░ 2672.300 Hz  Leo Gassmann - Naturale
+  11. ███████████████████████░░░░░░░ 2514.300 Hz  Elettra Lamborghini - Voilà
+  12. ███████████████████████░░░░░░░ 2479.300 Hz  RAF - Ora E Per Sempre
+  13. ███████████████████████░░░░░░░ 2463.200 Hz  Mara Sattei - Le Cose Che Non Sai Di Me
+  14. ███████████████████████░░░░░░░ 2459.200 Hz  Dargen D'Amico - Ai Ai
+  15. ██████████████████████░░░░░░░░ 2445.500 Hz  Michele Bravi - Prima O Poi
+  16. ██████████████████████░░░░░░░░ 2434.400 Hz  SayF - Tu Mi Piaci Tanto
+  17. ██████████████████████░░░░░░░░ 2412.000 Hz  Fedez & Marco Masini - Male Necessario
+  18. █████████████████████░░░░░░░░░ 2308.200 Hz  Nayt - Prima Che
+  19. █████████████████████░░░░░░░░░ 2307.900 Hz  Levante - Sei Tu
+  20. █████████████████████░░░░░░░░░ 2250.500 Hz  Ermal Meta - Stella Stellina
+  21. ████████████████████░░░░░░░░░░ 2228.200 Hz  Tommaso Paradiso - I Romantici
+  22. ████████████████████░░░░░░░░░░ 2227.300 Hz  Luchè - Labirinto
+  23. ████████████████████░░░░░░░░░░ 2189.200 Hz  Fulminacci - Stupida Sfortuna
+  24. ████████████████████░░░░░░░░░░ 2131.800 Hz  Eddie Brock - Avvoltoi
+  25. ██████████████████░░░░░░░░░░░░ 2018.400 Hz  Arisa - Magica Favola
+  26. ██████████████████░░░░░░░░░░░░ 2008.000 Hz  Patty Pravo - Opera
+  27. ██████████████████░░░░░░░░░░░░ 1994.100 Hz  Francesco Renga - Il Meglio Di Me
+  28. ██████████████████░░░░░░░░░░░░ 1973.900 Hz  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  29. ██████████████████░░░░░░░░░░░░ 1934.400 Hz  Serena Brancale - Qui Con Me
+  30. ██████████████████░░░░░░░░░░░░ 1918.600 Hz  chiello - Ti Penso Sempre
+
+
+======================================================================
+  SPECTRAL BANDWIDTH — Chi ha il suono piu' ricco?
+======================================================================
+   1. ██████████████████████████████ 3047.600 Hz  Malika Ayane - Animali Notturni
+   2. █████████████████████████████░ 2991.400 Hz  Tredici Pietro - Uomo Che Cade
+   3. █████████████████████████████░ 2991.400 Hz  Sal Da Vinci - Per Sempre Sì
+   4. █████████████████████████████░ 2908.000 Hz  LDA & Aka 7even - Poesie Clandestine
+   5. ████████████████████████████░░ 2882.900 Hz  J-AX - Italia Starter Pack
+   6. ████████████████████████████░░ 2848.400 Hz  Maria Antonietta & Colombre - La Felicità E Basta
+   7. ████████████████████████████░░ 2840.500 Hz  Bambole Di Pezza - Resta Con Me
+   8. ████████████████████████████░░ 2826.300 Hz  Ditonellapiaga - Che Fastidio!
+   9. ████████████████████████████░░ 2819.200 Hz  Samurai Jay - Ossessione
+  10. ███████████████████████████░░░ 2749.000 Hz  RAF - Ora E Per Sempre
+  11. ███████████████████████████░░░ 2704.000 Hz  Michele Bravi - Prima O Poi
+  12. ███████████████████████████░░░ 2697.700 Hz  Leo Gassmann - Naturale
+  13. ██████████████████████████░░░░ 2682.000 Hz  Mara Sattei - Le Cose Che Non Sai Di Me
+  14. ██████████████████████████░░░░ 2675.000 Hz  Elettra Lamborghini - Voilà
+  15. ██████████████████████████░░░░ 2669.700 Hz  Dargen D'Amico - Ai Ai
+  16. ██████████████████████████░░░░ 2646.700 Hz  Fedez & Marco Masini - Male Necessario
+  17. ██████████████████████████░░░░ 2605.000 Hz  SayF - Tu Mi Piaci Tanto
+  18. ██████████████████████████░░░░ 2592.600 Hz  Luchè - Labirinto
+  19. █████████████████████████░░░░░ 2575.500 Hz  Levante - Sei Tu
+  20. █████████████████████████░░░░░ 2512.900 Hz  Nayt - Prima Che
+  21. █████████████████████████░░░░░ 2494.900 Hz  Francesco Renga - Il Meglio Di Me
+  22. █████████████████████████░░░░░ 2494.100 Hz  Fulminacci - Stupida Sfortuna
+  23. █████████████████████████░░░░░ 2492.500 Hz  Ermal Meta - Stella Stellina
+  24. ████████████████████████░░░░░░ 2471.400 Hz  Tommaso Paradiso - I Romantici
+  25. ████████████████████████░░░░░░ 2389.000 Hz  Eddie Brock - Avvoltoi
+  26. ███████████████████████░░░░░░░ 2344.200 Hz  Patty Pravo - Opera
+  27. ███████████████████████░░░░░░░ 2342.100 Hz  Arisa - Magica Favola
+  28. ███████████████████████░░░░░░░ 2289.500 Hz  Serena Brancale - Qui Con Me
+  29. ██████████████████████░░░░░░░░ 2227.000 Hz  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  30. █████████████████████░░░░░░░░░ 2179.700 Hz  chiello - Ti Penso Sempre
+
+
+======================================================================
+  SPECTRAL CONTRAST — Chi ha il suono piu' definito?
+======================================================================
+   1. ██████████████████████████████   24.990  Serena Brancale - Qui Con Me
+   2. ██████████████████████████████   24.760  Levante - Sei Tu
+   3. ██████████████████████████████   24.750  Arisa - Magica Favola
+   4. ██████████████████████████████   24.750  Eddie Brock - Avvoltoi
+   5. █████████████████████████████░   24.300  Fulminacci - Stupida Sfortuna
+   6. █████████████████████████████░   23.860  Nayt - Prima Che
+   7. ████████████████████████████░░   23.730  chiello - Ti Penso Sempre
+   8. ████████████████████████████░░   23.720  RAF - Ora E Per Sempre
+   9. ████████████████████████████░░   23.600  LDA & Aka 7even - Poesie Clandestine
+  10. ████████████████████████████░░   23.580  Tommaso Paradiso - I Romantici
+  11. ████████████████████████████░░   23.580  Leo Gassmann - Naturale
+  12. ████████████████████████████░░   23.430  Patty Pravo - Opera
+  13. ████████████████████████████░░   23.350  Fedez & Marco Masini - Male Necessario
+  14. ████████████████████████████░░   23.340  Michele Bravi - Prima O Poi
+  15. ████████████████████████████░░   23.210  Malika Ayane - Animali Notturni
+  16. ████████████████████████████░░   23.200  Luchè - Labirinto
+  17. ████████████████████████████░░   23.160  Samurai Jay - Ossessione
+  18. ████████████████████████████░░   23.130  Sal Da Vinci - Per Sempre Sì
+  19. ████████████████████████████░░   23.110  Mara Sattei - Le Cose Che Non Sai Di Me
+  20. ████████████████████████████░░   22.960  Tredici Pietro - Uomo Che Cade
+  21. ███████████████████████████░░░   22.880  Maria Antonietta & Colombre - La Felicità E Basta
+  22. ███████████████████████████░░░   22.870  SayF - Tu Mi Piaci Tanto
+  23. ███████████████████████████░░░   22.770  Elettra Lamborghini - Voilà
+  24. ███████████████████████████░░░   22.770  Ermal Meta - Stella Stellina
+  25. ███████████████████████████░░░   22.760  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  26. ███████████████████████████░░░   22.650  Francesco Renga - Il Meglio Di Me
+  27. ██████████████████████████░░░░   21.880  Ditonellapiaga - Che Fastidio!
+  28. ██████████████████████████░░░░   21.840  Bambole Di Pezza - Resta Con Me
+  29. ██████████████████████████░░░░   21.840  Dargen D'Amico - Ai Ai
+  30. ██████████████████████████░░░░   21.490  J-AX - Italia Starter Pack
+
+
+======================================================================
+  SPECTRAL FLATNESS — Chi sperimenta di piu'? (alto = noise/texture)
+======================================================================
+   1. ██████████████████████████████    0.044  Malika Ayane - Animali Notturni
+   2. ████████████████████████████░░    0.041  Sal Da Vinci - Per Sempre Sì
+   3. ███████████████████████████░░░    0.040  Bambole Di Pezza - Resta Con Me
+   4. ███████████████████████████░░░    0.039  Ditonellapiaga - Che Fastidio!
+   5. ███████████████████████████░░░    0.039  J-AX - Italia Starter Pack
+   6. ██████████████████████░░░░░░░░    0.033  LDA & Aka 7even - Poesie Clandestine
+   7. █████████████████████░░░░░░░░░    0.031  Maria Antonietta & Colombre - La Felicità E Basta
+   8. ████████████████████░░░░░░░░░░    0.030  Leo Gassmann - Naturale
+   9. ████████████████████░░░░░░░░░░    0.030  Samurai Jay - Ossessione
+  10. ████████████████████░░░░░░░░░░    0.029  Dargen D'Amico - Ai Ai
+  11. ███████████████████░░░░░░░░░░░    0.029  Ermal Meta - Stella Stellina
+  12. ███████████████████░░░░░░░░░░░    0.028  SayF - Tu Mi Piaci Tanto
+  13. ███████████████████░░░░░░░░░░░    0.028  Elettra Lamborghini - Voilà
+  14. ██████████████████░░░░░░░░░░░░    0.026  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  15. █████████████████░░░░░░░░░░░░░    0.025  Tredici Pietro - Uomo Che Cade
+  16. ███████████████░░░░░░░░░░░░░░░    0.021  chiello - Ti Penso Sempre
+  17. ██████████████░░░░░░░░░░░░░░░░    0.021  Nayt - Prima Che
+  18. ██████████████░░░░░░░░░░░░░░░░    0.021  RAF - Ora E Per Sempre
+  19. ██████████████░░░░░░░░░░░░░░░░    0.021  Michele Bravi - Prima O Poi
+  20. ██████████████░░░░░░░░░░░░░░░░    0.020  Fedez & Marco Masini - Male Necessario
+  21. █████████████░░░░░░░░░░░░░░░░░    0.020  Patty Pravo - Opera
+  22. █████████████░░░░░░░░░░░░░░░░░    0.019  Mara Sattei - Le Cose Che Non Sai Di Me
+  23. ████████████░░░░░░░░░░░░░░░░░░    0.018  Tommaso Paradiso - I Romantici
+  24. ████████████░░░░░░░░░░░░░░░░░░    0.017  Fulminacci - Stupida Sfortuna
+  25. ██████████░░░░░░░░░░░░░░░░░░░░    0.015  Eddie Brock - Avvoltoi
+  26. ██████████░░░░░░░░░░░░░░░░░░░░    0.014  Levante - Sei Tu
+  27. █████████░░░░░░░░░░░░░░░░░░░░░    0.013  Luchè - Labirinto
+  28. █████████░░░░░░░░░░░░░░░░░░░░░    0.013  Arisa - Magica Favola
+  29. ████████░░░░░░░░░░░░░░░░░░░░░░    0.012  Francesco Renga - Il Meglio Di Me
+  30. ██████░░░░░░░░░░░░░░░░░░░░░░░░    0.010  Serena Brancale - Qui Con Me
+
+
+======================================================================
+  HARMONIC/PERCUSSIVE RATIO — Chi e' melodico vs ritmico?
+======================================================================
+   1. ██████████████████████████████    9.350  Patty Pravo - Opera
+   2. █████████████████████████░░░░░    7.740  Levante - Sei Tu
+   3. ████████████████████████░░░░░░    7.510  Arisa - Magica Favola
+   4. █████████████████████░░░░░░░░░    6.560  RAF - Ora E Per Sempre
+   5. █████████████████████░░░░░░░░░    6.520  Serena Brancale - Qui Con Me
+   6. █████████████████░░░░░░░░░░░░░    5.360  Tommaso Paradiso - I Romantici
+   7. ███████████████░░░░░░░░░░░░░░░    4.660  Bambole Di Pezza - Resta Con Me
+   8. ██████████████░░░░░░░░░░░░░░░░    4.470  Francesco Renga - Il Meglio Di Me
+   9. ██████████████░░░░░░░░░░░░░░░░    4.370  Mara Sattei - Le Cose Che Non Sai Di Me
+  10. ██████████████░░░░░░░░░░░░░░░░    4.350  Michele Bravi - Prima O Poi
+  11. ██████████████░░░░░░░░░░░░░░░░    4.230  Fedez & Marco Masini - Male Necessario
+  12. █████████████░░░░░░░░░░░░░░░░░    4.100  Luchè - Labirinto
+  13. █████████████░░░░░░░░░░░░░░░░░    4.010  LDA & Aka 7even - Poesie Clandestine
+  14. ████████████░░░░░░░░░░░░░░░░░░    3.760  Nayt - Prima Che
+  15. ████████████░░░░░░░░░░░░░░░░░░    3.660  Eddie Brock - Avvoltoi
+  16. ███████████░░░░░░░░░░░░░░░░░░░    3.430  Leo Gassmann - Naturale
+  17. ███████████░░░░░░░░░░░░░░░░░░░    3.340  Fulminacci - Stupida Sfortuna
+  18. ██████████░░░░░░░░░░░░░░░░░░░░    3.250  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  19. ██████████░░░░░░░░░░░░░░░░░░░░    3.220  Sal Da Vinci - Per Sempre Sì
+  20. █████████░░░░░░░░░░░░░░░░░░░░░    2.930  Ermal Meta - Stella Stellina
+  21. █████████░░░░░░░░░░░░░░░░░░░░░    2.710  J-AX - Italia Starter Pack
+  22. ████████░░░░░░░░░░░░░░░░░░░░░░    2.380  chiello - Ti Penso Sempre
+  23. ███████░░░░░░░░░░░░░░░░░░░░░░░    2.240  SayF - Tu Mi Piaci Tanto
+  24. ███████░░░░░░░░░░░░░░░░░░░░░░░    2.210  Elettra Lamborghini - Voilà
+  25. ██████░░░░░░░░░░░░░░░░░░░░░░░░    1.920  Tredici Pietro - Uomo Che Cade
+  26. ██████░░░░░░░░░░░░░░░░░░░░░░░░    1.910  Dargen D'Amico - Ai Ai
+  27. ██████░░░░░░░░░░░░░░░░░░░░░░░░    1.860  Samurai Jay - Ossessione
+  28. █████░░░░░░░░░░░░░░░░░░░░░░░░░    1.530  Ditonellapiaga - Che Fastidio!
+  29. ████░░░░░░░░░░░░░░░░░░░░░░░░░░    1.350  Malika Ayane - Animali Notturni
+  30. ████░░░░░░░░░░░░░░░░░░░░░░░░░░    1.160  Maria Antonietta & Colombre - La Felicità E Basta
+
+
+======================================================================
+  CHROMA COMPLEXITY — Chi ha l'armonia piu' ricca?
+======================================================================
+   1. ██████████████████████████████    0.089  Nayt - Prima Che
+   2. █████████████████████████████░    0.086  chiello - Ti Penso Sempre
+   3. █████████████████████████████░    0.086  Luchè - Labirinto
+   4. █████████████████████████████░    0.086  Ditonellapiaga - Che Fastidio!
+   5. █████████████████████████████░    0.085  Enrico Nigiotti - Ogni Volta Che Non So Volare
+   6. ████████████████████████████░░    0.083  Leo Gassmann - Naturale
+   7. ████████████████████████████░░    0.082  Bambole Di Pezza - Resta Con Me
+   8. ███████████████████████████░░░    0.079  Tommaso Paradiso - I Romantici
+   9. ███████████████████████████░░░    0.078  Levante - Sei Tu
+  10. ██████████████████████████░░░░    0.078  Patty Pravo - Opera
+  11. ██████████████████████████░░░░    0.077  Elettra Lamborghini - Voilà
+  12. ██████████████████████████░░░░    0.076  Eddie Brock - Avvoltoi
+  13. █████████████████████████░░░░░    0.073  Michele Bravi - Prima O Poi
+  14. ████████████████████████░░░░░░    0.072  Maria Antonietta & Colombre - La Felicità E Basta
+  15. ████████████████████████░░░░░░    0.070  SayF - Tu Mi Piaci Tanto
+  16. █████████████████████░░░░░░░░░    0.063  Samurai Jay - Ossessione
+  17. █████████████████████░░░░░░░░░    0.063  LDA & Aka 7even - Poesie Clandestine
+  18. █████████████████████░░░░░░░░░    0.062  Tredici Pietro - Uomo Che Cade
+  19. █████████████████████░░░░░░░░░    0.061  J-AX - Italia Starter Pack
+  20. █████████████████████░░░░░░░░░    0.061  Ermal Meta - Stella Stellina
+  21. █████████████████████░░░░░░░░░    0.061  Dargen D'Amico - Ai Ai
+  22. ███████████████████░░░░░░░░░░░    0.057  Arisa - Magica Favola
+  23. ███████████████████░░░░░░░░░░░    0.057  Sal Da Vinci - Per Sempre Sì
+  24. ███████████████████░░░░░░░░░░░    0.057  Francesco Renga - Il Meglio Di Me
+  25. ███████████████████░░░░░░░░░░░    0.056  Fedez & Marco Masini - Male Necessario
+  26. ███████████████████░░░░░░░░░░░    0.055  RAF - Ora E Per Sempre
+  27. ██████████████████░░░░░░░░░░░░    0.054  Serena Brancale - Qui Con Me
+  28. █████████████████░░░░░░░░░░░░░    0.051  Fulminacci - Stupida Sfortuna
+  29. █████████████████░░░░░░░░░░░░░    0.051  Mara Sattei - Le Cose Che Non Sai Di Me
+  30. ████████████████░░░░░░░░░░░░░░    0.046  Malika Ayane - Animali Notturni
+
+
+======================================================================
+  CLIMAX POSITION — Dove esplode il brano? (0=inizio, 1=fine)
+======================================================================
+   1. ██████████████████████████████    0.950  Dargen D'Amico - Ai Ai
+   2. ██████████████████████████████    0.950  Patty Pravo - Opera
+   3. ██████████████████████████████    0.950  Sal Da Vinci - Per Sempre Sì
+   4. ██████████████████████████████    0.950  Maria Antonietta & Colombre - La Felicità E Basta
+   5. ████████████████████████████░░    0.890  Ditonellapiaga - Che Fastidio!
+   6. ████████████████████████████░░    0.890  Arisa - Magica Favola
+   7. ████████████████████████████░░    0.890  Samurai Jay - Ossessione
+   8. ███████████████████████████░░░    0.840  Bambole Di Pezza - Resta Con Me
+   9. ███████████████████████████░░░    0.840  Serena Brancale - Qui Con Me
+  10. ███████████████████████████░░░    0.840  RAF - Ora E Per Sempre
+  11. ███████████████████████████░░░    0.840  Fulminacci - Stupida Sfortuna
+  12. ███████████████████████████░░░    0.840  Levante - Sei Tu
+  13. ███████████████████████████░░░    0.840  Ermal Meta - Stella Stellina
+  14. ███████████████████████████░░░    0.840  chiello - Ti Penso Sempre
+  15. ███████████████████████████░░░    0.840  Michele Bravi - Prima O Poi
+  16. █████████████████████████░░░░░    0.790  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  17. █████████████████████████░░░░░    0.790  Eddie Brock - Avvoltoi
+  18. █████████████████████████░░░░░    0.790  Francesco Renga - Il Meglio Di Me
+  19. ███████████████████████░░░░░░░    0.740  SayF - Tu Mi Piaci Tanto
+  20. ███████████████████████░░░░░░░    0.740  Elettra Lamborghini - Voilà
+  21. ███████████████████████░░░░░░░    0.740  Tommaso Paradiso - I Romantici
+  22. ███████████████████████░░░░░░░    0.740  Luchè - Labirinto
+  23. ███████████████████████░░░░░░░    0.740  Fedez & Marco Masini - Male Necessario
+  24. ███████████████████████░░░░░░░    0.740  Leo Gassmann - Naturale
+  25. █████████████████████░░░░░░░░░    0.680  Mara Sattei - Le Cose Che Non Sai Di Me
+  26. █████████████████████░░░░░░░░░    0.680  J-AX - Italia Starter Pack
+  27. ████████████████████░░░░░░░░░░    0.630  Tredici Pietro - Uomo Che Cade
+  28. ██████████████████░░░░░░░░░░░░    0.580  LDA & Aka 7even - Poesie Clandestine
+  29. █████████████████░░░░░░░░░░░░░    0.530  Nayt - Prima Che
+  30. ██████████░░░░░░░░░░░░░░░░░░░░    0.320  Malika Ayane - Animali Notturni
+
+
+======================================================================
+  MAPPA DELLE SOMIGLIANZE TIMBRICHE (MFCC)
+======================================================================
+
+  Le 10 coppie PIU' SIMILI:
+    Fedez & Marco M <-> Leo Gassmann     sim=0.725
+     Ditonellapiaga <-> Fedez & Marco M  sim=0.711
+    Bambole Di Pezz <-> Sal Da Vinci     sim=0.683
+              Arisa <-> Serena Brancale  sim=0.683
+              Arisa <-> Mara Sattei      sim=0.680
+    Tommaso Paradis <-> Ermal Meta       sim=0.606
+    Fedez & Marco M <-> Nayt             sim=0.601
+    Bambole Di Pezz <-> Ermal Meta       sim=0.590
+              Luchè <-> J-AX             sim=0.590
+    Bambole Di Pezz <-> J-AX             sim=0.584
+
+  Le 10 coppie PIU' DIVERSE:
+    Bambole Di Pezz <-> Leo Gassmann     sim=-0.669
+        Samurai Jay <-> Levante          sim=-0.686
+        Mara Sattei <-> Luchè            sim=-0.703
+     Ditonellapiaga <-> Ermal Meta       sim=-0.726
+    Fedez & Marco M <-> Ermal Meta       sim=-0.737
+    Bambole Di Pezz <-> Fedez & Marco M  sim=-0.744
+               J-AX <-> Fedez & Marco M  sim=-0.762
+    Bambole Di Pezz <-> Nayt             sim=-0.764
+              Arisa <-> Luchè            sim=-0.777
+     Tredici Pietro <-> chiello          sim=-0.779
+
+  OUTLIER TIMBRICO: Sal Da Vinci - Per Sempre Sì
+  (distanza media dal resto: 1.035)
+
+======================================================================
+  PROFILI DEI BRANI CHIAVE
+======================================================================
+
+  --- SayF - Tu Mi Piaci Tanto ---
+  Durata: 209.7s | BPM: 136.0
+  Energia: 0.2483 | Dinamica: 13.1 dB
+  Climax al 74% del brano
+  Centroid: 2434 Hz | Bandwidth: 2605 Hz
+  Contrasto: 22.87 | Flatness: 0.02843
+  H/P ratio: 2.2 | Onset: 3.6/s
+  Beat reg: 0.0188 | Quiet: 10.1%
+  Complessita' cromatica: 0.0702
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Ditonellapiaga - Che Fastidio! ---
+  Durata: 194.3s | BPM: 129.2
+  Energia: 0.2865 | Dinamica: 19.5 dB
+  Climax al 89% del brano
+  Centroid: 2739 Hz | Bandwidth: 2826 Hz
+  Contrasto: 21.88 | Flatness: 0.03933
+  H/P ratio: 1.5 | Onset: 5.7/s
+  Beat reg: 0.0209 | Quiet: 21.7%
+  Complessita' cromatica: 0.0858
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Serena Brancale - Qui Con Me ---
+  Durata: 196.1s | BPM: 103.4
+  Energia: 0.2580 | Dinamica: 18.1 dB
+  Climax al 84% del brano
+  Centroid: 1934 Hz | Bandwidth: 2290 Hz
+  Contrasto: 24.99 | Flatness: 0.00955
+  H/P ratio: 6.5 | Onset: 2.3/s
+  Beat reg: 0.0405 | Quiet: 17.7%
+  Complessita' cromatica: 0.0536
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Fulminacci - Stupida Sfortuna ---
+  Durata: 175.0s | BPM: 95.7
+  Energia: 0.2165 | Dinamica: 25.1 dB
+  Climax al 84% del brano
+  Centroid: 2189 Hz | Bandwidth: 2494 Hz
+  Contrasto: 24.30 | Flatness: 0.01721
+  H/P ratio: 3.3 | Onset: 2.8/s
+  Beat reg: 0.0339 | Quiet: 16.4%
+  Complessita' cromatica: 0.0511
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Levante - Sei Tu ---
+  Durata: 211.6s | BPM: 161.5
+  Energia: 0.2657 | Dinamica: 18.8 dB
+  Climax al 84% del brano
+  Centroid: 2308 Hz | Bandwidth: 2576 Hz
+  Contrasto: 24.76 | Flatness: 0.01440
+  H/P ratio: 7.7 | Onset: 2.1/s
+  Beat reg: 0.0149 | Quiet: 19.5%
+  Complessita' cromatica: 0.0784
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Fedez & Marco Masini - Male Necessario ---
+  Durata: 187.6s | BPM: 143.6
+  Energia: 0.2754 | Dinamica: 21.2 dB
+  Climax al 74% del brano
+  Centroid: 2412 Hz | Bandwidth: 2647 Hz
+  Contrasto: 23.35 | Flatness: 0.01998
+  H/P ratio: 4.2 | Onset: 3.5/s
+  Beat reg: 0.0202 | Quiet: 25.1%
+  Complessita' cromatica: 0.0561
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Ermal Meta - Stella Stellina ---
+  Durata: 198.9s | BPM: 129.2
+  Energia: 0.3083 | Dinamica: 15.3 dB
+  Climax al 84% del brano
+  Centroid: 2250 Hz | Bandwidth: 2492 Hz
+  Contrasto: 22.77 | Flatness: 0.02866
+  H/P ratio: 2.9 | Onset: 3.0/s
+  Beat reg: 0.0251 | Quiet: 10.2%
+  Complessita' cromatica: 0.0606
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Nayt - Prima Che ---
+  Durata: 183.0s | BPM: 80.7
+  Energia: 0.2623 | Dinamica: 23.3 dB
+  Climax al 53% del brano
+  Centroid: 2308 Hz | Bandwidth: 2513 Hz
+  Contrasto: 23.86 | Flatness: 0.02124
+  H/P ratio: 3.8 | Onset: 3.1/s
+  Beat reg: 0.0397 | Quiet: 26.9%
+  Complessita' cromatica: 0.0886
+  Sezioni: 7
+  [Chart salvato in output/]
