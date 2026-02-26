@@ -124,13 +124,15 @@ def scrape_lyrics_testicanzoni(artist: str, title: str) -> str | None:
 
 def fetch_lyrics(artist: str, title: str) -> str | None:
     """Prova piu' fonti per ottenere il testo."""
-    # Prima prova file locale
-    safe = re.sub(r"[^\w\s-]", "", f"{artist} - {title}").strip()
-    local_path = LYRICS_DIR / f"{safe}.txt"
-    if local_path.exists():
-        text = local_path.read_text(encoding="utf-8").strip()
-        if len(text) > 50:
-            return text
+    # Prima prova file locale (nome originale e nome sanitizzato)
+    raw_name = f"{artist} - {title}"
+    safe = re.sub(r"[^\w\s-]", "", raw_name).strip()
+    for candidate in [raw_name, safe]:
+        local_path = LYRICS_DIR / f"{candidate}.txt"
+        if local_path.exists():
+            text = local_path.read_text(encoding="utf-8").strip()
+            if len(text) > 50:
+                return text
 
     # Prova scraping
     text = scrape_lyrics_testicanzoni(artist, title)

@@ -1895,7 +1895,59 @@
       "vocal_rms": 0.1289,
       "vocal_centroid": 3595.0
     },
-    "lyrics": {}
+    "lyrics": {
+      "total_words": 295,
+      "unique_words": 141,
+      "total_lines": 51,
+      "ttr": 0.478,
+      "hapax_ratio": 0.288,
+      "repetition_rate": 0.522,
+      "words_per_line": 5.78,
+      "avg_word_length": 4.06,
+      "chorus_ratio": 0.373,
+      "top_words": [
+        [
+          "serve",
+          6
+        ],
+        [
+          "sempre",
+          4
+        ],
+        [
+          "metà",
+          4
+        ],
+        [
+          "chi",
+          4
+        ],
+        [
+          "qui",
+          4
+        ],
+        [
+          "gas",
+          4
+        ],
+        [
+          "sto",
+          3
+        ],
+        [
+          "solo",
+          3
+        ],
+        [
+          "brutta",
+          3
+        ],
+        [
+          "canzone",
+          3
+        ]
+      ]
+    }
   },
   "Fulminacci - Stupida Sfortuna": {
     "features": {
@@ -2233,7 +2285,59 @@
       "vocal_rms": 0.1575,
       "vocal_centroid": 3014.6
     },
-    "lyrics": {}
+    "lyrics": {
+      "total_words": 400,
+      "unique_words": 164,
+      "total_lines": 62,
+      "ttr": 0.41,
+      "hapax_ratio": 0.223,
+      "repetition_rate": 0.59,
+      "words_per_line": 6.45,
+      "avg_word_length": 4.19,
+      "chorus_ratio": 0.452,
+      "top_words": [
+        [
+          "fondo",
+          6
+        ],
+        [
+          "poi",
+          5
+        ],
+        [
+          "male",
+          5
+        ],
+        [
+          "solo",
+          4
+        ],
+        [
+          "dall",
+          4
+        ],
+        [
+          "necessario",
+          4
+        ],
+        [
+          "notte",
+          3
+        ],
+        [
+          "resto",
+          3
+        ],
+        [
+          "insieme",
+          3
+        ],
+        [
+          "toccando",
+          3
+        ]
+      ]
+    }
   },
   "Ermal Meta - Stella Stellina": {
     "features": {
@@ -3091,7 +3195,59 @@
       "vocal_rms": 0.12232,
       "vocal_centroid": 3230.9
     },
-    "lyrics": {}
+    "lyrics": {
+      "total_words": 327,
+      "unique_words": 121,
+      "total_lines": 59,
+      "ttr": 0.37,
+      "hapax_ratio": 0.187,
+      "repetition_rate": 0.63,
+      "words_per_line": 5.54,
+      "avg_word_length": 4.38,
+      "chorus_ratio": 0.661,
+      "top_words": [
+        [
+          "baby",
+          14
+        ],
+        [
+          "prendiamo",
+          8
+        ],
+        [
+          "basta",
+          8
+        ],
+        [
+          "siamo",
+          7
+        ],
+        [
+          "abbiamo",
+          6
+        ],
+        [
+          "nostra",
+          6
+        ],
+        [
+          "credo",
+          6
+        ],
+        [
+          "felicità",
+          6
+        ],
+        [
+          "cosa",
+          5
+        ],
+        [
+          "credi",
+          5
+        ]
+      ]
+    }
   },
   "Leo Gassmann - Naturale": {
     "features": {
@@ -3429,7 +3585,59 @@
       "vocal_rms": 0.1381,
       "vocal_centroid": 3635.2
     },
-    "lyrics": {}
+    "lyrics": {
+      "total_words": 373,
+      "unique_words": 152,
+      "total_lines": 65,
+      "ttr": 0.408,
+      "hapax_ratio": 0.225,
+      "repetition_rate": 0.592,
+      "words_per_line": 5.74,
+      "avg_word_length": 4.07,
+      "chorus_ratio": 0.631,
+      "top_words": [
+        [
+          "prima",
+          6
+        ],
+        [
+          "piena",
+          6
+        ],
+        [
+          "amore",
+          4
+        ],
+        [
+          "porta",
+          4
+        ],
+        [
+          "così",
+          4
+        ],
+        [
+          "solo",
+          4
+        ],
+        [
+          "farmi",
+          4
+        ],
+        [
+          "sale",
+          4
+        ],
+        [
+          "soltanto",
+          4
+        ],
+        [
+          "verrai",
+          3
+        ]
+      ]
+    }
   },
   "Malika Ayane - Animali Notturni": {
     "features": {

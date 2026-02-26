@@ -206,7 +206,9 @@ Due script Python che caricano tutti i 30 brani ed estraggono:
 
 ## Analisi profonda — Voce e testi
 
-Seconda fase: separazione vocale con Demucs (Meta's htdemucs) e analisi dei testi scraping da Genius/angolotesti.it (26/30 trovati).
+Seconda fase: separazione vocale con Demucs (Meta's htdemucs) e analisi dei testi scraping da Genius/angolotesti/canzoniweb (30/30 trovati).
+
+**[Analisi incrociata completa — 8 classifiche composite, correlazioni, profili, incoerenze](output/analisi_incrociata.md)**
 
 ### Mappa della tensione (climax × quiet ratio)
 
