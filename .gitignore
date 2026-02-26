@@ -20,6 +20,9 @@ wheels/
 # Album directory
 V.A.*/
 
+# uv lock
+uv.lock
+
 # System / metadata
 .DS_Store
 *.nfo

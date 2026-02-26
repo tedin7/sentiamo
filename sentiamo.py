@@ -552,27 +552,26 @@ def main():
     report_lines.append(f"\n  OUTLIER TIMBRICO: {sim_names[outlier_idx]}")
     report_lines.append(f"  (distanza media dal resto: {mean_dists[outlier_idx]:.3f})")
 
-    # ── PROFILI BRANI CHIAVE ─────────────────────────────────────────
+    # ── PROFILI TUTTI I BRANI ───────────────────────────────────────
     report_lines.append(f"\n{'='*70}")
-    report_lines.append("  PROFILI DEI BRANI CHIAVE")
+    report_lines.append("  PROFILI DI TUTTI I BRANI")
     report_lines.append(f"{'='*70}")
 
     for name, feats in all_features.items():
-        if matches_focus(name):
-            report_lines.append(f"\n  --- {name} ---")
-            report_lines.append(f"  Durata: {feats['duration_s']}s | BPM: {feats['bpm']}")
-            report_lines.append(f"  Energia: {feats['rms_mean']:.4f} | Dinamica: {feats['dynamic_range_db']:.1f} dB")
-            report_lines.append(f"  Climax al {feats['climax_position']*100:.0f}% del brano")
-            report_lines.append(f"  Centroid: {feats['spectral_centroid']:.0f} Hz | Bandwidth: {feats['spectral_bandwidth']:.0f} Hz")
-            report_lines.append(f"  Contrasto: {feats['spectral_contrast']:.2f} | Flatness: {feats['spectral_flatness']:.5f}")
-            report_lines.append(f"  H/P ratio: {feats['harmonic_percussive_ratio']:.1f} | Onset: {feats['onset_density']:.1f}/s")
-            report_lines.append(f"  Beat reg: {feats['beat_regularity']:.4f} | Quiet: {feats['quiet_ratio']*100:.1f}%")
-            report_lines.append(f"  Complessita' cromatica: {feats['chroma_complexity']:.4f}")
-            report_lines.append(f"  Sezioni: {feats['n_sections']}")
+        report_lines.append(f"\n  --- {name} ---")
+        report_lines.append(f"  Durata: {feats['duration_s']}s | BPM: {feats['bpm']}")
+        report_lines.append(f"  Energia: {feats['rms_mean']:.4f} | Dinamica: {feats['dynamic_range_db']:.1f} dB")
+        report_lines.append(f"  Climax al {feats['climax_position']*100:.0f}% del brano")
+        report_lines.append(f"  Centroid: {feats['spectral_centroid']:.0f} Hz | Bandwidth: {feats['spectral_bandwidth']:.0f} Hz")
+        report_lines.append(f"  Contrasto: {feats['spectral_contrast']:.2f} | Flatness: {feats['spectral_flatness']:.5f}")
+        report_lines.append(f"  H/P ratio: {feats['harmonic_percussive_ratio']:.1f} | Onset: {feats['onset_density']:.1f}/s")
+        report_lines.append(f"  Beat reg: {feats['beat_regularity']:.4f} | Quiet: {feats['quiet_ratio']*100:.1f}%")
+        report_lines.append(f"  Complessita' cromatica: {feats['chroma_complexity']:.4f}")
+        report_lines.append(f"  Sezioni: {feats['n_sections']}")
 
-            # Plot individuale
-            plot_individual_profile(name, feats, all_features)
-            report_lines.append(f"  [Chart salvato in output/]")
+        # Plot individuale
+        plot_individual_profile(name, feats, all_features)
+        report_lines.append(f"  [Chart salvato in output/]")
 
     # ── CHARTS ───────────────────────────────────────────────────────
     print("Genero charts...")
