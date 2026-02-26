@@ -1,0 +1,3694 @@
+{
+  "SayF - Tu Mi Piaci Tanto": {
+    "features": {
+      "duration_s": 209.7,
+      "energy_curve": [
+        0.13305841386318207,
+        0.20189356803894043,
+        0.21300703287124634,
+        0.2850857973098755,
+        0.2529211640357971,
+        0.20499306917190552,
+        0.2700437903404236,
+        0.3036581575870514,
+        0.2739260494709015,
+        0.2288324534893036,
+        0.2792118787765503,
+        0.25507214665412903,
+        0.2275623083114624,
+        0.2998020350933075,
+        0.3172606825828552,
+        0.2650966942310333,
+        0.21338774263858795,
+        0.20907633006572723,
+        0.3007057309150696,
+        0.2309531569480896
+      ],
+      "rms_mean": 0.24825821816921234,
+      "dynamic_range_db": 13.06,
+      "climax_position": 0.74,
+      "quiet_ratio": 0.101,
+      "bpm": 136.0,
+      "beat_regularity": 0.0188,
+      "onset_density": 3.62,
+      "spectral_centroid": 2434.4,
+      "spectral_bandwidth": 2605.0,
+      "spectral_contrast": 22.87,
+      "spectral_flatness": 0.02843,
+      "harmonic_percussive_ratio": 2.24,
+      "chroma_complexity": 0.07021,
+      "mfcc_signature": [
+        -28.058,
+        88.38,
+        -1.986,
+        19.369,
+        7.542,
+        8.687,
+        -3.407,
+        1.712,
+        -3.612,
+        1.112,
+        -5.07,
+        0.124,
+        -6.573
+      ],
+      "section_boundaries_s": [
+        0.0,
+        49.9,
+        63.4,
+        121.8,
+        128.8,
+        185.2
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 15.6,
+      "vocal_range_hz": [
+        133.9,
+        329.6
+      ],
+      "vocal_median_hz": 161.0,
+      "pitch_stability_cents": 168.03,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.838,
+      "vocal_rms": 0.16103,
+      "vocal_centroid": 2764.8
+    },
+    "lyrics": {
+      "total_words": 414,
+      "unique_words": 166,
+      "total_lines": 57,
+      "ttr": 0.401,
+      "hapax_ratio": 0.249,
+      "repetition_rate": 0.599,
+      "words_per_line": 7.26,
+      "avg_word_length": 3.95,
+      "chorus_ratio": 0.491,
+      "top_words": [
+        [
+          "piaci",
+          22
+        ],
+        [
+          "tanto",
+          10
+        ],
+        [
+          "amore",
+          5
+        ],
+        [
+          "mio",
+          5
+        ],
+        [
+          "tutti",
+          4
+        ],
+        [
+          "solo",
+          4
+        ],
+        [
+          "siamo",
+          3
+        ],
+        [
+          "uguali",
+          3
+        ],
+        [
+          "bar",
+          3
+        ],
+        [
+          "lavorare",
+          3
+        ]
+      ]
+    }
+  },
+  "Tredici Pietro - Uomo Che Cade": {
+    "features": {
+      "duration_s": 217.5,
+      "energy_curve": [
+        0.19631947576999664,
+        0.22391706705093384,
+        0.2250419408082962,
+        0.23881292343139648,
+        0.2877138555049896,
+        0.28753820061683655,
+        0.22183683514595032,
+        0.22952446341514587,
+        0.238235205411911,
+        0.2624616026878357,
+        0.2698032855987549,
+        0.2913067042827606,
+        0.3037208616733551,
+        0.251869797706604,
+        0.21159277856349945,
+        0.14050140976905823,
+        0.20951101183891296,
+        0.29872164130210876,
+        0.3010043501853943,
+        0.20943282544612885
+      ],
+      "rms_mean": 0.2449205368757248,
+      "dynamic_range_db": 15.06,
+      "climax_position": 0.63,
+      "quiet_ratio": 0.107,
+      "bpm": 89.1,
+      "beat_regularity": 0.0296,
+      "onset_density": 2.14,
+      "spectral_centroid": 2833.8,
+      "spectral_bandwidth": 2991.4,
+      "spectral_contrast": 22.96,
+      "spectral_flatness": 0.02548,
+      "harmonic_percussive_ratio": 1.92,
+      "chroma_complexity": 0.06232,
+      "mfcc_signature": [
+        -53.285,
+        73.729,
+        23.474,
+        16.53,
+        6.796,
+        9.693,
+        1.547,
+        5.424,
+        -3.13,
+        2.905,
+        -3.255,
+        0.98,
+        -3.246
+      ],
+      "section_boundaries_s": [
+        0.0,
+        44.8,
+        69.3,
+        103.1,
+        162.9,
+        171.8
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 20.2,
+      "vocal_range_hz": [
+        116.5,
+        374.3
+      ],
+      "vocal_median_hz": 292.0,
+      "pitch_stability_cents": 163.66,
+      "vibrato_strength": 0.007,
+      "voiced_ratio": 0.726,
+      "vocal_rms": 0.09245,
+      "vocal_centroid": 3818.9
+    },
+    "lyrics": {
+      "total_words": 401,
+      "unique_words": 166,
+      "total_lines": 59,
+      "ttr": 0.414,
+      "hapax_ratio": 0.222,
+      "repetition_rate": 0.586,
+      "words_per_line": 6.8,
+      "avg_word_length": 4.05,
+      "chorus_ratio": 0.508,
+      "top_words": [
+        [
+          "cade",
+          13
+        ],
+        [
+          "uomo",
+          11
+        ],
+        [
+          "cose",
+          6
+        ],
+        [
+          "male",
+          4
+        ],
+        [
+          "sara",
+          3
+        ],
+        [
+          "aspetto",
+          3
+        ],
+        [
+          "tuo",
+          3
+        ],
+        [
+          "porta",
+          3
+        ],
+        [
+          "faccia",
+          3
+        ],
+        [
+          "rivedermi",
+          3
+        ]
+      ]
+    }
+  },
+  "Ditonellapiaga - Che Fastidio!": {
+    "features": {
+      "duration_s": 194.3,
+      "energy_curve": [
+        0.14771245419979095,
+        0.20790837705135345,
+        0.3024508059024811,
+        0.2909943461418152,
+        0.23578456044197083,
+        0.19377191364765167,
+        0.37196144461631775,
+        0.40713223814964294,
+        0.34922704100608826,
+        0.2852611243724823,
+        0.20744147896766663,
+        0.41685405373573303,
+        0.39679229259490967,
+        0.34257879853248596,
+        0.09194831550121307,
+        0.12833015620708466,
+        0.39940470457077026,
+        0.4211312234401703,
+        0.41652294993400574,
+        0.12037762254476547
+      ],
+      "rms_mean": 0.2865004241466522,
+      "dynamic_range_db": 19.52,
+      "climax_position": 0.89,
+      "quiet_ratio": 0.217,
+      "bpm": 129.2,
+      "beat_regularity": 0.0209,
+      "onset_density": 5.66,
+      "spectral_centroid": 2739.3,
+      "spectral_bandwidth": 2826.3,
+      "spectral_contrast": 21.88,
+      "spectral_flatness": 0.03933,
+      "harmonic_percussive_ratio": 1.53,
+      "chroma_complexity": 0.08576,
+      "mfcc_signature": [
+        -41.119,
+        81.597,
+        12.724,
+        13.739,
+        4.898,
+        1.513,
+        0.081,
+        -0.952,
+        -2.953,
+        -0.729,
+        -3.526,
+        -2.208,
+        -6.764
+      ],
+      "section_boundaries_s": [
+        0.0,
+        15.6,
+        43.4,
+        59.3,
+        95.0,
+        104.0
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 9.0,
+      "vocal_range_hz": [
+        196.0,
+        329.6
+      ],
+      "vocal_median_hz": 229.1,
+      "pitch_stability_cents": 108.1,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.763,
+      "vocal_rms": 0.11908,
+      "vocal_centroid": 3344.2
+    },
+    "lyrics": {
+      "total_words": 452,
+      "unique_words": 172,
+      "total_lines": 78,
+      "ttr": 0.381,
+      "hapax_ratio": 0.248,
+      "repetition_rate": 0.619,
+      "words_per_line": 5.79,
+      "avg_word_length": 4.4,
+      "chorus_ratio": 0.41,
+      "top_words": [
+        [
+          "fastidio",
+          30
+        ],
+        [
+          "matta",
+          13
+        ],
+        [
+          "cos",
+          5
+        ],
+        [
+          "normale",
+          5
+        ],
+        [
+          "dico",
+          5
+        ],
+        [
+          "allucinazione",
+          4
+        ],
+        [
+          "schifo",
+          4
+        ],
+        [
+          "amico",
+          4
+        ],
+        [
+          "dell",
+          3
+        ],
+        [
+          "facciamoci",
+          3
+        ]
+      ]
+    }
+  },
+  "Arisa - Magica Favola": {
+    "features": {
+      "duration_s": 211.0,
+      "energy_curve": [
+        0.0764906257390976,
+        0.11682099848985672,
+        0.1390863060951233,
+        0.12336019426584244,
+        0.1572219431400299,
+        0.2339451014995575,
+        0.2975345551967621,
+        0.2264777421951294,
+        0.17407821118831635,
+        0.25772684812545776,
+        0.29962313175201416,
+        0.3203716278076172,
+        0.3201899528503418,
+        0.3307349681854248,
+        0.3149029612541199,
+        0.27050161361694336,
+        0.2884894609451294,
+        0.3368834853172302,
+        0.3349543511867523,
+        0.2075129598379135
+      ],
+      "rms_mean": 0.24131926894187927,
+      "dynamic_range_db": 16.05,
+      "climax_position": 0.89,
+      "quiet_ratio": 0.213,
+      "bpm": 83.4,
+      "beat_regularity": 0.0434,
+      "onset_density": 2.64,
+      "spectral_centroid": 2018.4,
+      "spectral_bandwidth": 2342.1,
+      "spectral_contrast": 24.75,
+      "spectral_flatness": 0.01255,
+      "harmonic_percussive_ratio": 7.51,
+      "chroma_complexity": 0.05722,
+      "mfcc_signature": [
+        -73.059,
+        107.864,
+        -1.699,
+        13.697,
+        7.646,
+        -0.83,
+        4.249,
+        -0.653,
+        0.857,
+        5.297,
+        -8.83,
+        -0.552,
+        -8.785
+      ],
+      "section_boundaries_s": [
+        0.0,
+        133.5,
+        175.1,
+        179.0,
+        205.2,
+        209.4
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 12.0,
+      "vocal_range_hz": [
+        231.7,
+        463.5
+      ],
+      "vocal_median_hz": 307.6,
+      "pitch_stability_cents": 161.19,
+      "vibrato_strength": 0.023,
+      "voiced_ratio": 0.849,
+      "vocal_rms": 0.12318,
+      "vocal_centroid": 2735.0
+    },
+    "lyrics": {
+      "total_words": 283,
+      "unique_words": 142,
+      "total_lines": 38,
+      "ttr": 0.502,
+      "hapax_ratio": 0.346,
+      "repetition_rate": 0.498,
+      "words_per_line": 7.45,
+      "avg_word_length": 4.0,
+      "chorus_ratio": 0.211,
+      "top_words": [
+        [
+          "era",
+          9
+        ],
+        [
+          "volta",
+          5
+        ],
+        [
+          "oceano",
+          4
+        ],
+        [
+          "navigavo",
+          4
+        ],
+        [
+          "anni",
+          3
+        ],
+        [
+          "arcobaleno",
+          3
+        ],
+        [
+          "magica",
+          2
+        ],
+        [
+          "favola",
+          2
+        ],
+        [
+          "amore",
+          2
+        ],
+        [
+          "luna",
+          2
+        ]
+      ]
+    }
+  },
+  "Bambole Di Pezza - Resta Con Me": {
+    "features": {
+      "duration_s": 191.0,
+      "energy_curve": [
+        0.16764198243618011,
+        0.17951060831546783,
+        0.1804344356060028,
+        0.33375880122184753,
+        0.34509456157684326,
+        0.3642541766166687,
+        0.35265156626701355,
+        0.33488497138023376,
+        0.3140934407711029,
+        0.31616079807281494,
+        0.3350994884967804,
+        0.34894266724586487,
+        0.3660641014575958,
+        0.3669176697731018,
+        0.3656141757965088,
+        0.36073723435401917,
+        0.36932316422462463,
+        0.2808372974395752,
+        0.36566421389579773,
+        0.14914214611053467
+      ],
+      "rms_mean": 0.30972418189048767,
+      "dynamic_range_db": 11.29,
+      "climax_position": 0.84,
+      "quiet_ratio": 0.082,
+      "bpm": 143.6,
+      "beat_regularity": 0.0176,
+      "onset_density": 3.29,
+      "spectral_centroid": 2905.5,
+      "spectral_bandwidth": 2840.5,
+      "spectral_contrast": 21.84,
+      "spectral_flatness": 0.03957,
+      "harmonic_percussive_ratio": 4.66,
+      "chroma_complexity": 0.08204,
+      "mfcc_signature": [
+        9.431,
+        68.673,
+        0.77,
+        25.288,
+        12.532,
+        6.075,
+        5.046,
+        5.946,
+        -0.676,
+        10.4,
+        -1.991,
+        7.047,
+        -2.782
+      ],
+      "section_boundaries_s": [
+        0.0,
+        7.6,
+        14.5,
+        20.9,
+        27.1,
+        185.1
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 6.3,
+      "vocal_range_hz": [
+        292.0,
+        420.1
+      ],
+      "vocal_median_hz": 353.3,
+      "pitch_stability_cents": 138.29,
+      "vibrato_strength": 0.033,
+      "voiced_ratio": 0.837,
+      "vocal_rms": 0.1385,
+      "vocal_centroid": 3766.7
+    },
+    "lyrics": {
+      "total_words": 373,
+      "unique_words": 154,
+      "total_lines": 55,
+      "ttr": 0.413,
+      "hapax_ratio": 0.244,
+      "repetition_rate": 0.587,
+      "words_per_line": 6.78,
+      "avg_word_length": 4.1,
+      "chorus_ratio": 0.564,
+      "top_words": [
+        [
+          "resta",
+          13
+        ],
+        [
+          "dirti",
+          8
+        ],
+        [
+          "questi",
+          5
+        ],
+        [
+          "giorno",
+          3
+        ],
+        [
+          "senza",
+          3
+        ],
+        [
+          "tempi",
+          3
+        ],
+        [
+          "odio",
+          3
+        ],
+        [
+          "anche",
+          3
+        ],
+        [
+          "cambierà",
+          3
+        ],
+        [
+          "adesso",
+          3
+        ]
+      ]
+    }
+  },
+  "Elettra Lamborghini - Voilà": {
+    "features": {
+      "duration_s": 192.7,
+      "energy_curve": [
+        0.10894791781902313,
+        0.23899979889392853,
+        0.274941623210907,
+        0.28282713890075684,
+        0.23781441152095795,
+        0.3177464008331299,
+        0.35121583938598633,
+        0.36337974667549133,
+        0.2679100036621094,
+        0.24656803905963898,
+        0.28508761525154114,
+        0.26223301887512207,
+        0.3274606764316559,
+        0.3533802330493927,
+        0.37292760610580444,
+        0.21774424612522125,
+        0.2516569495201111,
+        0.26188209652900696,
+        0.37193596363067627,
+        0.24427403509616852
+      ],
+      "rms_mean": 0.28194212913513184,
+      "dynamic_range_db": 14.38,
+      "climax_position": 0.74,
+      "quiet_ratio": 0.116,
+      "bpm": 129.2,
+      "beat_regularity": 0.014,
+      "onset_density": 4.13,
+      "spectral_centroid": 2514.3,
+      "spectral_bandwidth": 2675.0,
+      "spectral_contrast": 22.77,
+      "spectral_flatness": 0.02803,
+      "harmonic_percussive_ratio": 2.21,
+      "chroma_complexity": 0.07679,
+      "mfcc_signature": [
+        -33.263,
+        84.227,
+        -2.074,
+        15.476,
+        10.786,
+        3.663,
+        -2.651,
+        1.31,
+        2.4,
+        5.167,
+        -0.362,
+        4.011,
+        -3.723
+      ],
+      "section_boundaries_s": [
+        0.0,
+        37.8,
+        44.5,
+        81.0,
+        89.9,
+        112.0
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 13.3,
+      "vocal_range_hz": [
+        210.1,
+        452.9
+      ],
+      "vocal_median_hz": 277.2,
+      "pitch_stability_cents": 138.22,
+      "vibrato_strength": 0.034,
+      "voiced_ratio": 0.812,
+      "vocal_rms": 0.1326,
+      "vocal_centroid": 2984.9
+    },
+    "lyrics": {
+      "total_words": 362,
+      "unique_words": 140,
+      "total_lines": 57,
+      "ttr": 0.387,
+      "hapax_ratio": 0.174,
+      "repetition_rate": 0.613,
+      "words_per_line": 6.35,
+      "avg_word_length": 3.73,
+      "chorus_ratio": 0.544,
+      "top_words": [
+        [
+          "voilà",
+          13
+        ],
+        [
+          "viva",
+          12
+        ],
+        [
+          "amore",
+          9
+        ],
+        [
+          "poi",
+          7
+        ],
+        [
+          "così",
+          6
+        ],
+        [
+          "due",
+          5
+        ],
+        [
+          "sai",
+          4
+        ],
+        [
+          "giù",
+          4
+        ],
+        [
+          "allora",
+          3
+        ],
+        [
+          "carrà",
+          3
+        ]
+      ]
+    }
+  },
+  "Samurai Jay - Ossessione": {
+    "features": {
+      "duration_s": 188.2,
+      "energy_curve": [
+        0.14009259641170502,
+        0.18350110948085785,
+        0.27293142676353455,
+        0.28112468123435974,
+        0.3453640639781952,
+        0.3713392913341522,
+        0.2979590594768524,
+        0.2715562880039215,
+        0.31486302614212036,
+        0.3518367111682892,
+        0.2962602376937866,
+        0.37250497937202454,
+        0.3613407015800476,
+        0.33165502548217773,
+        0.23111703991889954,
+        0.1988004893064499,
+        0.2410653978586197,
+        0.3725184202194214,
+        0.3588334023952484,
+        0.19395051896572113
+      ],
+      "rms_mean": 0.2893717885017395,
+      "dynamic_range_db": 16.54,
+      "climax_position": 0.89,
+      "quiet_ratio": 0.119,
+      "bpm": 123.0,
+      "beat_regularity": 0.0188,
+      "onset_density": 2.91,
+      "spectral_centroid": 2854.5,
+      "spectral_bandwidth": 2819.2,
+      "spectral_contrast": 23.16,
+      "spectral_flatness": 0.02984,
+      "harmonic_percussive_ratio": 1.86,
+      "chroma_complexity": 0.06291,
+      "mfcc_signature": [
+        -25.317,
+        71.535,
+        7.753,
+        4.188,
+        -3.408,
+        12.168,
+        -11.439,
+        2.052,
+        -7.541,
+        3.115,
+        -2.76,
+        2.191,
+        -2.28
+      ],
+      "section_boundaries_s": [
+        0.0,
+        23.2,
+        130.3,
+        145.9,
+        158.6,
+        182.2
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 12.0,
+      "vocal_range_hz": [
+        163.9,
+        327.7
+      ],
+      "vocal_median_hz": 220.0,
+      "pitch_stability_cents": 149.34,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.809,
+      "vocal_rms": 0.16611,
+      "vocal_centroid": 3123.8
+    },
+    "lyrics": {
+      "total_words": 329,
+      "unique_words": 141,
+      "total_lines": 58,
+      "ttr": 0.429,
+      "hapax_ratio": 0.28,
+      "repetition_rate": 0.571,
+      "words_per_line": 5.67,
+      "avg_word_length": 4.48,
+      "chorus_ratio": 0.345,
+      "top_words": [
+        [
+          "ahi",
+          45
+        ],
+        [
+          "maledetto",
+          9
+        ],
+        [
+          "feeling",
+          9
+        ],
+        [
+          "correre",
+          8
+        ],
+        [
+          "yeah",
+          7
+        ],
+        [
+          "sento",
+          5
+        ],
+        [
+          "ossessione",
+          4
+        ],
+        [
+          "mia",
+          4
+        ],
+        [
+          "ora",
+          4
+        ],
+        [
+          "amo",
+          4
+        ]
+      ]
+    }
+  },
+  "Tommaso Paradiso - I Romantici": {
+    "features": {
+      "duration_s": 240.0,
+      "energy_curve": [
+        0.019269010052084923,
+        0.14769768714904785,
+        0.2103235423564911,
+        0.30399760603904724,
+        0.3208983540534973,
+        0.30071544647216797,
+        0.24172580242156982,
+        0.3550606369972229,
+        0.34690549969673157,
+        0.2993353009223938,
+        0.3444412648677826,
+        0.3247940242290497,
+        0.3508440852165222,
+        0.35619431734085083,
+        0.3607807457447052,
+        0.3121333122253418,
+        0.21117880940437317,
+        0.3556663393974304,
+        0.35417962074279785,
+        0.10088910907506943
+      ],
+      "rms_mean": 0.28059032559394836,
+      "dynamic_range_db": 27.27,
+      "climax_position": 0.74,
+      "quiet_ratio": 0.152,
+      "bpm": 143.6,
+      "beat_regularity": 0.0175,
+      "onset_density": 2.38,
+      "spectral_centroid": 2228.2,
+      "spectral_bandwidth": 2471.4,
+      "spectral_contrast": 23.58,
+      "spectral_flatness": 0.01819,
+      "harmonic_percussive_ratio": 5.36,
+      "chroma_complexity": 0.0786,
+      "mfcc_signature": [
+        -43.855,
+        97.021,
+        -3.335,
+        15.58,
+        12.851,
+        6.407,
+        1.925,
+        8.22,
+        -4.651,
+        5.858,
+        -4.706,
+        -0.954,
+        -2.541
+      ],
+      "section_boundaries_s": [
+        0.0,
+        14.0,
+        17.4,
+        24.4,
+        28.0,
+        228.4
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 12.2,
+      "vocal_range_hz": [
+        172.6,
+        349.2
+      ],
+      "vocal_median_hz": 290.3,
+      "pitch_stability_cents": 156.2,
+      "vibrato_strength": 0.002,
+      "voiced_ratio": 0.791,
+      "vocal_rms": 0.12528,
+      "vocal_centroid": 3291.8
+    },
+    "lyrics": {
+      "total_words": 332,
+      "unique_words": 136,
+      "total_lines": 50,
+      "ttr": 0.41,
+      "hapax_ratio": 0.211,
+      "repetition_rate": 0.59,
+      "words_per_line": 6.64,
+      "avg_word_length": 4.27,
+      "chorus_ratio": 0.54,
+      "top_words": [
+        [
+          "romantici",
+          8
+        ],
+        [
+          "guardano",
+          7
+        ],
+        [
+          "alto",
+          6
+        ],
+        [
+          "spero",
+          4
+        ],
+        [
+          "cielo",
+          4
+        ],
+        [
+          "prima",
+          3
+        ],
+        [
+          "fatto",
+          3
+        ],
+        [
+          "arriverà",
+          3
+        ],
+        [
+          "davvero",
+          3
+        ],
+        [
+          "musica",
+          3
+        ]
+      ]
+    }
+  },
+  "Serena Brancale - Qui Con Me": {
+    "features": {
+      "duration_s": 196.1,
+      "energy_curve": [
+        0.09616237133741379,
+        0.167837455868721,
+        0.18078121542930603,
+        0.21958106756210327,
+        0.1714424192905426,
+        0.3024390935897827,
+        0.3347539007663727,
+        0.28217437863349915,
+        0.15143008530139923,
+        0.21577735245227814,
+        0.2625958025455475,
+        0.3394656479358673,
+        0.3286760151386261,
+        0.3360843360424042,
+        0.3227396309375763,
+        0.2816919684410095,
+        0.3479044437408447,
+        0.3427424430847168,
+        0.324309766292572,
+        0.1531238853931427
+      ],
+      "rms_mean": 0.2580110728740692,
+      "dynamic_range_db": 18.13,
+      "climax_position": 0.84,
+      "quiet_ratio": 0.177,
+      "bpm": 103.4,
+      "beat_regularity": 0.0405,
+      "onset_density": 2.3,
+      "spectral_centroid": 1934.4,
+      "spectral_bandwidth": 2289.5,
+      "spectral_contrast": 24.99,
+      "spectral_flatness": 0.00955,
+      "harmonic_percussive_ratio": 6.52,
+      "chroma_complexity": 0.05359,
+      "mfcc_signature": [
+        -81.048,
+        113.232,
+        2.706,
+        13.58,
+        6.797,
+        1.041,
+        5.031,
+        2.324,
+        -3.473,
+        10.206,
+        -15.429,
+        5.431,
+        -7.26
+      ],
+      "section_boundaries_s": [
+        0.0,
+        69.4,
+        110.1,
+        143.4,
+        151.4,
+        160.4
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 18.2,
+      "vocal_range_hz": [
+        194.9,
+        557.6
+      ],
+      "vocal_median_hz": 355.3,
+      "pitch_stability_cents": 144.64,
+      "vibrato_strength": 0.01,
+      "voiced_ratio": 0.881,
+      "vocal_rms": 0.15418,
+      "vocal_centroid": 2761.3
+    },
+    "lyrics": {
+      "total_words": 244,
+      "unique_words": 124,
+      "total_lines": 37,
+      "ttr": 0.508,
+      "hapax_ratio": 0.328,
+      "repetition_rate": 0.492,
+      "words_per_line": 6.59,
+      "avg_word_length": 4.11,
+      "chorus_ratio": 0.378,
+      "top_words": [
+        [
+          "qui",
+          5
+        ],
+        [
+          "sempre",
+          4
+        ],
+        [
+          "ancora",
+          4
+        ],
+        [
+          "sento",
+          3
+        ],
+        [
+          "portassi",
+          3
+        ],
+        [
+          "via",
+          3
+        ],
+        [
+          "quelle",
+          3
+        ],
+        [
+          "stelle",
+          3
+        ],
+        [
+          "scalerei",
+          3
+        ],
+        [
+          "terra",
+          3
+        ]
+      ]
+    }
+  },
+  "Mara Sattei - Le Cose Che Non Sai Di Me": {
+    "features": {
+      "duration_s": 204.6,
+      "energy_curve": [
+        0.09423869848251343,
+        0.14490044116973877,
+        0.1262935847043991,
+        0.17929218709468842,
+        0.17346033453941345,
+        0.23606924712657928,
+        0.28961750864982605,
+        0.28552207350730896,
+        0.20133726298809052,
+        0.2923920452594757,
+        0.3238047957420349,
+        0.3763025403022766,
+        0.3826585114002228,
+        0.39844074845314026,
+        0.3966338634490967,
+        0.36934971809387207,
+        0.20849654078483582,
+        0.3904959261417389,
+        0.38317927718162537,
+        0.3084256649017334
+      ],
+      "rms_mean": 0.2780938148498535,
+      "dynamic_range_db": 17.21,
+      "climax_position": 0.68,
+      "quiet_ratio": 0.145,
+      "bpm": 143.6,
+      "beat_regularity": 0.0145,
+      "onset_density": 3.24,
+      "spectral_centroid": 2463.2,
+      "spectral_bandwidth": 2682.0,
+      "spectral_contrast": 23.11,
+      "spectral_flatness": 0.01923,
+      "harmonic_percussive_ratio": 4.37,
+      "chroma_complexity": 0.05052,
+      "mfcc_signature": [
+        -43.624,
+        89.341,
+        9.434,
+        18.375,
+        3.667,
+        -1.775,
+        3.011,
+        -1.422,
+        -0.845,
+        3.461,
+        -7.798,
+        1.564,
+        -5.612
+      ],
+      "section_boundaries_s": [
+        0.0,
+        55.6,
+        83.4,
+        89.9,
+        137.2,
+        160.8
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 19.0,
+      "vocal_range_hz": [
+        174.6,
+        523.3
+      ],
+      "vocal_median_hz": 349.2,
+      "pitch_stability_cents": 159.36,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.831,
+      "vocal_rms": 0.1507,
+      "vocal_centroid": 3309.7
+    },
+    "lyrics": {
+      "total_words": 323,
+      "unique_words": 134,
+      "total_lines": 49,
+      "ttr": 0.415,
+      "hapax_ratio": 0.241,
+      "repetition_rate": 0.585,
+      "words_per_line": 6.59,
+      "avg_word_length": 4.05,
+      "chorus_ratio": 0.49,
+      "top_words": [
+        [
+          "sai",
+          8
+        ],
+        [
+          "tutte",
+          7
+        ],
+        [
+          "cose",
+          5
+        ],
+        [
+          "notti",
+          4
+        ],
+        [
+          "dirsi",
+          4
+        ],
+        [
+          "voce",
+          4
+        ],
+        [
+          "tua",
+          4
+        ],
+        [
+          "nei",
+          4
+        ],
+        [
+          "giorni",
+          4
+        ],
+        [
+          "tristi",
+          4
+        ]
+      ]
+    }
+  },
+  "Dargen D'Amico - Ai Ai": {
+    "features": {
+      "duration_s": 203.2,
+      "energy_curve": [
+        0.09500113874673843,
+        0.16796740889549255,
+        0.19106405973434448,
+        0.28621789813041687,
+        0.2875703275203705,
+        0.24210873246192932,
+        0.17523223161697388,
+        0.28057917952537537,
+        0.29659342765808105,
+        0.2858096957206726,
+        0.1843278855085373,
+        0.23187796771526337,
+        0.29164814949035645,
+        0.24663136899471283,
+        0.1911487728357315,
+        0.17761513590812683,
+        0.2148255556821823,
+        0.29838424921035767,
+        0.2985331416130066,
+        0.16919513046741486
+      ],
+      "rms_mean": 0.23053234815597534,
+      "dynamic_range_db": 16.15,
+      "climax_position": 0.95,
+      "quiet_ratio": 0.104,
+      "bpm": 123.0,
+      "beat_regularity": 0.0208,
+      "onset_density": 3.83,
+      "spectral_centroid": 2459.2,
+      "spectral_bandwidth": 2669.7,
+      "spectral_contrast": 21.84,
+      "spectral_flatness": 0.02912,
+      "harmonic_percussive_ratio": 1.91,
+      "chroma_complexity": 0.06058,
+      "mfcc_signature": [
+        -57.502,
+        87.65,
+        8.075,
+        12.528,
+        2.82,
+        5.168,
+        2.241,
+        4.946,
+        -6.209,
+        5.716,
+        -1.417,
+        0.176,
+        -4.453
+      ],
+      "section_boundaries_s": [
+        0.0,
+        24.5,
+        55.5,
+        72.1,
+        137.2,
+        169.8
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 11.1,
+      "vocal_range_hz": [
+        139.4,
+        264.7
+      ],
+      "vocal_median_hz": 193.7,
+      "pitch_stability_cents": 167.97,
+      "vibrato_strength": 0.012,
+      "voiced_ratio": 0.623,
+      "vocal_rms": 0.11914,
+      "vocal_centroid": 2810.7
+    },
+    "lyrics": {
+      "total_words": 458,
+      "unique_words": 188,
+      "total_lines": 68,
+      "ttr": 0.41,
+      "hapax_ratio": 0.266,
+      "repetition_rate": 0.59,
+      "words_per_line": 6.74,
+      "avg_word_length": 3.61,
+      "chorus_ratio": 0.456,
+      "top_words": [
+        [
+          "bye",
+          12
+        ],
+        [
+          "ahi",
+          10
+        ],
+        [
+          "ridai",
+          8
+        ],
+        [
+          "fatto",
+          5
+        ],
+        [
+          "cosa",
+          4
+        ],
+        [
+          "fai",
+          4
+        ],
+        [
+          "dici",
+          4
+        ],
+        [
+          "vieni",
+          4
+        ],
+        [
+          "qui",
+          4
+        ],
+        [
+          "poi",
+          4
+        ]
+      ]
+    }
+  },
+  "Luchè - Labirinto": {
+    "features": {
+      "duration_s": 227.3,
+      "energy_curve": [
+        0.06676854193210602,
+        0.3292335867881775,
+        0.3369251787662506,
+        0.3372829258441925,
+        0.34043240547180176,
+        0.41079404950141907,
+        0.418556809425354,
+        0.4106268584728241,
+        0.4147702753543854,
+        0.4000362753868103,
+        0.4010498523712158,
+        0.40581658482551575,
+        0.333369642496109,
+        0.3976631462574005,
+        0.42215248942375183,
+        0.4135955572128296,
+        0.41402676701545715,
+        0.4026000201702118,
+        0.38641858100891113,
+        0.13690127432346344
+      ],
+      "rms_mean": 0.3587242364883423,
+      "dynamic_range_db": 18.33,
+      "climax_position": 0.74,
+      "quiet_ratio": 0.098,
+      "bpm": 112.3,
+      "beat_regularity": 0.0342,
+      "onset_density": 4.21,
+      "spectral_centroid": 2227.3,
+      "spectral_bandwidth": 2592.6,
+      "spectral_contrast": 23.2,
+      "spectral_flatness": 0.0133,
+      "harmonic_percussive_ratio": 4.1,
+      "chroma_complexity": 0.08605,
+      "mfcc_signature": [
+        -39.111,
+        97.826,
+        23.609,
+        16.809,
+        12.864,
+        16.502,
+        -8.638,
+        6.855,
+        -6.31,
+        5.587,
+        2.614,
+        6.689,
+        0.602
+      ],
+      "section_boundaries_s": [
+        0.0,
+        11.6,
+        56.8,
+        137.2,
+        150.7,
+        220.0
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 16.1,
+      "vocal_range_hz": [
+        109.4,
+        277.2
+      ],
+      "vocal_median_hz": 207.7,
+      "pitch_stability_cents": 162.88,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.828,
+      "vocal_rms": 0.15282,
+      "vocal_centroid": 2962.2
+    },
+    "lyrics": {
+      "total_words": 447,
+      "unique_words": 159,
+      "total_lines": 61,
+      "ttr": 0.356,
+      "hapax_ratio": 0.192,
+      "repetition_rate": 0.644,
+      "words_per_line": 7.33,
+      "avg_word_length": 3.67,
+      "chorus_ratio": 0.459,
+      "top_words": [
+        [
+          "anche",
+          6
+        ],
+        [
+          "poi",
+          6
+        ],
+        [
+          "vai",
+          6
+        ],
+        [
+          "scordare",
+          6
+        ],
+        [
+          "siamo",
+          5
+        ],
+        [
+          "labirinto",
+          4
+        ],
+        [
+          "lontano",
+          4
+        ],
+        [
+          "via",
+          4
+        ],
+        [
+          "quello",
+          4
+        ],
+        [
+          "piangere",
+          4
+        ]
+      ]
+    }
+  },
+  "Patty Pravo - Opera": {
+    "features": {
+      "duration_s": 222.7,
+      "energy_curve": [
+        0.09755726158618927,
+        0.16039493680000305,
+        0.1850312054157257,
+        0.2264096438884735,
+        0.28630387783050537,
+        0.29369696974754333,
+        0.2960161864757538,
+        0.2966620922088623,
+        0.2524576187133789,
+        0.29216986894607544,
+        0.2839560806751251,
+        0.2904025912284851,
+        0.31245243549346924,
+        0.28672337532043457,
+        0.32172057032585144,
+        0.3269304931163788,
+        0.2994830310344696,
+        0.3175949454307556,
+        0.3386113941669464,
+        0.13492147624492645
+      ],
+      "rms_mean": 0.2648121118545532,
+      "dynamic_range_db": 15.12,
+      "climax_position": 0.95,
+      "quiet_ratio": 0.102,
+      "bpm": 103.4,
+      "beat_regularity": 0.0267,
+      "onset_density": 2.51,
+      "spectral_centroid": 2008.0,
+      "spectral_bandwidth": 2344.2,
+      "spectral_contrast": 23.43,
+      "spectral_flatness": 0.01977,
+      "harmonic_percussive_ratio": 9.35,
+      "chroma_complexity": 0.07788,
+      "mfcc_signature": [
+        -49.056,
+        108.857,
+        3.988,
+        13.592,
+        1.23,
+        2.599,
+        -0.993,
+        4.617,
+        -2.229,
+        4.878,
+        -3.087,
+        0.149,
+        -2.281
+      ],
+      "section_boundaries_s": [
+        0.0,
+        42.5,
+        80.4,
+        99.3,
+        136.8,
+        174.5
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 12.3,
+      "vocal_range_hz": [
+        193.1,
+        392.0
+      ],
+      "vocal_median_hz": 261.6,
+      "pitch_stability_cents": 118.11,
+      "vibrato_strength": 0.004,
+      "voiced_ratio": 0.791,
+      "vocal_rms": 0.12748,
+      "vocal_centroid": 2273.7
+    },
+    "lyrics": {
+      "total_words": 127,
+      "unique_words": 78,
+      "total_lines": 31,
+      "ttr": 0.614,
+      "hapax_ratio": 0.417,
+      "repetition_rate": 0.386,
+      "words_per_line": 4.1,
+      "avg_word_length": 5.07,
+      "chorus_ratio": 0.129,
+      "top_words": [
+        [
+          "opera",
+          5
+        ],
+        [
+          "semplicemente",
+          4
+        ],
+        [
+          "poi",
+          4
+        ],
+        [
+          "musa",
+          3
+        ],
+        [
+          "colore",
+          3
+        ],
+        [
+          "tagliente",
+          3
+        ],
+        [
+          "notte",
+          3
+        ],
+        [
+          "siamo",
+          2
+        ],
+        [
+          "parole",
+          2
+        ],
+        [
+          "vita",
+          2
+        ]
+      ]
+    }
+  },
+  "RAF - Ora E Per Sempre": {
+    "features": {
+      "duration_s": 197.0,
+      "energy_curve": [
+        0.0465681329369545,
+        0.13838714361190796,
+        0.13402420282363892,
+        0.14131590723991394,
+        0.1521884799003601,
+        0.2060943841934204,
+        0.2252703309059143,
+        0.19415205717086792,
+        0.24160759150981903,
+        0.23796075582504272,
+        0.25733327865600586,
+        0.32583335041999817,
+        0.33013153076171875,
+        0.3283367455005646,
+        0.330072283744812,
+        0.3111577332019806,
+        0.3433992564678192,
+        0.33209356665611267,
+        0.3108763098716736,
+        0.12029439210891724
+      ],
+      "rms_mean": 0.23530063033103943,
+      "dynamic_range_db": 23.66,
+      "climax_position": 0.84,
+      "quiet_ratio": 0.139,
+      "bpm": 152.0,
+      "beat_regularity": 0.0175,
+      "onset_density": 2.41,
+      "spectral_centroid": 2479.3,
+      "spectral_bandwidth": 2749.0,
+      "spectral_contrast": 23.72,
+      "spectral_flatness": 0.02089,
+      "harmonic_percussive_ratio": 6.56,
+      "chroma_complexity": 0.05501,
+      "mfcc_signature": [
+        -54.442,
+        92.257,
+        11.491,
+        13.252,
+        9.024,
+        2.99,
+        -1.872,
+        -0.866,
+        -0.31,
+        -0.089,
+        0.165,
+        2.938,
+        -3.578
+      ],
+      "section_boundaries_s": [
+        0.0,
+        32.8,
+        36.1,
+        72.4,
+        107.7,
+        192.1
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 16.8,
+      "vocal_range_hz": [
+        138.6,
+        366.0
+      ],
+      "vocal_median_hz": 233.1,
+      "pitch_stability_cents": 178.79,
+      "vibrato_strength": 0.006,
+      "voiced_ratio": 0.818,
+      "vocal_rms": 0.11653,
+      "vocal_centroid": 3457.0
+    },
+    "lyrics": {
+      "total_words": 259,
+      "unique_words": 157,
+      "total_lines": 43,
+      "ttr": 0.606,
+      "hapax_ratio": 0.475,
+      "repetition_rate": 0.394,
+      "words_per_line": 6.02,
+      "avg_word_length": 4.17,
+      "chorus_ratio": 0.0,
+      "top_words": [
+        [
+          "sempre",
+          7
+        ],
+        [
+          "ora",
+          6
+        ],
+        [
+          "mondo",
+          3
+        ],
+        [
+          "quando",
+          3
+        ],
+        [
+          "solo",
+          2
+        ],
+        [
+          "mentre",
+          2
+        ],
+        [
+          "mio",
+          2
+        ],
+        [
+          "sulla",
+          2
+        ],
+        [
+          "sarai",
+          2
+        ],
+        [
+          "nostro",
+          2
+        ]
+      ]
+    }
+  },
+  "J-AX - Italia Starter Pack": {
+    "features": {
+      "duration_s": 170.4,
+      "energy_curve": [
+        0.15881547331809998,
+        0.19729511439800262,
+        0.21110287308692932,
+        0.29394564032554626,
+        0.3007994592189789,
+        0.3076627254486084,
+        0.3123531639575958,
+        0.2262825071811676,
+        0.2830091416835785,
+        0.2965383529663086,
+        0.28773587942123413,
+        0.3020453155040741,
+        0.3094911277294159,
+        0.3184492886066437,
+        0.29429832100868225,
+        0.31501540541648865,
+        0.3090827167034149,
+        0.25687065720558167,
+        0.31293097138404846,
+        0.20895791053771973
+      ],
+      "rms_mean": 0.27497178316116333,
+      "dynamic_range_db": 10.43,
+      "climax_position": 0.68,
+      "quiet_ratio": 0.062,
+      "bpm": 117.5,
+      "beat_regularity": 0.0184,
+      "onset_density": 3.99,
+      "spectral_centroid": 2847.4,
+      "spectral_bandwidth": 2882.9,
+      "spectral_contrast": 21.49,
+      "spectral_flatness": 0.03913,
+      "harmonic_percussive_ratio": 2.71,
+      "chroma_complexity": 0.06085,
+      "mfcc_signature": [
+        -3.95,
+        73.641,
+        9.098,
+        17.047,
+        5.151,
+        15.189,
+        -2.903,
+        6.363,
+        -0.196,
+        4.213,
+        0.303,
+        5.311,
+        -1.567
+      ],
+      "section_boundaries_s": [
+        0.0,
+        26.2,
+        42.2,
+        59.6,
+        102.9,
+        146.1
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 13.9,
+      "vocal_range_hz": [
+        131.6,
+        293.7
+      ],
+      "vocal_median_hz": 193.7,
+      "pitch_stability_cents": 187.75,
+      "vibrato_strength": 0.036,
+      "voiced_ratio": 0.712,
+      "vocal_rms": 0.1289,
+      "vocal_centroid": 3595.0
+    },
+    "lyrics": {}
+  },
+  "Fulminacci - Stupida Sfortuna": {
+    "features": {
+      "duration_s": 175.0,
+      "energy_curve": [
+        0.10504709184169769,
+        0.10752542316913605,
+        0.16711479425430298,
+        0.17730773985385895,
+        0.16783207654953003,
+        0.29456669092178345,
+        0.30090010166168213,
+        0.24935941398143768,
+        0.255738765001297,
+        0.2547759711742401,
+        0.20214007794857025,
+        0.29767534136772156,
+        0.28680431842803955,
+        0.11716388165950775,
+        0.13784554600715637,
+        0.2490929812192917,
+        0.30823180079460144,
+        0.28751620650291443,
+        0.3043352961540222,
+        0.06560776382684708
+      ],
+      "rms_mean": 0.2164679616689682,
+      "dynamic_range_db": 25.11,
+      "climax_position": 0.84,
+      "quiet_ratio": 0.164,
+      "bpm": 95.7,
+      "beat_regularity": 0.0339,
+      "onset_density": 2.79,
+      "spectral_centroid": 2189.2,
+      "spectral_bandwidth": 2494.1,
+      "spectral_contrast": 24.3,
+      "spectral_flatness": 0.01721,
+      "harmonic_percussive_ratio": 3.34,
+      "chroma_complexity": 0.05111,
+      "mfcc_signature": [
+        -92.996,
+        95.162,
+        9.314,
+        15.358,
+        5.815,
+        5.158,
+        1.029,
+        -0.666,
+        -5.407,
+        -0.593,
+        -5.603,
+        2.362,
+        -5.851
+      ],
+      "section_boundaries_s": [
+        0.0,
+        15.7,
+        35.9,
+        112.2,
+        132.3,
+        166.1
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 14.3,
+      "vocal_range_hz": [
+        145.1,
+        331.5
+      ],
+      "vocal_median_hz": 220.0,
+      "pitch_stability_cents": 160.19,
+      "vibrato_strength": 0.035,
+      "voiced_ratio": 0.833,
+      "vocal_rms": 0.10952,
+      "vocal_centroid": 2844.7
+    },
+    "lyrics": {
+      "total_words": 291,
+      "unique_words": 149,
+      "total_lines": 55,
+      "ttr": 0.512,
+      "hapax_ratio": 0.357,
+      "repetition_rate": 0.488,
+      "words_per_line": 5.29,
+      "avg_word_length": 4.29,
+      "chorus_ratio": 0.255,
+      "top_words": [
+        [
+          "stupida",
+          14
+        ],
+        [
+          "gelida",
+          12
+        ],
+        [
+          "sfortuna",
+          6
+        ],
+        [
+          "mezzo",
+          4
+        ],
+        [
+          "paura",
+          4
+        ],
+        [
+          "dove",
+          3
+        ],
+        [
+          "stai",
+          3
+        ],
+        [
+          "pensa",
+          3
+        ],
+        [
+          "dentro",
+          2
+        ],
+        [
+          "sotto",
+          2
+        ]
+      ]
+    }
+  },
+  "Levante - Sei Tu": {
+    "features": {
+      "duration_s": 211.6,
+      "energy_curve": [
+        0.20806553959846497,
+        0.18434804677963257,
+        0.09665152430534363,
+        0.17456848919391632,
+        0.25690364837646484,
+        0.25064700841903687,
+        0.315285325050354,
+        0.37752607464790344,
+        0.37159401178359985,
+        0.38334009051322937,
+        0.21571993827819824,
+        0.21484139561653137,
+        0.2828369438648224,
+        0.2253706008195877,
+        0.31561094522476196,
+        0.3733415901660919,
+        0.38415664434432983,
+        0.38226553797721863,
+        0.23978982865810394,
+        0.06784722954034805
+      ],
+      "rms_mean": 0.2657310664653778,
+      "dynamic_range_db": 18.84,
+      "climax_position": 0.84,
+      "quiet_ratio": 0.195,
+      "bpm": 161.5,
+      "beat_regularity": 0.0149,
+      "onset_density": 2.07,
+      "spectral_centroid": 2307.9,
+      "spectral_bandwidth": 2575.5,
+      "spectral_contrast": 24.76,
+      "spectral_flatness": 0.0144,
+      "harmonic_percussive_ratio": 7.74,
+      "chroma_complexity": 0.07844,
+      "mfcc_signature": [
+        -71.799,
+        92.947,
+        14.077,
+        22.967,
+        9.309,
+        3.689,
+        6.183,
+        10.6,
+        -1.422,
+        7.339,
+        -5.578,
+        -0.561,
+        -4.309
+      ],
+      "section_boundaries_s": [
+        0.0,
+        54.2,
+        58.7,
+        63.2,
+        67.6,
+        191.7
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 18.6,
+      "vocal_range_hz": [
+        178.7,
+        523.3
+      ],
+      "vocal_median_hz": 347.2,
+      "pitch_stability_cents": 157.57,
+      "vibrato_strength": 0.001,
+      "voiced_ratio": 0.765,
+      "vocal_rms": 0.13567,
+      "vocal_centroid": 3273.6
+    },
+    "lyrics": {
+      "total_words": 210,
+      "unique_words": 99,
+      "total_lines": 34,
+      "ttr": 0.471,
+      "hapax_ratio": 0.252,
+      "repetition_rate": 0.529,
+      "words_per_line": 6.18,
+      "avg_word_length": 3.93,
+      "chorus_ratio": 0.412,
+      "top_words": [
+        [
+          "amore",
+          5
+        ],
+        [
+          "potessi",
+          4
+        ],
+        [
+          "mio",
+          4
+        ],
+        [
+          "dove",
+          3
+        ],
+        [
+          "mia",
+          3
+        ],
+        [
+          "gira",
+          3
+        ],
+        [
+          "sento",
+          2
+        ],
+        [
+          "anche",
+          2
+        ],
+        [
+          "trova",
+          2
+        ],
+        [
+          "vederti",
+          2
+        ]
+      ]
+    }
+  },
+  "Fedez & Marco Masini - Male Necessario": {
+    "features": {
+      "duration_s": 187.6,
+      "energy_curve": [
+        0.06849142163991928,
+        0.13138222694396973,
+        0.13329903781414032,
+        0.2384026199579239,
+        0.3689937889575958,
+        0.37334996461868286,
+        0.27494657039642334,
+        0.331159383058548,
+        0.35369524359703064,
+        0.2510419487953186,
+        0.15671154856681824,
+        0.36813196539878845,
+        0.39940327405929565,
+        0.3985157608985901,
+        0.40795066952705383,
+        0.2936733663082123,
+        0.24801315367221832,
+        0.39610910415649414,
+        0.2349165678024292,
+        0.08048495650291443
+      ],
+      "rms_mean": 0.27538537979125977,
+      "dynamic_range_db": 21.22,
+      "climax_position": 0.74,
+      "quiet_ratio": 0.251,
+      "bpm": 143.6,
+      "beat_regularity": 0.0202,
+      "onset_density": 3.54,
+      "spectral_centroid": 2412.0,
+      "spectral_bandwidth": 2646.7,
+      "spectral_contrast": 23.35,
+      "spectral_flatness": 0.01998,
+      "harmonic_percussive_ratio": 4.23,
+      "chroma_complexity": 0.0561,
+      "mfcc_signature": [
+        -69.856,
+        91.427,
+        16.613,
+        13.216,
+        8.32,
+        -1.164,
+        -5.357,
+        -0.76,
+        -5.742,
+        -1.281,
+        -4.837,
+        -2.322,
+        -7.619
+      ],
+      "section_boundaries_s": [
+        0.0,
+        33.9,
+        40.4,
+        57.7,
+        61.9,
+        89.2
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 25.1,
+      "vocal_range_hz": [
+        102.0,
+        434.9
+      ],
+      "vocal_median_hz": 234.4,
+      "pitch_stability_cents": 169.19,
+      "vibrato_strength": 0.001,
+      "voiced_ratio": 0.819,
+      "vocal_rms": 0.1575,
+      "vocal_centroid": 3014.6
+    },
+    "lyrics": {}
+  },
+  "Ermal Meta - Stella Stellina": {
+    "features": {
+      "duration_s": 198.9,
+      "energy_curve": [
+        0.17251449823379517,
+        0.2170412689447403,
+        0.3139953911304474,
+        0.3069859445095062,
+        0.30607205629348755,
+        0.3791593611240387,
+        0.3116537034511566,
+        0.3305697441101074,
+        0.35066330432891846,
+        0.35667648911476135,
+        0.36623185873031616,
+        0.3779197633266449,
+        0.3794953227043152,
+        0.2927383780479431,
+        0.2811882197856903,
+        0.3557310104370117,
+        0.3859395682811737,
+        0.3749411404132843,
+        0.2264956384897232,
+        0.08285627514123917
+      ],
+      "rms_mean": 0.30825912952423096,
+      "dynamic_range_db": 15.33,
+      "climax_position": 0.84,
+      "quiet_ratio": 0.102,
+      "bpm": 129.2,
+      "beat_regularity": 0.0251,
+      "onset_density": 2.97,
+      "spectral_centroid": 2250.5,
+      "spectral_bandwidth": 2492.5,
+      "spectral_contrast": 22.77,
+      "spectral_flatness": 0.02866,
+      "harmonic_percussive_ratio": 2.93,
+      "chroma_complexity": 0.06059,
+      "mfcc_signature": [
+        -36.815,
+        91.597,
+        -2.948,
+        18.321,
+        10.242,
+        7.278,
+        0.438,
+        6.437,
+        -6.486,
+        7.964,
+        -1.448,
+        3.957,
+        1.961
+      ],
+      "section_boundaries_s": [
+        0.0,
+        1.8,
+        20.3,
+        129.8,
+        147.4,
+        191.1
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 24.8,
+      "vocal_range_hz": [
+        121.3,
+        508.8
+      ],
+      "vocal_median_hz": 246.9,
+      "pitch_stability_cents": 154.19,
+      "vibrato_strength": 0.027,
+      "voiced_ratio": 0.772,
+      "vocal_rms": 0.12808,
+      "vocal_centroid": 2869.6
+    },
+    "lyrics": {
+      "total_words": 287,
+      "unique_words": 120,
+      "total_lines": 42,
+      "ttr": 0.418,
+      "hapax_ratio": 0.244,
+      "repetition_rate": 0.582,
+      "words_per_line": 6.83,
+      "avg_word_length": 4.24,
+      "chorus_ratio": 0.429,
+      "top_words": [
+        [
+          "dalla",
+          7
+        ],
+        [
+          "stella",
+          5
+        ],
+        [
+          "stellina",
+          5
+        ],
+        [
+          "notte",
+          5
+        ],
+        [
+          "preghiera",
+          5
+        ],
+        [
+          "collina",
+          5
+        ],
+        [
+          "primavera",
+          5
+        ],
+        [
+          "avvicina",
+          4
+        ],
+        [
+          "basta",
+          4
+        ],
+        [
+          "pensarci",
+          4
+        ]
+      ]
+    }
+  },
+  "Nayt - Prima Che": {
+    "features": {
+      "duration_s": 183.0,
+      "energy_curve": [
+        0.05090448632836342,
+        0.17082969844341278,
+        0.2147851139307022,
+        0.17342785000801086,
+        0.38643428683280945,
+        0.39667370915412903,
+        0.39050424098968506,
+        0.2580623924732208,
+        0.24353426694869995,
+        0.33032187819480896,
+        0.4016994833946228,
+        0.40126192569732666,
+        0.22262956202030182,
+        0.2814055383205414,
+        0.2210492044687271,
+        0.3326849639415741,
+        0.3936547338962555,
+        0.20272237062454224,
+        0.0958600863814354,
+        0.07890971750020981
+      ],
+      "rms_mean": 0.26232120394706726,
+      "dynamic_range_db": 23.32,
+      "climax_position": 0.53,
+      "quiet_ratio": 0.269,
+      "bpm": 80.7,
+      "beat_regularity": 0.0397,
+      "onset_density": 3.1,
+      "spectral_centroid": 2308.2,
+      "spectral_bandwidth": 2512.9,
+      "spectral_contrast": 23.86,
+      "spectral_flatness": 0.02124,
+      "harmonic_percussive_ratio": 3.76,
+      "chroma_complexity": 0.08855,
+      "mfcc_signature": [
+        -85.809,
+        94.979,
+        10.416,
+        10.597,
+        7.477,
+        0.348,
+        -11.11,
+        4.405,
+        -7.458,
+        -2.192,
+        -7.34,
+        -0.617,
+        -1.769
+      ],
+      "section_boundaries_s": [
+        0.0,
+        49.7,
+        55.3,
+        109.4,
+        141.1,
+        159.1
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 16.8,
+      "vocal_range_hz": [
+        128.6,
+        339.8
+      ],
+      "vocal_median_hz": 164.8,
+      "pitch_stability_cents": 182.69,
+      "vibrato_strength": 0.005,
+      "voiced_ratio": 0.799,
+      "vocal_rms": 0.12884,
+      "vocal_centroid": 3301.7
+    },
+    "lyrics": {
+      "total_words": 462,
+      "unique_words": 154,
+      "total_lines": 55,
+      "ttr": 0.333,
+      "hapax_ratio": 0.197,
+      "repetition_rate": 0.667,
+      "words_per_line": 8.4,
+      "avg_word_length": 3.98,
+      "chorus_ratio": 0.491,
+      "top_words": [
+        [
+          "prima",
+          24
+        ],
+        [
+          "finché",
+          15
+        ],
+        [
+          "essere",
+          6
+        ],
+        [
+          "chi",
+          6
+        ],
+        [
+          "sai",
+          6
+        ],
+        [
+          "cosa",
+          6
+        ],
+        [
+          "realtà",
+          6
+        ],
+        [
+          "vede",
+          6
+        ],
+        [
+          "vedo",
+          6
+        ],
+        [
+          "vedi",
+          6
+        ]
+      ]
+    }
+  },
+  "Enrico Nigiotti - Ogni Volta Che Non So Volare": {
+    "features": {
+      "duration_s": 180.5,
+      "energy_curve": [
+        0.15186984837055206,
+        0.13238778710365295,
+        0.17927508056163788,
+        0.1851404458284378,
+        0.1898348480463028,
+        0.19361020624637604,
+        0.21200157701969147,
+        0.2341317981481552,
+        0.17501799762248993,
+        0.22629983723163605,
+        0.29925113916397095,
+        0.3236221373081207,
+        0.3255637586116791,
+        0.22979268431663513,
+        0.2459346204996109,
+        0.3398895561695099,
+        0.29819387197494507,
+        0.20578034222126007,
+        0.3317996859550476,
+        0.13665813207626343
+      ],
+      "rms_mean": 0.2306453138589859,
+      "dynamic_range_db": 14.13,
+      "climax_position": 0.79,
+      "quiet_ratio": 0.084,
+      "bpm": 123.0,
+      "beat_regularity": 0.0273,
+      "onset_density": 2.26,
+      "spectral_centroid": 1973.9,
+      "spectral_bandwidth": 2227.0,
+      "spectral_contrast": 22.76,
+      "spectral_flatness": 0.02593,
+      "harmonic_percussive_ratio": 3.25,
+      "chroma_complexity": 0.08539,
+      "mfcc_signature": [
+        -67.076,
+        120.354,
+        1.066,
+        14.282,
+        4.069,
+        7.436,
+        -6.299,
+        3.748,
+        -2.773,
+        -0.497,
+        -1.541,
+        0.268,
+        -2.424
+      ],
+      "section_boundaries_s": [
+        0.0,
+        17.9,
+        93.6,
+        118.7,
+        133.2,
+        150.1
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 34.6,
+      "vocal_range_hz": [
+        89.9,
+        663.1
+      ],
+      "vocal_median_hz": 190.4,
+      "pitch_stability_cents": 223.02,
+      "vibrato_strength": 0.006,
+      "voiced_ratio": 0.749,
+      "vocal_rms": 0.11283,
+      "vocal_centroid": 2717.7
+    },
+    "lyrics": {
+      "total_words": 267,
+      "unique_words": 143,
+      "total_lines": 37,
+      "ttr": 0.536,
+      "hapax_ratio": 0.352,
+      "repetition_rate": 0.464,
+      "words_per_line": 7.22,
+      "avg_word_length": 4.26,
+      "chorus_ratio": 0.135,
+      "top_words": [
+        [
+          "volta",
+          6
+        ],
+        [
+          "volare",
+          6
+        ],
+        [
+          "ogni",
+          5
+        ],
+        [
+          "altro",
+          5
+        ],
+        [
+          "tardi",
+          3
+        ],
+        [
+          "tempo",
+          3
+        ],
+        [
+          "prima",
+          3
+        ],
+        [
+          "qualcun",
+          3
+        ],
+        [
+          "solo",
+          2
+        ],
+        [
+          "anche",
+          2
+        ]
+      ]
+    }
+  },
+  "Sal Da Vinci - Per Sempre Sì": {
+    "features": {
+      "duration_s": 175.1,
+      "energy_curve": [
+        0.1669827103614807,
+        0.3233569264411926,
+        0.319731205701828,
+        0.32997968792915344,
+        0.3027975261211395,
+        0.2737234830856323,
+        0.3704233765602112,
+        0.3615254759788513,
+        0.2783292829990387,
+        0.32701337337493896,
+        0.329219788312912,
+        0.280541330575943,
+        0.37233978509902954,
+        0.36615297198295593,
+        0.27802929282188416,
+        0.24028347432613373,
+        0.26319149136543274,
+        0.3749690055847168,
+        0.3836512565612793,
+        0.1744336038827896
+      ],
+      "rms_mean": 0.30579888820648193,
+      "dynamic_range_db": 19.34,
+      "climax_position": 0.95,
+      "quiet_ratio": 0.116,
+      "bpm": 123.0,
+      "beat_regularity": 0.0149,
+      "onset_density": 4.41,
+      "spectral_centroid": 3274.7,
+      "spectral_bandwidth": 2991.4,
+      "spectral_contrast": 23.13,
+      "spectral_flatness": 0.04124,
+      "harmonic_percussive_ratio": 3.22,
+      "chroma_complexity": 0.05659,
+      "mfcc_signature": [
+        -25.933,
+        50.948,
+        11.631,
+        22.193,
+        12.999,
+        7.019,
+        -3.755,
+        10.011,
+        -3.569,
+        6.22,
+        -3.24,
+        3.423,
+        -0.704
+      ],
+      "section_boundaries_s": [
+        0.0,
+        127.2,
+        131.1,
+        138.9,
+        142.5,
+        165.9
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 14.7,
+      "vocal_range_hz": [
+        175.6,
+        410.5
+      ],
+      "vocal_median_hz": 302.3,
+      "pitch_stability_cents": 147.29,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.82,
+      "vocal_rms": 0.15549,
+      "vocal_centroid": 3606.8
+    },
+    "lyrics": {
+      "total_words": 270,
+      "unique_words": 110,
+      "total_lines": 46,
+      "ttr": 0.407,
+      "hapax_ratio": 0.222,
+      "repetition_rate": 0.593,
+      "words_per_line": 5.87,
+      "avg_word_length": 3.91,
+      "chorus_ratio": 0.5,
+      "top_words": [
+        [
+          "sempre",
+          6
+        ],
+        [
+          "saremo",
+          5
+        ],
+        [
+          "grande",
+          4
+        ],
+        [
+          "vita",
+          4
+        ],
+        [
+          "amore",
+          3
+        ],
+        [
+          "qui",
+          3
+        ],
+        [
+          "legati",
+          3
+        ],
+        [
+          "senza",
+          3
+        ],
+        [
+          "vale",
+          3
+        ],
+        [
+          "niente",
+          3
+        ]
+      ]
+    }
+  },
+  "Eddie Brock - Avvoltoi": {
+    "features": {
+      "duration_s": 165.3,
+      "energy_curve": [
+        0.052485108375549316,
+        0.0753796249628067,
+        0.15748845040798187,
+        0.14584048092365265,
+        0.18271268904209137,
+        0.22503721714019775,
+        0.311151385307312,
+        0.19523130357265472,
+        0.22420530021190643,
+        0.2647980749607086,
+        0.28727245330810547,
+        0.2656000554561615,
+        0.32925620675086975,
+        0.3359302282333374,
+        0.34172794222831726,
+        0.35878220200538635,
+        0.3454873561859131,
+        0.34816351532936096,
+        0.34290072321891785,
+        0.06820505112409592
+      ],
+      "rms_mean": 0.24244104325771332,
+      "dynamic_range_db": 24.13,
+      "climax_position": 0.79,
+      "quiet_ratio": 0.207,
+      "bpm": 123.0,
+      "beat_regularity": 0.0192,
+      "onset_density": 1.83,
+      "spectral_centroid": 2131.8,
+      "spectral_bandwidth": 2389.0,
+      "spectral_contrast": 24.75,
+      "spectral_flatness": 0.01468,
+      "harmonic_percussive_ratio": 3.66,
+      "chroma_complexity": 0.07581,
+      "mfcc_signature": [
+        -85.945,
+        89.383,
+        6.857,
+        21.128,
+        3.652,
+        6.022,
+        -0.035,
+        2.865,
+        -3.674,
+        -0.906,
+        -2.225,
+        -1.687,
+        -4.209
+      ],
+      "section_boundaries_s": [
+        0.0,
+        6.7,
+        45.4,
+        85.2,
+        90.3,
+        156.1
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 22.2,
+      "vocal_range_hz": [
+        109.4,
+        394.3
+      ],
+      "vocal_median_hz": 290.3,
+      "pitch_stability_cents": 163.39,
+      "vibrato_strength": 0.007,
+      "voiced_ratio": 0.813,
+      "vocal_rms": 0.1171,
+      "vocal_centroid": 2705.9
+    },
+    "lyrics": {
+      "total_words": 249,
+      "unique_words": 119,
+      "total_lines": 42,
+      "ttr": 0.478,
+      "hapax_ratio": 0.305,
+      "repetition_rate": 0.522,
+      "words_per_line": 5.93,
+      "avg_word_length": 3.96,
+      "chorus_ratio": 0.333,
+      "top_words": [
+        [
+          "sempre",
+          5
+        ],
+        [
+          "sai",
+          4
+        ],
+        [
+          "letto",
+          4
+        ],
+        [
+          "spogliare",
+          4
+        ],
+        [
+          "scegli",
+          3
+        ],
+        [
+          "quello",
+          3
+        ],
+        [
+          "farà",
+          3
+        ],
+        [
+          "male",
+          3
+        ],
+        [
+          "resti",
+          3
+        ],
+        [
+          "sola",
+          3
+        ]
+      ]
+    }
+  },
+  "chiello - Ti Penso Sempre": {
+    "features": {
+      "duration_s": 154.6,
+      "energy_curve": [
+        0.07990222424268723,
+        0.09074172377586365,
+        0.1889735609292984,
+        0.1919720619916916,
+        0.15785883367061615,
+        0.25930559635162354,
+        0.24699093401432037,
+        0.2412261962890625,
+        0.2527325749397278,
+        0.28489550948143005,
+        0.2284117490053177,
+        0.2336299866437912,
+        0.2804744243621826,
+        0.3012003004550934,
+        0.26466426253318787,
+        0.30784690380096436,
+        0.33488839864730835,
+        0.32694247364997864,
+        0.32821086049079895,
+        0.21176855266094208
+      ],
+      "rms_mean": 0.24055814743041992,
+      "dynamic_range_db": 16.11,
+      "climax_position": 0.84,
+      "quiet_ratio": 0.167,
+      "bpm": 76.0,
+      "beat_regularity": 0.0315,
+      "onset_density": 2.84,
+      "spectral_centroid": 1918.6,
+      "spectral_bandwidth": 2179.7,
+      "spectral_contrast": 23.73,
+      "spectral_flatness": 0.02135,
+      "harmonic_percussive_ratio": 2.38,
+      "chroma_complexity": 0.08649,
+      "mfcc_signature": [
+        -66.841,
+        114.007,
+        -13.732,
+        15.594,
+        12.325,
+        0.454,
+        -5.133,
+        2.767,
+        -7.856,
+        3.64,
+        -2.482,
+        4.429,
+        -2.002
+      ],
+      "section_boundaries_s": [
+        0.0,
+        15.8,
+        35.9,
+        44.2,
+        108.3,
+        110.5
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 16.3,
+      "vocal_range_hz": [
+        110.6,
+        283.7
+      ],
+      "vocal_median_hz": 207.7,
+      "pitch_stability_cents": 178.69,
+      "vibrato_strength": 0.011,
+      "voiced_ratio": 0.683,
+      "vocal_rms": 0.09233,
+      "vocal_centroid": 2506.0
+    },
+    "lyrics": {
+      "total_words": 176,
+      "unique_words": 98,
+      "total_lines": 35,
+      "ttr": 0.557,
+      "hapax_ratio": 0.335,
+      "repetition_rate": 0.443,
+      "words_per_line": 5.03,
+      "avg_word_length": 4.21,
+      "chorus_ratio": 0.171,
+      "top_words": [
+        [
+          "sempre",
+          3
+        ],
+        [
+          "due",
+          3
+        ],
+        [
+          "solo",
+          3
+        ],
+        [
+          "uno",
+          3
+        ],
+        [
+          "tua",
+          3
+        ],
+        [
+          "bugia",
+          3
+        ],
+        [
+          "nell",
+          3
+        ],
+        [
+          "agonia",
+          3
+        ],
+        [
+          "penso",
+          2
+        ],
+        [
+          "dirti",
+          2
+        ]
+      ]
+    }
+  },
+  "Maria Antonietta & Colombre - La Felicità E Basta": {
+    "features": {
+      "duration_s": 208.6,
+      "energy_curve": [
+        0.2065759152173996,
+        0.21354757249355316,
+        0.22931845486164093,
+        0.22932946681976318,
+        0.217027485370636,
+        0.2028805911540985,
+        0.28105536103248596,
+        0.22054828703403473,
+        0.2139039784669876,
+        0.2295028567314148,
+        0.17666153609752655,
+        0.25839847326278687,
+        0.26812008023262024,
+        0.28090453147888184,
+        0.219113290309906,
+        0.23220045864582062,
+        0.2870641350746155,
+        0.2787076532840729,
+        0.2873546779155731,
+        0.13163743913173676
+      ],
+      "rms_mean": 0.23313608765602112,
+      "dynamic_range_db": 15.09,
+      "climax_position": 0.95,
+      "quiet_ratio": 0.094,
+      "bpm": 123.0,
+      "beat_regularity": 0.0219,
+      "onset_density": 3.83,
+      "spectral_centroid": 2802.3,
+      "spectral_bandwidth": 2848.4,
+      "spectral_contrast": 22.88,
+      "spectral_flatness": 0.03144,
+      "harmonic_percussive_ratio": 1.16,
+      "chroma_complexity": 0.07172,
+      "mfcc_signature": [
+        -46.385,
+        72.926,
+        14.547,
+        18.76,
+        3.791,
+        9.466,
+        -3.517,
+        8.167,
+        -2.594,
+        6.363,
+        -6.621,
+        -1.023,
+        -6.054
+      ],
+      "section_boundaries_s": [
+        0.0,
+        47.3,
+        62.9,
+        116.8,
+        147.6,
+        162.4
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 15.0,
+      "vocal_range_hz": [
+        146.0,
+        347.2
+      ],
+      "vocal_median_hz": 218.7,
+      "pitch_stability_cents": 154.65,
+      "vibrato_strength": 0.002,
+      "voiced_ratio": 0.784,
+      "vocal_rms": 0.12232,
+      "vocal_centroid": 3230.9
+    },
+    "lyrics": {}
+  },
+  "Leo Gassmann - Naturale": {
+    "features": {
+      "duration_s": 182.5,
+      "energy_curve": [
+        0.10096655040979385,
+        0.1609310358762741,
+        0.18663232028484344,
+        0.19399243593215942,
+        0.254507452249527,
+        0.2766651511192322,
+        0.36799994111061096,
+        0.3631850481033325,
+        0.2540595233440399,
+        0.24573473632335663,
+        0.2863335907459259,
+        0.31006115674972534,
+        0.29859215021133423,
+        0.3644188642501831,
+        0.375936895608902,
+        0.34481745958328247,
+        0.3573288321495056,
+        0.35824498534202576,
+        0.22464346885681152,
+        0.12194462865591049
+      ],
+      "rms_mean": 0.2723498046398163,
+      "dynamic_range_db": 15.49,
+      "climax_position": 0.74,
+      "quiet_ratio": 0.172,
+      "bpm": 152.0,
+      "beat_regularity": 0.0195,
+      "onset_density": 3.15,
+      "spectral_centroid": 2672.3,
+      "spectral_bandwidth": 2697.7,
+      "spectral_contrast": 23.58,
+      "spectral_flatness": 0.02988,
+      "harmonic_percussive_ratio": 3.43,
+      "chroma_complexity": 0.08295,
+      "mfcc_signature": [
+        -46.434,
+        87.16,
+        13.885,
+        8.327,
+        6.931,
+        3.433,
+        -5.709,
+        3.351,
+        -9.904,
+        -3.268,
+        -1.127,
+        -3.458,
+        -9.124
+      ],
+      "section_boundaries_s": [
+        0.0,
+        6.2,
+        12.7,
+        83.0,
+        113.7,
+        116.9
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 15.3,
+      "vocal_range_hz": [
+        153.8,
+        372.1
+      ],
+      "vocal_median_hz": 278.8,
+      "pitch_stability_cents": 145.35,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.863,
+      "vocal_rms": 0.18737,
+      "vocal_centroid": 3299.9
+    },
+    "lyrics": {
+      "total_words": 341,
+      "unique_words": 137,
+      "total_lines": 54,
+      "ttr": 0.402,
+      "hapax_ratio": 0.202,
+      "repetition_rate": 0.598,
+      "words_per_line": 6.31,
+      "avg_word_length": 4.04,
+      "chorus_ratio": 0.481,
+      "top_words": [
+        [
+          "vale",
+          8
+        ],
+        [
+          "naturale",
+          6
+        ],
+        [
+          "fare",
+          4
+        ],
+        [
+          "ora",
+          4
+        ],
+        [
+          "così",
+          4
+        ],
+        [
+          "stella",
+          3
+        ],
+        [
+          "piange",
+          3
+        ],
+        [
+          "mai",
+          3
+        ],
+        [
+          "siamo",
+          3
+        ],
+        [
+          "guardi",
+          3
+        ]
+      ]
+    }
+  },
+  "Francesco Renga - Il Meglio Di Me": {
+    "features": {
+      "duration_s": 167.1,
+      "energy_curve": [
+        0.0893319845199585,
+        0.1831260472536087,
+        0.20575416088104248,
+        0.2938137650489807,
+        0.2550790011882782,
+        0.2609706521034241,
+        0.2725343108177185,
+        0.29042962193489075,
+        0.20882351696491241,
+        0.27606645226478577,
+        0.28862959146499634,
+        0.2996201813220978,
+        0.26069703698158264,
+        0.31502389907836914,
+        0.3068905174732208,
+        0.3202638626098633,
+        0.301700234413147,
+        0.31156057119369507,
+        0.23495961725711823,
+        0.16687145829200745
+      ],
+      "rms_mean": 0.25689417123794556,
+      "dynamic_range_db": 17.77,
+      "climax_position": 0.79,
+      "quiet_ratio": 0.139,
+      "bpm": 123.0,
+      "beat_regularity": 0.0252,
+      "onset_density": 2.75,
+      "spectral_centroid": 1994.1,
+      "spectral_bandwidth": 2494.9,
+      "spectral_contrast": 22.65,
+      "spectral_flatness": 0.01182,
+      "harmonic_percussive_ratio": 4.47,
+      "chroma_complexity": 0.05658,
+      "mfcc_signature": [
+        -80.817,
+        108.381,
+        17.564,
+        11.853,
+        12.18,
+        5.103,
+        -1.003,
+        5.749,
+        -3.979,
+        0.56,
+        0.094,
+        0.344,
+        -4.945
+      ],
+      "section_boundaries_s": [
+        0.0,
+        30.1,
+        40.1,
+        43.8,
+        47.8,
+        55.2
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 19.2,
+      "vocal_range_hz": [
+        137.0,
+        415.3
+      ],
+      "vocal_median_hz": 260.1,
+      "pitch_stability_cents": 185.43,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.794,
+      "vocal_rms": 0.14114,
+      "vocal_centroid": 2639.4
+    },
+    "lyrics": {
+      "total_words": 246,
+      "unique_words": 103,
+      "total_lines": 42,
+      "ttr": 0.419,
+      "hapax_ratio": 0.244,
+      "repetition_rate": 0.581,
+      "words_per_line": 5.86,
+      "avg_word_length": 3.95,
+      "chorus_ratio": 0.429,
+      "top_words": [
+        [
+          "meglio",
+          12
+        ],
+        [
+          "peggio",
+          6
+        ],
+        [
+          "ancora",
+          4
+        ],
+        [
+          "tutti",
+          3
+        ],
+        [
+          "miei",
+          3
+        ],
+        [
+          "dettagli",
+          3
+        ],
+        [
+          "eccomi",
+          3
+        ],
+        [
+          "eccoti",
+          3
+        ],
+        [
+          "mezzo",
+          2
+        ],
+        [
+          "cose",
+          2
+        ]
+      ]
+    }
+  },
+  "LDA & Aka 7even - Poesie Clandestine": {
+    "features": {
+      "duration_s": 183.3,
+      "energy_curve": [
+        0.08182092756032944,
+        0.09611537307500839,
+        0.15187621116638184,
+        0.1658259779214859,
+        0.315898597240448,
+        0.3781718909740448,
+        0.36882999539375305,
+        0.19695235788822174,
+        0.16948336362838745,
+        0.2542397081851959,
+        0.27243727445602417,
+        0.37939634919166565,
+        0.3714437782764435,
+        0.25029364228248596,
+        0.21873372793197632,
+        0.2882639169692993,
+        0.24457325041294098,
+        0.3741637170314789,
+        0.37255096435546875,
+        0.07442808896303177
+      ],
+      "rms_mean": 0.25091660022735596,
+      "dynamic_range_db": 21.51,
+      "climax_position": 0.58,
+      "quiet_ratio": 0.178,
+      "bpm": 107.7,
+      "beat_regularity": 0.0239,
+      "onset_density": 3.98,
+      "spectral_centroid": 3001.5,
+      "spectral_bandwidth": 2908.0,
+      "spectral_contrast": 23.6,
+      "spectral_flatness": 0.03285,
+      "harmonic_percussive_ratio": 4.01,
+      "chroma_complexity": 0.0627,
+      "mfcc_signature": [
+        -53.474,
+        62.253,
+        19.194,
+        21.142,
+        6.814,
+        3.071,
+        -9.009,
+        -0.189,
+        -5.327,
+        1.116,
+        -3.757,
+        0.689,
+        -4.221
+      ],
+      "section_boundaries_s": [
+        0.0,
+        39.7,
+        125.1,
+        133.8,
+        173.7,
+        180.7
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 10.2,
+      "vocal_range_hz": [
+        204.1,
+        367.9
+      ],
+      "vocal_median_hz": 263.1,
+      "pitch_stability_cents": 140.4,
+      "vibrato_strength": 0.017,
+      "voiced_ratio": 0.823,
+      "vocal_rms": 0.1381,
+      "vocal_centroid": 3635.2
+    },
+    "lyrics": {}
+  },
+  "Malika Ayane - Animali Notturni": {
+    "features": {
+      "duration_s": 178.3,
+      "energy_curve": [
+        0.22267650067806244,
+        0.29203227162361145,
+        0.2079562097787857,
+        0.17407655715942383,
+        0.26858824491500854,
+        0.3238016366958618,
+        0.33757030963897705,
+        0.310498982667923,
+        0.2567920982837677,
+        0.3011336028575897,
+        0.279702752828598,
+        0.22524775564670563,
+        0.3226684033870697,
+        0.3350387513637543,
+        0.3182627856731415,
+        0.23058736324310303,
+        0.18097907304763794,
+        0.2324429601430893,
+        0.31637802720069885,
+        0.16742290556430817
+      ],
+      "rms_mean": 0.2651801109313965,
+      "dynamic_range_db": 15.59,
+      "climax_position": 0.32,
+      "quiet_ratio": 0.102,
+      "bpm": 107.7,
+      "beat_regularity": 0.013,
+      "onset_density": 5.33,
+      "spectral_centroid": 3192.2,
+      "spectral_bandwidth": 3047.6,
+      "spectral_contrast": 23.21,
+      "spectral_flatness": 0.04413,
+      "harmonic_percussive_ratio": 1.35,
+      "chroma_complexity": 0.04587,
+      "mfcc_signature": [
+        -48.234,
+        57.906,
+        12.277,
+        17.087,
+        15.334,
+        1.164,
+        -6.374,
+        -2.759,
+        -1.605,
+        4.655,
+        -3.911,
+        -1.138,
+        -10.873
+      ],
+      "section_boundaries_s": [
+        0.0,
+        21.9,
+        39.4,
+        72.3,
+        96.7,
+        105.4
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 14.9,
+      "vocal_range_hz": [
+        186.1,
+        440.0
+      ],
+      "vocal_median_hz": 292.0,
+      "pitch_stability_cents": 156.62,
+      "vibrato_strength": 0.0,
+      "voiced_ratio": 0.8,
+      "vocal_rms": 0.12169,
+      "vocal_centroid": 3420.0
+    },
+    "lyrics": {
+      "total_words": 294,
+      "unique_words": 123,
+      "total_lines": 47,
+      "ttr": 0.418,
+      "hapax_ratio": 0.248,
+      "repetition_rate": 0.582,
+      "words_per_line": 6.26,
+      "avg_word_length": 4.19,
+      "chorus_ratio": 0.426,
+      "top_words": [
+        [
+          "animali",
+          6
+        ],
+        [
+          "notturni",
+          6
+        ],
+        [
+          "strada",
+          5
+        ],
+        [
+          "giungla",
+          5
+        ],
+        [
+          "puntiamo",
+          5
+        ],
+        [
+          "alla",
+          5
+        ],
+        [
+          "luna",
+          5
+        ],
+        [
+          "vai",
+          4
+        ],
+        [
+          "sai",
+          3
+        ],
+        [
+          "scomparire",
+          3
+        ]
+      ]
+    }
+  },
+  "Michele Bravi - Prima O Poi": {
+    "features": {
+      "duration_s": 188.7,
+      "energy_curve": [
+        0.12976422905921936,
+        0.15390346944332123,
+        0.15899115800857544,
+        0.1248883605003357,
+        0.2646218538284302,
+        0.3078625202178955,
+        0.15131700038909912,
+        0.26033464074134827,
+        0.28668534755706787,
+        0.3266356587409973,
+        0.3115949034690857,
+        0.3270833492279053,
+        0.20781198143959045,
+        0.12098183482885361,
+        0.1693125069141388,
+        0.32079198956489563,
+        0.3356129825115204,
+        0.2804732024669647,
+        0.044361453503370285,
+        0.005580069497227669
+      ],
+      "rms_mean": 0.21422487497329712,
+      "dynamic_range_db": 34.15,
+      "climax_position": 0.84,
+      "quiet_ratio": 0.23,
+      "bpm": 136.0,
+      "beat_regularity": 0.0275,
+      "onset_density": 3.52,
+      "spectral_centroid": 2445.5,
+      "spectral_bandwidth": 2704.0,
+      "spectral_contrast": 23.34,
+      "spectral_flatness": 0.02061,
+      "harmonic_percussive_ratio": 4.35,
+      "chroma_complexity": 0.07345,
+      "mfcc_signature": [
+        -96.882,
+        85.272,
+        20.445,
+        17.103,
+        8.68,
+        9.321,
+        -1.67,
+        3.039,
+        -3.011,
+        2.533,
+        -4.955,
+        -0.988,
+        -7.025
+      ],
+      "section_boundaries_s": [
+        0.0,
+        39.5,
+        114.9,
+        128.7,
+        177.8,
+        187.0
+      ],
+      "n_sections": 7
+    },
+    "vocals": {
+      "vocal_range_semitones": 16.6,
+      "vocal_range_hz": [
+        127.1,
+        331.5
+      ],
+      "vocal_median_hz": 211.3,
+      "pitch_stability_cents": 152.81,
+      "vibrato_strength": 0.014,
+      "voiced_ratio": 0.765,
+      "vocal_rms": 0.11131,
+      "vocal_centroid": 3298.6
+    },
+    "lyrics": {
+      "total_words": 319,
+      "unique_words": 133,
+      "total_lines": 46,
+      "ttr": 0.417,
+      "hapax_ratio": 0.204,
+      "repetition_rate": 0.583,
+      "words_per_line": 6.93,
+      "avg_word_length": 4.03,
+      "chorus_ratio": 0.413,
+      "top_words": [
+        [
+          "solo",
+          6
+        ],
+        [
+          "poi",
+          5
+        ],
+        [
+          "dopo",
+          5
+        ],
+        [
+          "anni",
+          5
+        ],
+        [
+          "prima",
+          4
+        ],
+        [
+          "volta",
+          3
+        ],
+        [
+          "penso",
+          3
+        ],
+        [
+          "sempre",
+          3
+        ],
+        [
+          "pensa",
+          3
+        ],
+        [
+          "scemo",
+          3
+        ]
+      ]
+    }
+  }
+}
