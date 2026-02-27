@@ -206,165 +206,78 @@ Due script Python che caricano tutti i 30 brani ed estraggono:
 
 ## Analisi profonda — Voce e testi
 
-Seconda fase: separazione vocale con Demucs (Meta's htdemucs) e analisi dei testi scraping da Genius/angolotesti/canzoniweb (30/30 trovati).
+Seconda fase: separazione vocale con Demucs (Meta's htdemucs) su tutti i 30 brani, e scraping dei testi (30/30 trovati).
 
 **[Analisi incrociata completa — 8 classifiche composite, correlazioni, profili, incoerenze](output/analisi_incrociata.md)**
 
-### Mappa della tensione (climax × quiet ratio)
+### Mappa della tensione (climax x quiet ratio)
 
 ![Tension Map](output/tension_map.png)
 
-### Range vocale vs Stabilità del pitch
+### Range vocale vs Stabilita del pitch
 
 ![Vocal Range vs Stability](output/vocal_range_stability.png)
 
-### Ricchezza lessicale vs Ripetitività
+### Ricchezza lessicale vs Ripetitivita
 
 ![Lyrics Richness](output/lyrics_richness_repetition.png)
 
 ---
 
-### Range vocale (semitoni) — Chi copre più spazio?
+## Analisi incrociata — 8 classifiche composite
 
-| # | Artista | Semitoni |
-|---|---------|----------|
-| 1 | Enrico Nigiotti | 34.6 |
-| 2 | Fedez & Marco Masini | 25.1 |
-| 3 | Ermal Meta | 24.8 |
-| 4 | Eddie Brock | 22.2 |
-| 5 | Tredici Pietro | 20.2 |
-| 6 | Francesco Renga | 19.2 |
-| 7 | Mara Sattei | 19.0 |
-| 8 | Levante | 18.6 |
-| 9 | Serena Brancale | 18.2 |
-| 10 | RAF | 16.8 |
+Otto classifiche che incrociano tutte le dimensioni (acustica + vocale + testi). La ricchezza lessicale usa MATTR (Moving Average TTR, finestra 50 parole) invece del TTR grezzo per normalizzare rispetto alla lunghezza del testo.
 
-### Stabilità pitch (cents std) — Chi intona meglio? (basso = stabile)
+### Complessita totale
 
-| # | Artista | Cents |
-|---|---------|-------|
-| 1 | Ditonellapiaga | 108.1 |
-| 2 | Patty Pravo | 118.1 |
-| 3 | Elettra Lamborghini | 138.2 |
-| 4 | Bambole Di Pezza | 138.3 |
-| 5 | LDA & Aka 7even | 140.4 |
-| 6 | Serena Brancale | 144.6 |
-| 7 | Leo Gassmann | 145.4 |
-| 8 | Sal Da Vinci | 147.3 |
-| 9 | Samurai Jay | 149.3 |
-| 10 | Michele Bravi | 152.8 |
+![Complessita Totale](output/cross_complessita_totale.png)
 
-### Vibrato — Chi ha più vibrato?
+### Formula commerciale
 
-| # | Artista | Vibrato |
-|---|---------|---------|
-| 1 | J-AX | 0.036 |
-| 2 | Fulminacci | 0.035 |
-| 3 | Elettra Lamborghini | 0.034 |
-| 4 | Bambole Di Pezza | 0.033 |
-| 5 | Ermal Meta | 0.027 |
-| 6 | Arisa | 0.023 |
-| 7 | LDA & Aka 7even | 0.017 |
-| 8 | Michele Bravi | 0.014 |
-| 9 | Dargen D'Amico | 0.012 |
-| 10 | chiello | 0.011 |
+![Formula Commerciale](output/cross_formula_commerciale.png)
 
-### Voiced ratio — Quanto tempo canta?
+### Autorialita
 
-| # | Artista | Ratio |
-|---|---------|-------|
-| 1 | Serena Brancale | 0.881 |
-| 2 | Leo Gassmann | 0.863 |
-| 3 | Arisa | 0.849 |
-| 4 | SayF | 0.838 |
-| 5 | Bambole Di Pezza | 0.837 |
-| ... | ... | ... |
-| 28 | J-AX | 0.712 |
-| 29 | chiello | 0.683 |
-| 30 | Dargen D'Amico | 0.623 |
+![Autorialita](output/cross_autorialita.png)
 
-### Ricchezza lessicale (TTR) — Chi ha il vocabolario più ricco?
+### Controllo vocale
 
-| # | Artista | TTR |
-|---|---------|-----|
-| 1 | Patty Pravo | 0.614 |
-| 2 | RAF | 0.606 |
-| 3 | chiello | 0.557 |
-| 4 | Enrico Nigiotti | 0.536 |
-| 5 | Fulminacci | 0.512 |
-| 6 | Serena Brancale | 0.508 |
-| 7 | Arisa | 0.502 |
-| 8 | Eddie Brock | 0.478 |
-| 9 | Levante | 0.471 |
-| 10 | Samurai Jay | 0.429 |
+![Controllo Vocale](output/cross_controllo_vocale.png)
 
-### Chorus ratio — Quanto pesa il ritornello?
+### Tensione narrativa
 
-| # | Artista | Ratio |
-|---|---------|-------|
-| 1 | Bambole Di Pezza | 0.564 |
-| 2 | Elettra Lamborghini | 0.544 |
-| 3 | Tommaso Paradiso | 0.540 |
-| 4 | Tredici Pietro | 0.508 |
-| 5 | Sal Da Vinci | 0.500 |
-| ... | ... | ... |
-| 24 | Enrico Nigiotti | 0.135 |
-| 25 | Patty Pravo | 0.129 |
-| 26 | RAF | 0.000 |
+![Tensione Narrativa](output/cross_tensione_narrativa.png)
 
-### Parole chiave per brano
+### Modernita produttiva
 
-| Artista | Keywords |
-|---------|----------|
-| SayF | piaci(22), tanto(10), amore(5), mio(5), tutti(4) |
-| Tredici Pietro | cade(13), uomo(11), cose(6), male(4), sara(3) |
-| Ditonellapiaga | fastidio(30), matta(13), cos(5), normale(5), dico(5) |
-| Arisa | era(9), volta(5), oceano(4), navigavo(4), anni(3) |
-| Bambole Di Pezza | resta(13), dirti(8), questi(5), giorno(3), senza(3) |
-| Elettra Lamborghini | voilà(13), viva(12), amore(9), poi(7), così(6) |
-| Samurai Jay | ahi(45), maledetto(9), feeling(9), correre(8), yeah(7) |
-| Tommaso Paradiso | romantici(8), guardano(7), alto(6), spero(4), cielo(4) |
-| Serena Brancale | qui(5), sempre(4), ancora(4), sento(3), portassi(3) |
-| Mara Sattei | sai(8), tutte(7), cose(5), notti(4), dirsi(4) |
-| Dargen D'Amico | bye(12), ahi(10), ridai(8), fatto(5), cosa(4) |
-| Luchè | anche(6), poi(6), vai(6), scordare(6), siamo(5) |
-| Patty Pravo | opera(5), semplicemente(4), poi(4), musa(3), colore(3) |
-| RAF | sempre(7), ora(6), mondo(3), quando(3), solo(2) |
-| Fulminacci | stupida(14), gelida(12), sfortuna(6), mezzo(4), paura(4) |
-| Levante | amore(5), potessi(4), mio(4), dove(3), mia(3) |
-| Ermal Meta | dalla(7), stella(5), stellina(5), notte(5), preghiera(5) |
-| Nayt | prima(24), finché(15), essere(6), chi(6), sai(6) |
-| Enrico Nigiotti | volta(6), volare(6), ogni(5), altro(5), tardi(3) |
-| Sal Da Vinci | sempre(6), saremo(5), grande(4), vita(4), amore(3) |
-| Eddie Brock | sempre(5), sai(4), letto(4), spogliare(4), scegli(3) |
-| chiello | sempre(3), due(3), solo(3), uno(3), tua(3) |
-| Leo Gassmann | vale(8), naturale(6), fare(4), ora(4), così(4) |
-| Francesco Renga | meglio(12), peggio(6), ancora(4), tutti(3), miei(3) |
-| Malika Ayane | animali(6), notturni(6), strada(5), giungla(5), puntiamo(5) |
-| Michele Bravi | solo(6), poi(5), dopo(5), anni(5), prima(4) |
+![Modernita Produttiva](output/cross_modernita_produttiva.png)
 
-### Mappa della tensione
+### Minimalismo
 
-**Climax presto** (narrativi/sottrattivi):
-- Malika Ayane — climax 32%, quiet 10%
-- Nayt — climax 53%, quiet 27%
-- LDA & Aka 7even — climax 58%, quiet 18%
-- Tredici Pietro — climax 63%, quiet 11%
-- Mara Sattei — climax 68%, quiet 14%
+![Minimalismo](output/cross_minimalismo.png)
 
-**Climax tardi** (botto finale):
-- Dargen D'Amico — climax 95%, quiet 10%
-- Patty Pravo — climax 95%, quiet 10%
-- Sal Da Vinci — climax 95%, quiet 12%
-- Maria Antonietta & Colombre — climax 95%, quiet 9%
-- Ditonellapiaga — climax 89%, quiet 22%
+### Incoerenza musica-testo
 
-**Più silenzio** (osano il vuoto):
-- Nayt — climax 53%, quiet 27%
-- Fedez & Marco Masini — climax 74%, quiet 25%
-- Michele Bravi — climax 84%, quiet 23%
-- Ditonellapiaga — climax 89%, quiet 22%
-- Arisa — climax 89%, quiet 21%
+![Incoerenza Musica-Testo](output/cross_incoerenza_musica_testo.png)
+
+---
+
+### Profilo multidimensionale — Radar
+
+![Radar](output/cross_radar.png)
+
+### Correlazioni tra dimensioni
+
+![Correlations](output/cross_correlations.png)
+
+---
+
+## Nota metodologica
+
+- Ricchezza lessicale misurata con MATTR (Moving Average TTR, finestra 50 parole) invece del TTR grezzo per evitare bias legato alla lunghezza del testo
+- Separazione vocale con Demucs htdemucs su CPU
+- Pitch tracking via pyin (librosa) — i valori estremi di range vocale (>25 semitoni) possono contenere artefatti dalla separazione
+- Il vibrato detection e sperimentale — i risultati per artisti rap (J-AX) sono probabilmente artefatti
 
 ---
 
@@ -888,6 +801,7 @@ Seconda fase: separazione vocale con Demucs (Meta's htdemucs) e analisi dei test
 uv sync
 uv run python sentiamo.py        # analisi acustica base
 uv run python sentiamo_deep.py   # voce (Demucs) + testi
+uv run python sentiamo_cross.py  # analisi incrociata + grafici
 ```
 
 I file FLAC vanno nella directory indicata nello script. Non sono nel repo (sono coperti da copyright).
@@ -897,7 +811,7 @@ La deep analysis richiede Demucs e PyTorch — su CPU ci vogliono ~60 minuti per
 ## Stack
 
 - Python 3.13, uv
-- librosa, numpy, matplotlib, soundfile, scikit-learn
+- librosa, numpy, matplotlib, soundfile, scikit-learn, scipy
 - torch, torchaudio, demucs (separazione vocale)
 - requests, beautifulsoup4, lyricsgenius (scraping testi)
 

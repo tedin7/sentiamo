@@ -155,8 +155,19 @@ def analyze_lyrics(text: str) -> dict:
     total_words = len(words)
     unique_words = len(set(words))
 
-    # Ricchezza lessicale (type-token ratio)
+    # Ricchezza lessicale (type-token ratio grezzo)
     ttr = unique_words / total_words if total_words > 0 else 0
+
+    # MATTR (Moving Average TTR) — normalizzato per lunghezza testo
+    window = min(50, total_words - 1) if total_words > 10 else total_words
+    if window > 0 and total_words > window:
+        mattr_vals = []
+        for start in range(total_words - window + 1):
+            chunk = words[start:start + window]
+            mattr_vals.append(len(set(chunk)) / len(chunk))
+        mattr = float(np.mean(mattr_vals))
+    else:
+        mattr = ttr
 
     # Hapax legomena (parole che appaiono una sola volta)
     from collections import Counter
@@ -195,6 +206,7 @@ def analyze_lyrics(text: str) -> dict:
         "unique_words": unique_words,
         "total_lines": len(lines),
         "ttr": round(ttr, 3),
+        "mattr": round(mattr, 3),
         "hapax_ratio": round(hapax_ratio, 3),
         "repetition_rate": round(repetition_rate, 3),
         "words_per_line": round(words_per_line, 2),
@@ -600,13 +612,13 @@ def main():
                    if d.get("lyrics") and d["lyrics"].get("ttr", 0) > 0]
     if lyrics_data:
         r = print_ranking(
-            "RICCHEZZA LESSICALE (TTR) — Chi ha il vocabolario piu' ricco?",
-            [(n, l["ttr"]) for n, l in lyrics_data])
+            "RICCHEZZA LESSICALE (MATTR) — Chi ha il vocabolario piu' ricco? (normalizzato per lunghezza)",
+            [(n, l.get("mattr", l["ttr"])) for n, l in lyrics_data])
         report.append(r)
 
         r = print_ranking(
-            "RIPETITIVITA' (1-TTR) — Chi ripete di piu'?",
-            [(n, l["repetition_rate"]) for n, l in lyrics_data])
+            "RIPETITIVITA' (1-MATTR) — Chi ripete di piu'?",
+            [(n, 1 - l.get("mattr", l["ttr"])) for n, l in lyrics_data])
         report.append(r)
 
         r = print_ranking(
