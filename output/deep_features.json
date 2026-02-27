@@ -26,17 +26,20 @@
       ],
       "rms_mean": 0.24825821816921234,
       "dynamic_range_db": 13.06,
+      "ebu_lra_lu": 5.28,
       "climax_position": 0.74,
       "quiet_ratio": 0.101,
       "bpm": 136.0,
       "beat_regularity": 0.0188,
+      "beat_cv": 0.0426,
+      "beat_npvi": 3.26,
       "onset_density": 3.62,
       "spectral_centroid": 2434.4,
       "spectral_bandwidth": 2605.0,
       "spectral_contrast": 22.87,
       "spectral_flatness": 0.02843,
       "harmonic_percussive_ratio": 2.24,
-      "chroma_complexity": 0.07021,
+      "chroma_entropy": 3.5619,
       "mfcc_signature": [
         -28.058,
         88.38,
@@ -63,15 +66,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 15.6,
+      "vocal_range_semitones": 15.5,
       "vocal_range_hz": [
-        133.9,
-        329.6
+        137.0,
+        336.1
       ],
-      "vocal_median_hz": 161.0,
-      "pitch_stability_cents": 168.03,
+      "vocal_median_hz": 163.0,
+      "pitch_stability_cents": 72.77,
       "vibrato_strength": 0,
-      "voiced_ratio": 0.838,
+      "voiced_ratio": 0.8,
       "vocal_rms": 0.16103,
       "vocal_centroid": 2764.8
     },
@@ -81,11 +84,12 @@
       "total_lines": 57,
       "ttr": 0.401,
       "mattr": 0.733,
-      "hapax_ratio": 0.249,
+      "hapax_ratio": 0.62,
       "repetition_rate": 0.599,
       "words_per_line": 7.26,
       "avg_word_length": 3.95,
       "chorus_ratio": 0.491,
+      "compression_ratio": 0.3938,
       "top_words": [
         [
           "piaci",
@@ -157,17 +161,20 @@
       ],
       "rms_mean": 0.2449205368757248,
       "dynamic_range_db": 15.06,
+      "ebu_lra_lu": 4.06,
       "climax_position": 0.63,
       "quiet_ratio": 0.107,
       "bpm": 89.1,
       "beat_regularity": 0.0296,
+      "beat_cv": 0.0445,
+      "beat_npvi": 3.37,
       "onset_density": 2.14,
       "spectral_centroid": 2833.8,
       "spectral_bandwidth": 2991.4,
       "spectral_contrast": 22.96,
       "spectral_flatness": 0.02548,
       "harmonic_percussive_ratio": 1.92,
-      "chroma_complexity": 0.06232,
+      "chroma_entropy": 3.5677,
       "mfcc_signature": [
         -53.285,
         73.729,
@@ -194,15 +201,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 20.2,
+      "vocal_range_semitones": 20.0,
       "vocal_range_hz": [
-        116.5,
-        374.3
+        116.9,
+        371.8
       ],
-      "vocal_median_hz": 292.0,
-      "pitch_stability_cents": 163.66,
-      "vibrato_strength": 0.007,
-      "voiced_ratio": 0.726,
+      "vocal_median_hz": 289.8,
+      "pitch_stability_cents": 66.81,
+      "vibrato_strength": 0.001,
+      "voiced_ratio": 0.715,
       "vocal_rms": 0.09245,
       "vocal_centroid": 3818.9
     },
@@ -212,11 +219,12 @@
       "total_lines": 59,
       "ttr": 0.414,
       "mattr": 0.793,
-      "hapax_ratio": 0.222,
+      "hapax_ratio": 0.536,
       "repetition_rate": 0.586,
       "words_per_line": 6.8,
       "avg_word_length": 4.05,
       "chorus_ratio": 0.508,
+      "compression_ratio": 0.3817,
       "top_words": [
         [
           "cade",
@@ -288,17 +296,20 @@
       ],
       "rms_mean": 0.2865004241466522,
       "dynamic_range_db": 19.52,
+      "ebu_lra_lu": 9.64,
       "climax_position": 0.89,
       "quiet_ratio": 0.217,
       "bpm": 129.2,
       "beat_regularity": 0.0209,
+      "beat_cv": 0.0451,
+      "beat_npvi": 3.17,
       "onset_density": 5.66,
       "spectral_centroid": 2739.3,
       "spectral_bandwidth": 2826.3,
       "spectral_contrast": 21.88,
       "spectral_flatness": 0.03933,
       "harmonic_percussive_ratio": 1.53,
-      "chroma_complexity": 0.08576,
+      "chroma_entropy": 3.5594,
       "mfcc_signature": [
         -41.119,
         81.597,
@@ -325,15 +336,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 9.0,
+      "vocal_range_semitones": 8.9,
       "vocal_range_hz": [
-        196.0,
-        329.6
+        195.5,
+        327.8
       ],
-      "vocal_median_hz": 229.1,
-      "pitch_stability_cents": 108.1,
-      "vibrato_strength": 0,
-      "voiced_ratio": 0.763,
+      "vocal_median_hz": 225.6,
+      "pitch_stability_cents": 58.99,
+      "vibrato_strength": 0.003,
+      "voiced_ratio": 0.727,
       "vocal_rms": 0.11908,
       "vocal_centroid": 3344.2
     },
@@ -343,11 +354,12 @@
       "total_lines": 78,
       "ttr": 0.381,
       "mattr": 0.718,
-      "hapax_ratio": 0.248,
+      "hapax_ratio": 0.651,
       "repetition_rate": 0.619,
       "words_per_line": 5.79,
       "avg_word_length": 4.4,
       "chorus_ratio": 0.41,
+      "compression_ratio": 0.3572,
       "top_words": [
         [
           "fastidio",
@@ -419,17 +431,20 @@
       ],
       "rms_mean": 0.24131926894187927,
       "dynamic_range_db": 16.05,
+      "ebu_lra_lu": 9.52,
       "climax_position": 0.89,
       "quiet_ratio": 0.213,
       "bpm": 83.4,
       "beat_regularity": 0.0434,
+      "beat_cv": 0.061,
+      "beat_npvi": 5.16,
       "onset_density": 2.64,
       "spectral_centroid": 2018.4,
       "spectral_bandwidth": 2342.1,
       "spectral_contrast": 24.75,
       "spectral_flatness": 0.01255,
       "harmonic_percussive_ratio": 7.51,
-      "chroma_complexity": 0.05722,
+      "chroma_entropy": 3.5619,
       "mfcc_signature": [
         -73.059,
         107.864,
@@ -456,15 +471,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 12.0,
+      "vocal_range_semitones": 11.8,
       "vocal_range_hz": [
-        231.7,
-        463.5
+        234.9,
+        465.1
       ],
-      "vocal_median_hz": 307.6,
-      "pitch_stability_cents": 161.19,
-      "vibrato_strength": 0.023,
-      "voiced_ratio": 0.849,
+      "vocal_median_hz": 316.3,
+      "pitch_stability_cents": 55.74,
+      "vibrato_strength": 0.044,
+      "voiced_ratio": 0.783,
       "vocal_rms": 0.12318,
       "vocal_centroid": 2735.0
     },
@@ -474,11 +489,12 @@
       "total_lines": 38,
       "ttr": 0.502,
       "mattr": 0.815,
-      "hapax_ratio": 0.346,
+      "hapax_ratio": 0.69,
       "repetition_rate": 0.498,
       "words_per_line": 7.45,
       "avg_word_length": 4.0,
       "chorus_ratio": 0.211,
+      "compression_ratio": 0.4798,
       "top_words": [
         [
           "era",
@@ -550,17 +566,20 @@
       ],
       "rms_mean": 0.30972418189048767,
       "dynamic_range_db": 11.29,
+      "ebu_lra_lu": 5.3,
       "climax_position": 0.84,
       "quiet_ratio": 0.082,
       "bpm": 143.6,
       "beat_regularity": 0.0176,
+      "beat_cv": 0.0422,
+      "beat_npvi": 3.25,
       "onset_density": 3.29,
       "spectral_centroid": 2905.5,
       "spectral_bandwidth": 2840.5,
       "spectral_contrast": 21.84,
       "spectral_flatness": 0.03957,
       "harmonic_percussive_ratio": 4.66,
-      "chroma_complexity": 0.08204,
+      "chroma_entropy": 3.5558,
       "mfcc_signature": [
         9.431,
         68.673,
@@ -587,15 +606,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 6.3,
+      "vocal_range_semitones": 6.7,
       "vocal_range_hz": [
-        292.0,
-        420.1
+        284.2,
+        417.6
       ],
-      "vocal_median_hz": 353.3,
-      "pitch_stability_cents": 138.29,
-      "vibrato_strength": 0.033,
-      "voiced_ratio": 0.837,
+      "vocal_median_hz": 350.9,
+      "pitch_stability_cents": 58.8,
+      "vibrato_strength": 0.019,
+      "voiced_ratio": 0.828,
       "vocal_rms": 0.1385,
       "vocal_centroid": 3766.7
     },
@@ -605,11 +624,12 @@
       "total_lines": 55,
       "ttr": 0.413,
       "mattr": 0.794,
-      "hapax_ratio": 0.244,
+      "hapax_ratio": 0.591,
       "repetition_rate": 0.587,
       "words_per_line": 6.78,
       "avg_word_length": 4.1,
       "chorus_ratio": 0.564,
+      "compression_ratio": 0.3755,
       "top_words": [
         [
           "resta",
@@ -681,17 +701,20 @@
       ],
       "rms_mean": 0.28194212913513184,
       "dynamic_range_db": 14.38,
+      "ebu_lra_lu": 5.69,
       "climax_position": 0.74,
       "quiet_ratio": 0.116,
       "bpm": 129.2,
       "beat_regularity": 0.014,
+      "beat_cv": 0.0308,
+      "beat_npvi": 3.83,
       "onset_density": 4.13,
       "spectral_centroid": 2514.3,
       "spectral_bandwidth": 2675.0,
       "spectral_contrast": 22.77,
       "spectral_flatness": 0.02803,
       "harmonic_percussive_ratio": 2.21,
-      "chroma_complexity": 0.07679,
+      "chroma_entropy": 3.558,
       "mfcc_signature": [
         -33.263,
         84.227,
@@ -718,15 +741,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 13.3,
+      "vocal_range_semitones": 12.0,
       "vocal_range_hz": [
-        210.1,
-        452.9
+        208.7,
+        417.7
       ],
-      "vocal_median_hz": 277.2,
-      "pitch_stability_cents": 138.22,
-      "vibrato_strength": 0.034,
-      "voiced_ratio": 0.812,
+      "vocal_median_hz": 274.7,
+      "pitch_stability_cents": 72.49,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.83,
       "vocal_rms": 0.1326,
       "vocal_centroid": 2984.9
     },
@@ -736,11 +759,12 @@
       "total_lines": 57,
       "ttr": 0.387,
       "mattr": 0.803,
-      "hapax_ratio": 0.174,
+      "hapax_ratio": 0.45,
       "repetition_rate": 0.613,
       "words_per_line": 6.35,
       "avg_word_length": 3.73,
       "chorus_ratio": 0.544,
+      "compression_ratio": 0.3708,
       "top_words": [
         [
           "voilà",
@@ -812,17 +836,20 @@
       ],
       "rms_mean": 0.2893717885017395,
       "dynamic_range_db": 16.54,
+      "ebu_lra_lu": 5.07,
       "climax_position": 0.89,
       "quiet_ratio": 0.119,
       "bpm": 123.0,
       "beat_regularity": 0.0188,
+      "beat_cv": 0.0383,
+      "beat_npvi": 3.04,
       "onset_density": 2.91,
       "spectral_centroid": 2854.5,
       "spectral_bandwidth": 2819.2,
       "spectral_contrast": 23.16,
       "spectral_flatness": 0.02984,
       "harmonic_percussive_ratio": 1.86,
-      "chroma_complexity": 0.06291,
+      "chroma_entropy": 3.5646,
       "mfcc_signature": [
         -25.317,
         71.535,
@@ -849,15 +876,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 12.0,
+      "vocal_range_semitones": 11.5,
       "vocal_range_hz": [
-        163.9,
-        327.7
+        165.4,
+        321.5
       ],
-      "vocal_median_hz": 220.0,
-      "pitch_stability_cents": 149.34,
+      "vocal_median_hz": 220.5,
+      "pitch_stability_cents": 67.58,
       "vibrato_strength": 0,
-      "voiced_ratio": 0.809,
+      "voiced_ratio": 0.846,
       "vocal_rms": 0.16611,
       "vocal_centroid": 3123.8
     },
@@ -867,11 +894,12 @@
       "total_lines": 58,
       "ttr": 0.429,
       "mattr": 0.758,
-      "hapax_ratio": 0.28,
+      "hapax_ratio": 0.652,
       "repetition_rate": 0.571,
       "words_per_line": 5.67,
       "avg_word_length": 4.48,
       "chorus_ratio": 0.345,
+      "compression_ratio": 0.3549,
       "top_words": [
         [
           "ahi",
@@ -943,17 +971,20 @@
       ],
       "rms_mean": 0.28059032559394836,
       "dynamic_range_db": 27.27,
+      "ebu_lra_lu": 6.71,
       "climax_position": 0.74,
       "quiet_ratio": 0.152,
       "bpm": 143.6,
       "beat_regularity": 0.0175,
+      "beat_cv": 0.041,
+      "beat_npvi": 4.02,
       "onset_density": 2.38,
       "spectral_centroid": 2228.2,
       "spectral_bandwidth": 2471.4,
       "spectral_contrast": 23.58,
       "spectral_flatness": 0.01819,
       "harmonic_percussive_ratio": 5.36,
-      "chroma_complexity": 0.0786,
+      "chroma_entropy": 3.5529,
       "mfcc_signature": [
         -43.855,
         97.021,
@@ -980,15 +1011,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 12.2,
+      "vocal_range_semitones": 7.7,
       "vocal_range_hz": [
-        172.6,
-        349.2
+        222.9,
+        347.5
       ],
-      "vocal_median_hz": 290.3,
-      "pitch_stability_cents": 156.2,
-      "vibrato_strength": 0.002,
-      "voiced_ratio": 0.791,
+      "vocal_median_hz": 290.5,
+      "pitch_stability_cents": 54.38,
+      "vibrato_strength": 0.016,
+      "voiced_ratio": 0.712,
       "vocal_rms": 0.12528,
       "vocal_centroid": 3291.8
     },
@@ -998,11 +1029,12 @@
       "total_lines": 50,
       "ttr": 0.41,
       "mattr": 0.806,
-      "hapax_ratio": 0.211,
+      "hapax_ratio": 0.515,
       "repetition_rate": 0.59,
       "words_per_line": 6.64,
       "avg_word_length": 4.27,
       "chorus_ratio": 0.54,
+      "compression_ratio": 0.3555,
       "top_words": [
         [
           "romantici",
@@ -1074,17 +1106,20 @@
       ],
       "rms_mean": 0.2580110728740692,
       "dynamic_range_db": 18.13,
+      "ebu_lra_lu": 6.05,
       "climax_position": 0.84,
       "quiet_ratio": 0.177,
       "bpm": 103.4,
       "beat_regularity": 0.0405,
+      "beat_cv": 0.07,
+      "beat_npvi": 5.4,
       "onset_density": 2.3,
       "spectral_centroid": 1934.4,
       "spectral_bandwidth": 2289.5,
       "spectral_contrast": 24.99,
       "spectral_flatness": 0.00955,
       "harmonic_percussive_ratio": 6.52,
-      "chroma_complexity": 0.05359,
+      "chroma_entropy": 3.562,
       "mfcc_signature": [
         -81.048,
         113.232,
@@ -1111,15 +1146,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 18.2,
+      "vocal_range_semitones": 17.1,
       "vocal_range_hz": [
-        194.9,
-        557.6
+        207.6,
+        557.1
       ],
-      "vocal_median_hz": 355.3,
-      "pitch_stability_cents": 144.64,
-      "vibrato_strength": 0.01,
-      "voiced_ratio": 0.881,
+      "vocal_median_hz": 351.3,
+      "pitch_stability_cents": 71.77,
+      "vibrato_strength": 0.011,
+      "voiced_ratio": 0.85,
       "vocal_rms": 0.15418,
       "vocal_centroid": 2761.3
     },
@@ -1129,11 +1164,12 @@
       "total_lines": 37,
       "ttr": 0.508,
       "mattr": 0.808,
-      "hapax_ratio": 0.328,
+      "hapax_ratio": 0.645,
       "repetition_rate": 0.492,
       "words_per_line": 6.59,
       "avg_word_length": 4.11,
       "chorus_ratio": 0.378,
+      "compression_ratio": 0.4448,
       "top_words": [
         [
           "qui",
@@ -1205,17 +1241,20 @@
       ],
       "rms_mean": 0.2780938148498535,
       "dynamic_range_db": 17.21,
+      "ebu_lra_lu": 8.34,
       "climax_position": 0.68,
       "quiet_ratio": 0.145,
       "bpm": 143.6,
       "beat_regularity": 0.0145,
+      "beat_cv": 0.0349,
+      "beat_npvi": 2.85,
       "onset_density": 3.24,
       "spectral_centroid": 2463.2,
       "spectral_bandwidth": 2682.0,
       "spectral_contrast": 23.11,
       "spectral_flatness": 0.01923,
       "harmonic_percussive_ratio": 4.37,
-      "chroma_complexity": 0.05052,
+      "chroma_entropy": 3.5657,
       "mfcc_signature": [
         -43.624,
         89.341,
@@ -1242,15 +1281,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 19.0,
+      "vocal_range_semitones": 18.4,
       "vocal_range_hz": [
-        174.6,
-        523.3
+        173.4,
+        501.7
       ],
-      "vocal_median_hz": 349.2,
-      "pitch_stability_cents": 159.36,
-      "vibrato_strength": 0,
-      "voiced_ratio": 0.831,
+      "vocal_median_hz": 294.6,
+      "pitch_stability_cents": 89.58,
+      "vibrato_strength": 0.006,
+      "voiced_ratio": 0.772,
       "vocal_rms": 0.1507,
       "vocal_centroid": 3309.7
     },
@@ -1260,11 +1299,12 @@
       "total_lines": 49,
       "ttr": 0.415,
       "mattr": 0.834,
-      "hapax_ratio": 0.241,
+      "hapax_ratio": 0.582,
       "repetition_rate": 0.585,
       "words_per_line": 6.59,
       "avg_word_length": 4.05,
       "chorus_ratio": 0.49,
+      "compression_ratio": 0.3832,
       "top_words": [
         [
           "sai",
@@ -1336,17 +1376,20 @@
       ],
       "rms_mean": 0.23053234815597534,
       "dynamic_range_db": 16.15,
+      "ebu_lra_lu": 4.51,
       "climax_position": 0.95,
       "quiet_ratio": 0.104,
       "bpm": 123.0,
       "beat_regularity": 0.0208,
+      "beat_cv": 0.0425,
+      "beat_npvi": 3.72,
       "onset_density": 3.83,
       "spectral_centroid": 2459.2,
       "spectral_bandwidth": 2669.7,
       "spectral_contrast": 21.84,
       "spectral_flatness": 0.02912,
       "harmonic_percussive_ratio": 1.91,
-      "chroma_complexity": 0.06058,
+      "chroma_entropy": 3.5689,
       "mfcc_signature": [
         -57.502,
         87.65,
@@ -1373,15 +1416,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 11.1,
+      "vocal_range_semitones": 10.5,
       "vocal_range_hz": [
-        139.4,
-        264.7
+        143.5,
+        263.6
       ],
-      "vocal_median_hz": 193.7,
-      "pitch_stability_cents": 167.97,
-      "vibrato_strength": 0.012,
-      "voiced_ratio": 0.623,
+      "vocal_median_hz": 182.2,
+      "pitch_stability_cents": 78.18,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.719,
       "vocal_rms": 0.11914,
       "vocal_centroid": 2810.7
     },
@@ -1391,11 +1434,12 @@
       "total_lines": 68,
       "ttr": 0.41,
       "mattr": 0.779,
-      "hapax_ratio": 0.266,
+      "hapax_ratio": 0.649,
       "repetition_rate": 0.59,
       "words_per_line": 6.74,
       "avg_word_length": 3.61,
       "chorus_ratio": 0.456,
+      "compression_ratio": 0.4115,
       "top_words": [
         [
           "bye",
@@ -1467,17 +1511,20 @@
       ],
       "rms_mean": 0.3587242364883423,
       "dynamic_range_db": 18.33,
+      "ebu_lra_lu": 3.53,
       "climax_position": 0.74,
       "quiet_ratio": 0.098,
       "bpm": 112.3,
       "beat_regularity": 0.0342,
+      "beat_cv": 0.0644,
+      "beat_npvi": 5.19,
       "onset_density": 4.21,
       "spectral_centroid": 2227.3,
       "spectral_bandwidth": 2592.6,
       "spectral_contrast": 23.2,
       "spectral_flatness": 0.0133,
       "harmonic_percussive_ratio": 4.1,
-      "chroma_complexity": 0.08605,
+      "chroma_entropy": 3.5572,
       "mfcc_signature": [
         -39.111,
         97.826,
@@ -1504,15 +1551,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 16.1,
+      "vocal_range_semitones": 14.0,
       "vocal_range_hz": [
-        109.4,
-        277.2
+        123.2,
+        276.6
       ],
-      "vocal_median_hz": 207.7,
-      "pitch_stability_cents": 162.88,
+      "vocal_median_hz": 206.7,
+      "pitch_stability_cents": 60.87,
       "vibrato_strength": 0,
-      "voiced_ratio": 0.828,
+      "voiced_ratio": 0.834,
       "vocal_rms": 0.15282,
       "vocal_centroid": 2962.2
     },
@@ -1522,11 +1569,12 @@
       "total_lines": 61,
       "ttr": 0.356,
       "mattr": 0.723,
-      "hapax_ratio": 0.192,
+      "hapax_ratio": 0.541,
       "repetition_rate": 0.644,
       "words_per_line": 7.33,
       "avg_word_length": 3.67,
       "chorus_ratio": 0.459,
+      "compression_ratio": 0.3543,
       "top_words": [
         [
           "anche",
@@ -1598,17 +1646,20 @@
       ],
       "rms_mean": 0.2648121118545532,
       "dynamic_range_db": 15.12,
+      "ebu_lra_lu": 6.13,
       "climax_position": 0.95,
       "quiet_ratio": 0.102,
       "bpm": 103.4,
       "beat_regularity": 0.0267,
+      "beat_cv": 0.0455,
+      "beat_npvi": 4.52,
       "onset_density": 2.51,
       "spectral_centroid": 2008.0,
       "spectral_bandwidth": 2344.2,
       "spectral_contrast": 23.43,
       "spectral_flatness": 0.01977,
       "harmonic_percussive_ratio": 9.35,
-      "chroma_complexity": 0.07788,
+      "chroma_entropy": 3.5406,
       "mfcc_signature": [
         -49.056,
         108.857,
@@ -1635,15 +1686,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 12.3,
+      "vocal_range_semitones": 11.9,
       "vocal_range_hz": [
-        193.1,
-        392.0
+        193.2,
+        385.0
       ],
-      "vocal_median_hz": 261.6,
-      "pitch_stability_cents": 118.11,
-      "vibrato_strength": 0.004,
-      "voiced_ratio": 0.791,
+      "vocal_median_hz": 262.1,
+      "pitch_stability_cents": 57.82,
+      "vibrato_strength": 0.005,
+      "voiced_ratio": 0.716,
       "vocal_rms": 0.12748,
       "vocal_centroid": 2273.7
     },
@@ -1653,11 +1704,12 @@
       "total_lines": 31,
       "ttr": 0.614,
       "mattr": 0.837,
-      "hapax_ratio": 0.417,
+      "hapax_ratio": 0.679,
       "repetition_rate": 0.386,
       "words_per_line": 4.1,
       "avg_word_length": 5.07,
       "chorus_ratio": 0.129,
+      "compression_ratio": 0.5246,
       "top_words": [
         [
           "opera",
@@ -1729,17 +1781,20 @@
       ],
       "rms_mean": 0.23530063033103943,
       "dynamic_range_db": 23.66,
+      "ebu_lra_lu": 8.05,
       "climax_position": 0.84,
       "quiet_ratio": 0.139,
       "bpm": 152.0,
       "beat_regularity": 0.0175,
+      "beat_cv": 0.044,
+      "beat_npvi": 3.41,
       "onset_density": 2.41,
       "spectral_centroid": 2479.3,
       "spectral_bandwidth": 2749.0,
       "spectral_contrast": 23.72,
       "spectral_flatness": 0.02089,
       "harmonic_percussive_ratio": 6.56,
-      "chroma_complexity": 0.05501,
+      "chroma_entropy": 3.5667,
       "mfcc_signature": [
         -54.442,
         92.257,
@@ -1766,15 +1821,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 16.8,
+      "vocal_range_semitones": 11.0,
       "vocal_range_hz": [
-        138.6,
-        366.0
+        172.6,
+        325.8
       ],
-      "vocal_median_hz": 233.1,
-      "pitch_stability_cents": 178.79,
-      "vibrato_strength": 0.006,
-      "voiced_ratio": 0.818,
+      "vocal_median_hz": 234.2,
+      "pitch_stability_cents": 59.94,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.79,
       "vocal_rms": 0.11653,
       "vocal_centroid": 3457.0
     },
@@ -1784,11 +1839,12 @@
       "total_lines": 43,
       "ttr": 0.606,
       "mattr": 0.82,
-      "hapax_ratio": 0.475,
+      "hapax_ratio": 0.783,
       "repetition_rate": 0.394,
       "words_per_line": 6.02,
       "avg_word_length": 4.17,
       "chorus_ratio": 0.0,
+      "compression_ratio": 0.5267,
       "top_words": [
         [
           "sempre",
@@ -1860,17 +1916,20 @@
       ],
       "rms_mean": 0.27497178316116333,
       "dynamic_range_db": 10.43,
+      "ebu_lra_lu": 3.16,
       "climax_position": 0.68,
       "quiet_ratio": 0.062,
       "bpm": 117.5,
       "beat_regularity": 0.0184,
+      "beat_cv": 0.0355,
+      "beat_npvi": 3.61,
       "onset_density": 3.99,
       "spectral_centroid": 2847.4,
       "spectral_bandwidth": 2882.9,
       "spectral_contrast": 21.49,
       "spectral_flatness": 0.03913,
       "harmonic_percussive_ratio": 2.71,
-      "chroma_complexity": 0.06085,
+      "chroma_entropy": 3.5705,
       "mfcc_signature": [
         -3.95,
         73.641,
@@ -1897,15 +1956,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 13.9,
+      "vocal_range_semitones": 11.9,
       "vocal_range_hz": [
-        131.6,
-        293.7
+        147.4,
+        292.7
       ],
-      "vocal_median_hz": 193.7,
-      "pitch_stability_cents": 187.75,
-      "vibrato_strength": 0.036,
-      "voiced_ratio": 0.712,
+      "vocal_median_hz": 195.1,
+      "pitch_stability_cents": 81.69,
+      "vibrato_strength": 0.026,
+      "voiced_ratio": 0.731,
       "vocal_rms": 0.1289,
       "vocal_centroid": 3595.0
     },
@@ -1915,11 +1974,12 @@
       "total_lines": 51,
       "ttr": 0.478,
       "mattr": 0.855,
-      "hapax_ratio": 0.288,
+      "hapax_ratio": 0.603,
       "repetition_rate": 0.522,
       "words_per_line": 5.78,
       "avg_word_length": 4.06,
       "chorus_ratio": 0.373,
+      "compression_ratio": 0.437,
       "top_words": [
         [
           "serve",
@@ -1991,17 +2051,20 @@
       ],
       "rms_mean": 0.2164679616689682,
       "dynamic_range_db": 25.11,
+      "ebu_lra_lu": 7.9,
       "climax_position": 0.84,
       "quiet_ratio": 0.164,
       "bpm": 95.7,
       "beat_regularity": 0.0339,
+      "beat_cv": 0.0534,
+      "beat_npvi": 5.16,
       "onset_density": 2.79,
       "spectral_centroid": 2189.2,
       "spectral_bandwidth": 2494.1,
       "spectral_contrast": 24.3,
       "spectral_flatness": 0.01721,
       "harmonic_percussive_ratio": 3.34,
-      "chroma_complexity": 0.05111,
+      "chroma_entropy": 3.5693,
       "mfcc_signature": [
         -92.996,
         95.162,
@@ -2028,15 +2091,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 14.3,
+      "vocal_range_semitones": 10.2,
       "vocal_range_hz": [
-        145.1,
-        331.5
+        161.0,
+        289.9
       ],
-      "vocal_median_hz": 220.0,
-      "pitch_stability_cents": 160.19,
-      "vibrato_strength": 0.035,
-      "voiced_ratio": 0.833,
+      "vocal_median_hz": 220.8,
+      "pitch_stability_cents": 76.93,
+      "vibrato_strength": 0.032,
+      "voiced_ratio": 0.788,
       "vocal_rms": 0.10952,
       "vocal_centroid": 2844.7
     },
@@ -2046,11 +2109,12 @@
       "total_lines": 55,
       "ttr": 0.512,
       "mattr": 0.788,
-      "hapax_ratio": 0.357,
+      "hapax_ratio": 0.698,
       "repetition_rate": 0.488,
       "words_per_line": 5.29,
       "avg_word_length": 4.29,
       "chorus_ratio": 0.255,
+      "compression_ratio": 0.4545,
       "top_words": [
         [
           "stupida",
@@ -2122,17 +2186,20 @@
       ],
       "rms_mean": 0.2657310664653778,
       "dynamic_range_db": 18.84,
+      "ebu_lra_lu": 10.65,
       "climax_position": 0.84,
       "quiet_ratio": 0.195,
       "bpm": 161.5,
       "beat_regularity": 0.0149,
+      "beat_cv": 0.0398,
+      "beat_npvi": 3.51,
       "onset_density": 2.07,
       "spectral_centroid": 2307.9,
       "spectral_bandwidth": 2575.5,
       "spectral_contrast": 24.76,
       "spectral_flatness": 0.0144,
       "harmonic_percussive_ratio": 7.74,
-      "chroma_complexity": 0.07844,
+      "chroma_entropy": 3.5471,
       "mfcc_signature": [
         -71.799,
         92.947,
@@ -2159,15 +2226,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 18.6,
+      "vocal_range_semitones": 14.6,
       "vocal_range_hz": [
-        178.7,
-        523.3
+        224.3,
+        520.8
       ],
-      "vocal_median_hz": 347.2,
-      "pitch_stability_cents": 157.57,
-      "vibrato_strength": 0.001,
-      "voiced_ratio": 0.765,
+      "vocal_median_hz": 349.6,
+      "pitch_stability_cents": 56.15,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.742,
       "vocal_rms": 0.13567,
       "vocal_centroid": 3273.6
     },
@@ -2177,11 +2244,12 @@
       "total_lines": 34,
       "ttr": 0.471,
       "mattr": 0.796,
-      "hapax_ratio": 0.252,
+      "hapax_ratio": 0.535,
       "repetition_rate": 0.529,
       "words_per_line": 6.18,
       "avg_word_length": 3.93,
       "chorus_ratio": 0.412,
+      "compression_ratio": 0.4533,
       "top_words": [
         [
           "amore",
@@ -2253,17 +2321,20 @@
       ],
       "rms_mean": 0.27538537979125977,
       "dynamic_range_db": 21.22,
+      "ebu_lra_lu": 9.0,
       "climax_position": 0.74,
       "quiet_ratio": 0.251,
       "bpm": 143.6,
       "beat_regularity": 0.0202,
+      "beat_cv": 0.048,
+      "beat_npvi": 3.99,
       "onset_density": 3.54,
       "spectral_centroid": 2412.0,
       "spectral_bandwidth": 2646.7,
       "spectral_contrast": 23.35,
       "spectral_flatness": 0.01998,
       "harmonic_percussive_ratio": 4.23,
-      "chroma_complexity": 0.0561,
+      "chroma_entropy": 3.5675,
       "mfcc_signature": [
         -69.856,
         91.427,
@@ -2290,15 +2361,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 25.1,
+      "vocal_range_semitones": 22.5,
       "vocal_range_hz": [
-        102.0,
-        434.9
+        108.3,
+        397.6
       ],
-      "vocal_median_hz": 234.4,
-      "pitch_stability_cents": 169.19,
-      "vibrato_strength": 0.001,
-      "voiced_ratio": 0.819,
+      "vocal_median_hz": 247.8,
+      "pitch_stability_cents": 86.57,
+      "vibrato_strength": 0.023,
+      "voiced_ratio": 0.742,
       "vocal_rms": 0.1575,
       "vocal_centroid": 3014.6
     },
@@ -2308,11 +2379,12 @@
       "total_lines": 62,
       "ttr": 0.41,
       "mattr": 0.863,
-      "hapax_ratio": 0.223,
+      "hapax_ratio": 0.543,
       "repetition_rate": 0.59,
       "words_per_line": 6.45,
       "avg_word_length": 4.19,
       "chorus_ratio": 0.452,
+      "compression_ratio": 0.3788,
       "top_words": [
         [
           "fondo",
@@ -2384,17 +2456,20 @@
       ],
       "rms_mean": 0.30825912952423096,
       "dynamic_range_db": 15.33,
+      "ebu_lra_lu": 3.83,
       "climax_position": 0.84,
       "quiet_ratio": 0.102,
       "bpm": 129.2,
       "beat_regularity": 0.0251,
+      "beat_cv": 0.0536,
+      "beat_npvi": 3.57,
       "onset_density": 2.97,
       "spectral_centroid": 2250.5,
       "spectral_bandwidth": 2492.5,
       "spectral_contrast": 22.77,
       "spectral_flatness": 0.02866,
       "harmonic_percussive_ratio": 2.93,
-      "chroma_complexity": 0.06059,
+      "chroma_entropy": 3.5688,
       "mfcc_signature": [
         -36.815,
         91.597,
@@ -2421,15 +2496,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 24.8,
+      "vocal_range_semitones": 22.0,
       "vocal_range_hz": [
-        121.3,
-        508.8
+        137.0,
+        489.3
       ],
-      "vocal_median_hz": 246.9,
-      "pitch_stability_cents": 154.19,
-      "vibrato_strength": 0.027,
-      "voiced_ratio": 0.772,
+      "vocal_median_hz": 247.7,
+      "pitch_stability_cents": 65.77,
+      "vibrato_strength": 0.007,
+      "voiced_ratio": 0.762,
       "vocal_rms": 0.12808,
       "vocal_centroid": 2869.6
     },
@@ -2439,11 +2514,12 @@
       "total_lines": 42,
       "ttr": 0.418,
       "mattr": 0.795,
-      "hapax_ratio": 0.244,
+      "hapax_ratio": 0.583,
       "repetition_rate": 0.582,
       "words_per_line": 6.83,
       "avg_word_length": 4.24,
       "chorus_ratio": 0.429,
+      "compression_ratio": 0.3812,
       "top_words": [
         [
           "dalla",
@@ -2515,17 +2591,20 @@
       ],
       "rms_mean": 0.26232120394706726,
       "dynamic_range_db": 23.32,
+      "ebu_lra_lu": 11.03,
       "climax_position": 0.53,
       "quiet_ratio": 0.269,
       "bpm": 80.7,
       "beat_regularity": 0.0397,
+      "beat_cv": 0.0531,
+      "beat_npvi": 4.7,
       "onset_density": 3.1,
       "spectral_centroid": 2308.2,
       "spectral_bandwidth": 2512.9,
       "spectral_contrast": 23.86,
       "spectral_flatness": 0.02124,
       "harmonic_percussive_ratio": 3.76,
-      "chroma_complexity": 0.08855,
+      "chroma_entropy": 3.5481,
       "mfcc_signature": [
         -85.809,
         94.979,
@@ -2552,15 +2631,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 16.8,
+      "vocal_range_semitones": 12.8,
       "vocal_range_hz": [
-        128.6,
-        339.8
+        133.7,
+        280.8
       ],
-      "vocal_median_hz": 164.8,
-      "pitch_stability_cents": 182.69,
-      "vibrato_strength": 0.005,
-      "voiced_ratio": 0.799,
+      "vocal_median_hz": 163.6,
+      "pitch_stability_cents": 81.18,
+      "vibrato_strength": 0.006,
+      "voiced_ratio": 0.685,
       "vocal_rms": 0.12884,
       "vocal_centroid": 3301.7
     },
@@ -2570,11 +2649,12 @@
       "total_lines": 55,
       "ttr": 0.333,
       "mattr": 0.703,
-      "hapax_ratio": 0.197,
+      "hapax_ratio": 0.591,
       "repetition_rate": 0.667,
       "words_per_line": 8.4,
       "avg_word_length": 3.98,
       "chorus_ratio": 0.491,
+      "compression_ratio": 0.3313,
       "top_words": [
         [
           "prima",
@@ -2646,17 +2726,20 @@
       ],
       "rms_mean": 0.2306453138589859,
       "dynamic_range_db": 14.13,
+      "ebu_lra_lu": 6.75,
       "climax_position": 0.79,
       "quiet_ratio": 0.084,
       "bpm": 123.0,
       "beat_regularity": 0.0273,
+      "beat_cv": 0.0564,
+      "beat_npvi": 4.17,
       "onset_density": 2.26,
       "spectral_centroid": 1973.9,
       "spectral_bandwidth": 2227.0,
       "spectral_contrast": 22.76,
       "spectral_flatness": 0.02593,
       "harmonic_percussive_ratio": 3.25,
-      "chroma_complexity": 0.08539,
+      "chroma_entropy": 3.5423,
       "mfcc_signature": [
         -67.076,
         120.354,
@@ -2683,15 +2766,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 34.6,
+      "vocal_range_semitones": 22.0,
       "vocal_range_hz": [
-        89.9,
-        663.1
+        98.7,
+        351.0
       ],
-      "vocal_median_hz": 190.4,
-      "pitch_stability_cents": 223.02,
-      "vibrato_strength": 0.006,
-      "voiced_ratio": 0.749,
+      "vocal_median_hz": 197.5,
+      "pitch_stability_cents": 111.46,
+      "vibrato_strength": 0.026,
+      "voiced_ratio": 0.645,
       "vocal_rms": 0.11283,
       "vocal_centroid": 2717.7
     },
@@ -2701,11 +2784,12 @@
       "total_lines": 37,
       "ttr": 0.536,
       "mattr": 0.834,
-      "hapax_ratio": 0.352,
+      "hapax_ratio": 0.657,
       "repetition_rate": 0.464,
       "words_per_line": 7.22,
       "avg_word_length": 4.26,
       "chorus_ratio": 0.135,
+      "compression_ratio": 0.4925,
       "top_words": [
         [
           "volta",
@@ -2777,17 +2861,20 @@
       ],
       "rms_mean": 0.30579888820648193,
       "dynamic_range_db": 19.34,
+      "ebu_lra_lu": 3.53,
       "climax_position": 0.95,
       "quiet_ratio": 0.116,
       "bpm": 123.0,
       "beat_regularity": 0.0149,
+      "beat_cv": 0.0305,
+      "beat_npvi": 1.76,
       "onset_density": 4.41,
       "spectral_centroid": 3274.7,
       "spectral_bandwidth": 2991.4,
       "spectral_contrast": 23.13,
       "spectral_flatness": 0.04124,
       "harmonic_percussive_ratio": 3.22,
-      "chroma_complexity": 0.05659,
+      "chroma_entropy": 3.5692,
       "mfcc_signature": [
         -25.933,
         50.948,
@@ -2814,15 +2901,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 14.7,
+      "vocal_range_semitones": 14.2,
       "vocal_range_hz": [
-        175.6,
-        410.5
+        176.0,
+        399.3
       ],
-      "vocal_median_hz": 302.3,
-      "pitch_stability_cents": 147.29,
-      "vibrato_strength": 0,
-      "voiced_ratio": 0.82,
+      "vocal_median_hz": 301.5,
+      "pitch_stability_cents": 72.74,
+      "vibrato_strength": 0.035,
+      "voiced_ratio": 0.781,
       "vocal_rms": 0.15549,
       "vocal_centroid": 3606.8
     },
@@ -2832,11 +2919,12 @@
       "total_lines": 46,
       "ttr": 0.407,
       "mattr": 0.778,
-      "hapax_ratio": 0.222,
+      "hapax_ratio": 0.545,
       "repetition_rate": 0.593,
       "words_per_line": 5.87,
       "avg_word_length": 3.91,
       "chorus_ratio": 0.5,
+      "compression_ratio": 0.4163,
       "top_words": [
         [
           "sempre",
@@ -2908,17 +2996,20 @@
       ],
       "rms_mean": 0.24244104325771332,
       "dynamic_range_db": 24.13,
+      "ebu_lra_lu": 10.92,
       "climax_position": 0.79,
       "quiet_ratio": 0.207,
       "bpm": 123.0,
       "beat_regularity": 0.0192,
+      "beat_cv": 0.0399,
+      "beat_npvi": 3.94,
       "onset_density": 1.83,
       "spectral_centroid": 2131.8,
       "spectral_bandwidth": 2389.0,
       "spectral_contrast": 24.75,
       "spectral_flatness": 0.01468,
       "harmonic_percussive_ratio": 3.66,
-      "chroma_complexity": 0.07581,
+      "chroma_entropy": 3.5487,
       "mfcc_signature": [
         -85.945,
         89.383,
@@ -2945,15 +3036,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 22.2,
+      "vocal_range_semitones": 22.0,
       "vocal_range_hz": [
-        109.4,
+        110.7,
         394.3
       ],
-      "vocal_median_hz": 290.3,
-      "pitch_stability_cents": 163.39,
-      "vibrato_strength": 0.007,
-      "voiced_ratio": 0.813,
+      "vocal_median_hz": 287.8,
+      "pitch_stability_cents": 70.9,
+      "vibrato_strength": 0.024,
+      "voiced_ratio": 0.675,
       "vocal_rms": 0.1171,
       "vocal_centroid": 2705.9
     },
@@ -2963,11 +3054,12 @@
       "total_lines": 42,
       "ttr": 0.478,
       "mattr": 0.782,
-      "hapax_ratio": 0.305,
+      "hapax_ratio": 0.639,
       "repetition_rate": 0.522,
       "words_per_line": 5.93,
       "avg_word_length": 3.96,
       "chorus_ratio": 0.333,
+      "compression_ratio": 0.4519,
       "top_words": [
         [
           "sempre",
@@ -3039,17 +3131,20 @@
       ],
       "rms_mean": 0.24055814743041992,
       "dynamic_range_db": 16.11,
+      "ebu_lra_lu": 8.88,
       "climax_position": 0.84,
       "quiet_ratio": 0.167,
       "bpm": 76.0,
       "beat_regularity": 0.0315,
+      "beat_cv": 0.0401,
+      "beat_npvi": 2.61,
       "onset_density": 2.84,
       "spectral_centroid": 1918.6,
       "spectral_bandwidth": 2179.7,
       "spectral_contrast": 23.73,
       "spectral_flatness": 0.02135,
       "harmonic_percussive_ratio": 2.38,
-      "chroma_complexity": 0.08649,
+      "chroma_entropy": 3.5498,
       "mfcc_signature": [
         -66.841,
         114.007,
@@ -3076,15 +3171,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 16.3,
+      "vocal_range_semitones": 14.7,
       "vocal_range_hz": [
-        110.6,
-        283.7
+        118.8,
+        278.4
       ],
-      "vocal_median_hz": 207.7,
-      "pitch_stability_cents": 178.69,
-      "vibrato_strength": 0.011,
-      "voiced_ratio": 0.683,
+      "vocal_median_hz": 208.0,
+      "pitch_stability_cents": 83.55,
+      "vibrato_strength": 0.015,
+      "voiced_ratio": 0.645,
       "vocal_rms": 0.09233,
       "vocal_centroid": 2506.0
     },
@@ -3094,11 +3189,12 @@
       "total_lines": 35,
       "ttr": 0.557,
       "mattr": 0.833,
-      "hapax_ratio": 0.335,
+      "hapax_ratio": 0.602,
       "repetition_rate": 0.443,
       "words_per_line": 5.03,
       "avg_word_length": 4.21,
       "chorus_ratio": 0.171,
+      "compression_ratio": 0.5147,
       "top_words": [
         [
           "sempre",
@@ -3170,17 +3266,20 @@
       ],
       "rms_mean": 0.23313608765602112,
       "dynamic_range_db": 15.09,
+      "ebu_lra_lu": 3.61,
       "climax_position": 0.95,
       "quiet_ratio": 0.094,
       "bpm": 123.0,
       "beat_regularity": 0.0219,
+      "beat_cv": 0.0453,
+      "beat_npvi": 3.92,
       "onset_density": 3.83,
       "spectral_centroid": 2802.3,
       "spectral_bandwidth": 2848.4,
       "spectral_contrast": 22.88,
       "spectral_flatness": 0.03144,
       "harmonic_percussive_ratio": 1.16,
-      "chroma_complexity": 0.07172,
+      "chroma_entropy": 3.5561,
       "mfcc_signature": [
         -46.385,
         72.926,
@@ -3207,15 +3306,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 15.0,
+      "vocal_range_semitones": 12.8,
       "vocal_range_hz": [
-        146.0,
-        347.2
+        165.3,
+        345.5
       ],
-      "vocal_median_hz": 218.7,
-      "pitch_stability_cents": 154.65,
-      "vibrato_strength": 0.002,
-      "voiced_ratio": 0.784,
+      "vocal_median_hz": 218.2,
+      "pitch_stability_cents": 78.56,
+      "vibrato_strength": 0.003,
+      "voiced_ratio": 0.757,
       "vocal_rms": 0.12232,
       "vocal_centroid": 3230.9
     },
@@ -3225,11 +3324,12 @@
       "total_lines": 59,
       "ttr": 0.37,
       "mattr": 0.745,
-      "hapax_ratio": 0.187,
+      "hapax_ratio": 0.504,
       "repetition_rate": 0.63,
       "words_per_line": 5.54,
       "avg_word_length": 4.38,
       "chorus_ratio": 0.661,
+      "compression_ratio": 0.3481,
       "top_words": [
         [
           "baby",
@@ -3301,17 +3401,20 @@
       ],
       "rms_mean": 0.2723498046398163,
       "dynamic_range_db": 15.49,
+      "ebu_lra_lu": 7.3,
       "climax_position": 0.74,
       "quiet_ratio": 0.172,
       "bpm": 152.0,
       "beat_regularity": 0.0195,
+      "beat_cv": 0.0503,
+      "beat_npvi": 4.37,
       "onset_density": 3.15,
       "spectral_centroid": 2672.3,
       "spectral_bandwidth": 2697.7,
       "spectral_contrast": 23.58,
       "spectral_flatness": 0.02988,
       "harmonic_percussive_ratio": 3.43,
-      "chroma_complexity": 0.08295,
+      "chroma_entropy": 3.5403,
       "mfcc_signature": [
         -46.434,
         87.16,
@@ -3338,15 +3441,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 15.3,
+      "vocal_range_semitones": 15.0,
       "vocal_range_hz": [
-        153.8,
-        372.1
+        154.5,
+        368.4
       ],
-      "vocal_median_hz": 278.8,
-      "pitch_stability_cents": 145.35,
+      "vocal_median_hz": 277.7,
+      "pitch_stability_cents": 68.69,
       "vibrato_strength": 0,
-      "voiced_ratio": 0.863,
+      "voiced_ratio": 0.779,
       "vocal_rms": 0.18737,
       "vocal_centroid": 3299.9
     },
@@ -3356,11 +3459,12 @@
       "total_lines": 54,
       "ttr": 0.402,
       "mattr": 0.803,
-      "hapax_ratio": 0.202,
+      "hapax_ratio": 0.504,
       "repetition_rate": 0.598,
       "words_per_line": 6.31,
       "avg_word_length": 4.04,
       "chorus_ratio": 0.481,
+      "compression_ratio": 0.3901,
       "top_words": [
         [
           "vale",
@@ -3432,17 +3536,20 @@
       ],
       "rms_mean": 0.25689417123794556,
       "dynamic_range_db": 17.77,
+      "ebu_lra_lu": 3.88,
       "climax_position": 0.79,
       "quiet_ratio": 0.139,
       "bpm": 123.0,
       "beat_regularity": 0.0252,
+      "beat_cv": 0.0528,
+      "beat_npvi": 5.42,
       "onset_density": 2.75,
       "spectral_centroid": 1994.1,
       "spectral_bandwidth": 2494.9,
       "spectral_contrast": 22.65,
       "spectral_flatness": 0.01182,
       "harmonic_percussive_ratio": 4.47,
-      "chroma_complexity": 0.05658,
+      "chroma_entropy": 3.5655,
       "mfcc_signature": [
         -80.817,
         108.381,
@@ -3469,15 +3576,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 19.2,
+      "vocal_range_semitones": 17.4,
       "vocal_range_hz": [
-        137.0,
-        415.3
+        144.6,
+        395.0
       ],
-      "vocal_median_hz": 260.1,
-      "pitch_stability_cents": 185.43,
+      "vocal_median_hz": 230.0,
+      "pitch_stability_cents": 100.39,
       "vibrato_strength": 0,
-      "voiced_ratio": 0.794,
+      "voiced_ratio": 0.749,
       "vocal_rms": 0.14114,
       "vocal_centroid": 2639.4
     },
@@ -3487,11 +3594,12 @@
       "total_lines": 42,
       "ttr": 0.419,
       "mattr": 0.719,
-      "hapax_ratio": 0.244,
+      "hapax_ratio": 0.583,
       "repetition_rate": 0.581,
       "words_per_line": 5.86,
       "avg_word_length": 3.95,
       "chorus_ratio": 0.429,
+      "compression_ratio": 0.3902,
       "top_words": [
         [
           "meglio",
@@ -3563,17 +3671,20 @@
       ],
       "rms_mean": 0.25091660022735596,
       "dynamic_range_db": 21.51,
+      "ebu_lra_lu": 8.5,
       "climax_position": 0.58,
       "quiet_ratio": 0.178,
       "bpm": 107.7,
       "beat_regularity": 0.0239,
+      "beat_cv": 0.043,
+      "beat_npvi": 2.75,
       "onset_density": 3.98,
       "spectral_centroid": 3001.5,
       "spectral_bandwidth": 2908.0,
       "spectral_contrast": 23.6,
       "spectral_flatness": 0.03285,
       "harmonic_percussive_ratio": 4.01,
-      "chroma_complexity": 0.0627,
+      "chroma_entropy": 3.5629,
       "mfcc_signature": [
         -53.474,
         62.253,
@@ -3600,15 +3711,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 10.2,
+      "vocal_range_semitones": 10.0,
       "vocal_range_hz": [
-        204.1,
-        367.9
+        204.7,
+        365.1
       ],
-      "vocal_median_hz": 263.1,
-      "pitch_stability_cents": 140.4,
-      "vibrato_strength": 0.017,
-      "voiced_ratio": 0.823,
+      "vocal_median_hz": 259.7,
+      "pitch_stability_cents": 63.99,
+      "vibrato_strength": 0.016,
+      "voiced_ratio": 0.814,
       "vocal_rms": 0.1381,
       "vocal_centroid": 3635.2
     },
@@ -3618,11 +3729,12 @@
       "total_lines": 65,
       "ttr": 0.408,
       "mattr": 0.808,
-      "hapax_ratio": 0.225,
+      "hapax_ratio": 0.553,
       "repetition_rate": 0.592,
       "words_per_line": 5.74,
       "avg_word_length": 4.07,
       "chorus_ratio": 0.631,
+      "compression_ratio": 0.3638,
       "top_words": [
         [
           "prima",
@@ -3694,17 +3806,20 @@
       ],
       "rms_mean": 0.2651801109313965,
       "dynamic_range_db": 15.59,
+      "ebu_lra_lu": 5.24,
       "climax_position": 0.32,
       "quiet_ratio": 0.102,
       "bpm": 107.7,
       "beat_regularity": 0.013,
+      "beat_cv": 0.0236,
+      "beat_npvi": 2.9,
       "onset_density": 5.33,
       "spectral_centroid": 3192.2,
       "spectral_bandwidth": 3047.6,
       "spectral_contrast": 23.21,
       "spectral_flatness": 0.04413,
       "harmonic_percussive_ratio": 1.35,
-      "chroma_complexity": 0.04587,
+      "chroma_entropy": 3.5742,
       "mfcc_signature": [
         -48.234,
         57.906,
@@ -3731,15 +3846,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 14.9,
+      "vocal_range_semitones": 14.8,
       "vocal_range_hz": [
-        186.1,
-        440.0
+        187.2,
+        440.7
       ],
-      "vocal_median_hz": 292.0,
-      "pitch_stability_cents": 156.62,
-      "vibrato_strength": 0.0,
-      "voiced_ratio": 0.8,
+      "vocal_median_hz": 293.1,
+      "pitch_stability_cents": 78.57,
+      "vibrato_strength": 0,
+      "voiced_ratio": 0.771,
       "vocal_rms": 0.12169,
       "vocal_centroid": 3420.0
     },
@@ -3749,11 +3864,12 @@
       "total_lines": 47,
       "ttr": 0.418,
       "mattr": 0.82,
-      "hapax_ratio": 0.248,
+      "hapax_ratio": 0.593,
       "repetition_rate": 0.582,
       "words_per_line": 6.26,
       "avg_word_length": 4.19,
       "chorus_ratio": 0.426,
+      "compression_ratio": 0.3792,
       "top_words": [
         [
           "animali",
@@ -3825,17 +3941,20 @@
       ],
       "rms_mean": 0.21422487497329712,
       "dynamic_range_db": 34.15,
+      "ebu_lra_lu": 9.62,
       "climax_position": 0.84,
       "quiet_ratio": 0.23,
       "bpm": 136.0,
       "beat_regularity": 0.0275,
+      "beat_cv": 0.0619,
+      "beat_npvi": 5.26,
       "onset_density": 3.52,
       "spectral_centroid": 2445.5,
       "spectral_bandwidth": 2704.0,
       "spectral_contrast": 23.34,
       "spectral_flatness": 0.02061,
       "harmonic_percussive_ratio": 4.35,
-      "chroma_complexity": 0.07345,
+      "chroma_entropy": 3.5527,
       "mfcc_signature": [
         -96.882,
         85.272,
@@ -3862,15 +3981,15 @@
       "n_sections": 7
     },
     "vocals": {
-      "vocal_range_semitones": 16.6,
+      "vocal_range_semitones": 15.1,
       "vocal_range_hz": [
-        127.1,
-        331.5
+        137.9,
+        329.5
       ],
-      "vocal_median_hz": 211.3,
-      "pitch_stability_cents": 152.81,
-      "vibrato_strength": 0.014,
-      "voiced_ratio": 0.765,
+      "vocal_median_hz": 211.7,
+      "pitch_stability_cents": 68.16,
+      "vibrato_strength": 0.011,
+      "voiced_ratio": 0.763,
       "vocal_rms": 0.11131,
       "vocal_centroid": 3298.6
     },
@@ -3880,11 +3999,12 @@
       "total_lines": 46,
       "ttr": 0.417,
       "mattr": 0.818,
-      "hapax_ratio": 0.204,
+      "hapax_ratio": 0.489,
       "repetition_rate": 0.583,
       "words_per_line": 6.93,
       "avg_word_length": 4.03,
       "chorus_ratio": 0.413,
+      "compression_ratio": 0.3968,
       "top_words": [
         [
           "solo",

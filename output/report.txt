@@ -390,38 +390,143 @@
 
 
 ======================================================================
-  CHROMA COMPLEXITY — Chi ha l'armonia piu' ricca?
+  CHROMA ENTROPY (bit) — Chi ha l'armonia piu' ricca?
 ======================================================================
-   1. ██████████████████████████████    0.089  Nayt - Prima Che
-   2. █████████████████████████████░    0.086  chiello - Ti Penso Sempre
-   3. █████████████████████████████░    0.086  Luchè - Labirinto
-   4. █████████████████████████████░    0.086  Ditonellapiaga - Che Fastidio!
-   5. █████████████████████████████░    0.085  Enrico Nigiotti - Ogni Volta Che Non So Volare
-   6. ████████████████████████████░░    0.083  Leo Gassmann - Naturale
-   7. ████████████████████████████░░    0.082  Bambole Di Pezza - Resta Con Me
-   8. ███████████████████████████░░░    0.079  Tommaso Paradiso - I Romantici
-   9. ███████████████████████████░░░    0.078  Levante - Sei Tu
-  10. ██████████████████████████░░░░    0.078  Patty Pravo - Opera
-  11. ██████████████████████████░░░░    0.077  Elettra Lamborghini - Voilà
-  12. ██████████████████████████░░░░    0.076  Eddie Brock - Avvoltoi
-  13. █████████████████████████░░░░░    0.073  Michele Bravi - Prima O Poi
-  14. ████████████████████████░░░░░░    0.072  Maria Antonietta & Colombre - La Felicità E Basta
-  15. ████████████████████████░░░░░░    0.070  SayF - Tu Mi Piaci Tanto
-  16. █████████████████████░░░░░░░░░    0.063  Samurai Jay - Ossessione
-  17. █████████████████████░░░░░░░░░    0.063  LDA & Aka 7even - Poesie Clandestine
-  18. █████████████████████░░░░░░░░░    0.062  Tredici Pietro - Uomo Che Cade
-  19. █████████████████████░░░░░░░░░    0.061  J-AX - Italia Starter Pack
-  20. █████████████████████░░░░░░░░░    0.061  Ermal Meta - Stella Stellina
-  21. █████████████████████░░░░░░░░░    0.061  Dargen D'Amico - Ai Ai
-  22. ███████████████████░░░░░░░░░░░    0.057  Arisa - Magica Favola
-  23. ███████████████████░░░░░░░░░░░    0.057  Sal Da Vinci - Per Sempre Sì
-  24. ███████████████████░░░░░░░░░░░    0.057  Francesco Renga - Il Meglio Di Me
-  25. ███████████████████░░░░░░░░░░░    0.056  Fedez & Marco Masini - Male Necessario
-  26. ███████████████████░░░░░░░░░░░    0.055  RAF - Ora E Per Sempre
-  27. ██████████████████░░░░░░░░░░░░    0.054  Serena Brancale - Qui Con Me
-  28. █████████████████░░░░░░░░░░░░░    0.051  Fulminacci - Stupida Sfortuna
-  29. █████████████████░░░░░░░░░░░░░    0.051  Mara Sattei - Le Cose Che Non Sai Di Me
-  30. ████████████████░░░░░░░░░░░░░░    0.046  Malika Ayane - Animali Notturni
+   1. ██████████████████████████████    3.574 bit  Malika Ayane - Animali Notturni
+   2. ██████████████████████████████    3.571 bit  J-AX - Italia Starter Pack
+   3. ██████████████████████████████    3.569 bit  Fulminacci - Stupida Sfortuna
+   4. ██████████████████████████████    3.569 bit  Sal Da Vinci - Per Sempre Sì
+   5. ██████████████████████████████    3.569 bit  Dargen D'Amico - Ai Ai
+   6. ██████████████████████████████    3.569 bit  Ermal Meta - Stella Stellina
+   7. ██████████████████████████████    3.568 bit  Tredici Pietro - Uomo Che Cade
+   8. ██████████████████████████████    3.567 bit  Fedez & Marco Masini - Male Necessario
+   9. ██████████████████████████████    3.567 bit  RAF - Ora E Per Sempre
+  10. ██████████████████████████████    3.566 bit  Mara Sattei - Le Cose Che Non Sai Di Me
+  11. ██████████████████████████████    3.566 bit  Francesco Renga - Il Meglio Di Me
+  12. ██████████████████████████████    3.565 bit  Samurai Jay - Ossessione
+  13. ██████████████████████████████    3.563 bit  LDA & Aka 7even - Poesie Clandestine
+  14. ██████████████████████████████    3.562 bit  Serena Brancale - Qui Con Me
+  15. ██████████████████████████████    3.562 bit  SayF - Tu Mi Piaci Tanto
+  16. ██████████████████████████████    3.562 bit  Arisa - Magica Favola
+  17. ██████████████████████████████    3.559 bit  Ditonellapiaga - Che Fastidio!
+  18. ██████████████████████████████    3.558 bit  Elettra Lamborghini - Voilà
+  19. ██████████████████████████████    3.557 bit  Luchè - Labirinto
+  20. ██████████████████████████████    3.556 bit  Maria Antonietta & Colombre - La Felicità E Basta
+  21. ██████████████████████████████    3.556 bit  Bambole Di Pezza - Resta Con Me
+  22. ██████████████████████████████    3.553 bit  Tommaso Paradiso - I Romantici
+  23. ██████████████████████████████    3.553 bit  Michele Bravi - Prima O Poi
+  24. ██████████████████████████████    3.550 bit  chiello - Ti Penso Sempre
+  25. ██████████████████████████████    3.549 bit  Eddie Brock - Avvoltoi
+  26. ██████████████████████████████    3.548 bit  Nayt - Prima Che
+  27. ██████████████████████████████    3.547 bit  Levante - Sei Tu
+  28. ██████████████████████████████    3.542 bit  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  29. ██████████████████████████████    3.541 bit  Patty Pravo - Opera
+  30. ██████████████████████████████    3.540 bit  Leo Gassmann - Naturale
+
+
+======================================================================
+  EBU R128 LRA (LU) — Chi ha piu' dinamica?
+======================================================================
+   1. ██████████████████████████████   11.030 LU  Nayt - Prima Che
+   2. ██████████████████████████████   10.920 LU  Eddie Brock - Avvoltoi
+   3. █████████████████████████████░   10.650 LU  Levante - Sei Tu
+   4. ██████████████████████████░░░░    9.640 LU  Ditonellapiaga - Che Fastidio!
+   5. ██████████████████████████░░░░    9.620 LU  Michele Bravi - Prima O Poi
+   6. ██████████████████████████░░░░    9.520 LU  Arisa - Magica Favola
+   7. ████████████████████████░░░░░░    9.000 LU  Fedez & Marco Masini - Male Necessario
+   8. ████████████████████████░░░░░░    8.880 LU  chiello - Ti Penso Sempre
+   9. ███████████████████████░░░░░░░    8.500 LU  LDA & Aka 7even - Poesie Clandestine
+  10. ███████████████████████░░░░░░░    8.340 LU  Mara Sattei - Le Cose Che Non Sai Di Me
+  11. ██████████████████████░░░░░░░░    8.050 LU  RAF - Ora E Per Sempre
+  12. █████████████████████░░░░░░░░░    7.900 LU  Fulminacci - Stupida Sfortuna
+  13. ████████████████████░░░░░░░░░░    7.300 LU  Leo Gassmann - Naturale
+  14. ██████████████████░░░░░░░░░░░░    6.750 LU  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  15. ██████████████████░░░░░░░░░░░░    6.710 LU  Tommaso Paradiso - I Romantici
+  16. █████████████████░░░░░░░░░░░░░    6.130 LU  Patty Pravo - Opera
+  17. ████████████████░░░░░░░░░░░░░░    6.050 LU  Serena Brancale - Qui Con Me
+  18. ███████████████░░░░░░░░░░░░░░░    5.690 LU  Elettra Lamborghini - Voilà
+  19. ██████████████░░░░░░░░░░░░░░░░    5.300 LU  Bambole Di Pezza - Resta Con Me
+  20. ██████████████░░░░░░░░░░░░░░░░    5.280 LU  SayF - Tu Mi Piaci Tanto
+  21. ██████████████░░░░░░░░░░░░░░░░    5.240 LU  Malika Ayane - Animali Notturni
+  22. ██████████████░░░░░░░░░░░░░░░░    5.070 LU  Samurai Jay - Ossessione
+  23. ████████████░░░░░░░░░░░░░░░░░░    4.510 LU  Dargen D'Amico - Ai Ai
+  24. ███████████░░░░░░░░░░░░░░░░░░░    4.060 LU  Tredici Pietro - Uomo Che Cade
+  25. ███████████░░░░░░░░░░░░░░░░░░░    3.880 LU  Francesco Renga - Il Meglio Di Me
+  26. ██████████░░░░░░░░░░░░░░░░░░░░    3.830 LU  Ermal Meta - Stella Stellina
+  27. ██████████░░░░░░░░░░░░░░░░░░░░    3.610 LU  Maria Antonietta & Colombre - La Felicità E Basta
+  28. ██████████░░░░░░░░░░░░░░░░░░░░    3.530 LU  Luchè - Labirinto
+  29. ██████████░░░░░░░░░░░░░░░░░░░░    3.530 LU  Sal Da Vinci - Per Sempre Sì
+  30. █████████░░░░░░░░░░░░░░░░░░░░░    3.160 LU  J-AX - Italia Starter Pack
+
+
+======================================================================
+  BEAT CV — Chi ha il ritmo piu' variabile? (alto = umano)
+======================================================================
+   1. ██████████████████████████████    0.070  Serena Brancale - Qui Con Me
+   2. ████████████████████████████░░    0.064  Luchè - Labirinto
+   3. ███████████████████████████░░░    0.062  Michele Bravi - Prima O Poi
+   4. ██████████████████████████░░░░    0.061  Arisa - Magica Favola
+   5. ████████████████████████░░░░░░    0.056  Enrico Nigiotti - Ogni Volta Che Non So Volare
+   6. ███████████████████████░░░░░░░    0.054  Ermal Meta - Stella Stellina
+   7. ███████████████████████░░░░░░░    0.053  Fulminacci - Stupida Sfortuna
+   8. ███████████████████████░░░░░░░    0.053  Nayt - Prima Che
+   9. ███████████████████████░░░░░░░    0.053  Francesco Renga - Il Meglio Di Me
+  10. ██████████████████████░░░░░░░░    0.050  Leo Gassmann - Naturale
+  11. █████████████████████░░░░░░░░░    0.048  Fedez & Marco Masini - Male Necessario
+  12. ███████████████████░░░░░░░░░░░    0.045  Patty Pravo - Opera
+  13. ███████████████████░░░░░░░░░░░    0.045  Maria Antonietta & Colombre - La Felicità E Basta
+  14. ███████████████████░░░░░░░░░░░    0.045  Ditonellapiaga - Che Fastidio!
+  15. ███████████████████░░░░░░░░░░░    0.044  Tredici Pietro - Uomo Che Cade
+  16. ███████████████████░░░░░░░░░░░    0.044  RAF - Ora E Per Sempre
+  17. ██████████████████░░░░░░░░░░░░    0.043  LDA & Aka 7even - Poesie Clandestine
+  18. ██████████████████░░░░░░░░░░░░    0.043  SayF - Tu Mi Piaci Tanto
+  19. ██████████████████░░░░░░░░░░░░    0.043  Dargen D'Amico - Ai Ai
+  20. ██████████████████░░░░░░░░░░░░    0.042  Bambole Di Pezza - Resta Con Me
+  21. ██████████████████░░░░░░░░░░░░    0.041  Tommaso Paradiso - I Romantici
+  22. █████████████████░░░░░░░░░░░░░    0.040  chiello - Ti Penso Sempre
+  23. █████████████████░░░░░░░░░░░░░    0.040  Eddie Brock - Avvoltoi
+  24. █████████████████░░░░░░░░░░░░░    0.040  Levante - Sei Tu
+  25. ████████████████░░░░░░░░░░░░░░    0.038  Samurai Jay - Ossessione
+  26. ███████████████░░░░░░░░░░░░░░░    0.035  J-AX - Italia Starter Pack
+  27. ███████████████░░░░░░░░░░░░░░░    0.035  Mara Sattei - Le Cose Che Non Sai Di Me
+  28. █████████████░░░░░░░░░░░░░░░░░    0.031  Elettra Lamborghini - Voilà
+  29. █████████████░░░░░░░░░░░░░░░░░    0.030  Sal Da Vinci - Per Sempre Sì
+  30. ██████████░░░░░░░░░░░░░░░░░░░░    0.024  Malika Ayane - Animali Notturni
+
+
+======================================================================
+  nPVI — Variabilita' ritmica (Patel & Daniele 2003)
+======================================================================
+   1. ██████████████████████████████    5.420  Francesco Renga - Il Meglio Di Me
+   2. ██████████████████████████████    5.400  Serena Brancale - Qui Con Me
+   3. █████████████████████████████░    5.260  Michele Bravi - Prima O Poi
+   4. █████████████████████████████░    5.190  Luchè - Labirinto
+   5. █████████████████████████████░    5.160  Arisa - Magica Favola
+   6. █████████████████████████████░    5.160  Fulminacci - Stupida Sfortuna
+   7. ██████████████████████████░░░░    4.700  Nayt - Prima Che
+   8. █████████████████████████░░░░░    4.520  Patty Pravo - Opera
+   9. ████████████████████████░░░░░░    4.370  Leo Gassmann - Naturale
+  10. ███████████████████████░░░░░░░    4.170  Enrico Nigiotti - Ogni Volta Che Non So Volare
+  11. ██████████████████████░░░░░░░░    4.020  Tommaso Paradiso - I Romantici
+  12. ██████████████████████░░░░░░░░    3.990  Fedez & Marco Masini - Male Necessario
+  13. ██████████████████████░░░░░░░░    3.940  Eddie Brock - Avvoltoi
+  14. ██████████████████████░░░░░░░░    3.920  Maria Antonietta & Colombre - La Felicità E Basta
+  15. █████████████████████░░░░░░░░░    3.830  Elettra Lamborghini - Voilà
+  16. █████████████████████░░░░░░░░░    3.720  Dargen D'Amico - Ai Ai
+  17. ████████████████████░░░░░░░░░░    3.610  J-AX - Italia Starter Pack
+  18. ████████████████████░░░░░░░░░░    3.570  Ermal Meta - Stella Stellina
+  19. ███████████████████░░░░░░░░░░░    3.510  Levante - Sei Tu
+  20. ███████████████████░░░░░░░░░░░    3.410  RAF - Ora E Per Sempre
+  21. ███████████████████░░░░░░░░░░░    3.370  Tredici Pietro - Uomo Che Cade
+  22. ██████████████████░░░░░░░░░░░░    3.260  SayF - Tu Mi Piaci Tanto
+  23. ██████████████████░░░░░░░░░░░░    3.250  Bambole Di Pezza - Resta Con Me
+  24. ██████████████████░░░░░░░░░░░░    3.170  Ditonellapiaga - Che Fastidio!
+  25. █████████████████░░░░░░░░░░░░░    3.040  Samurai Jay - Ossessione
+  26. ████████████████░░░░░░░░░░░░░░    2.900  Malika Ayane - Animali Notturni
+  27. ████████████████░░░░░░░░░░░░░░    2.850  Mara Sattei - Le Cose Che Non Sai Di Me
+  28. ███████████████░░░░░░░░░░░░░░░    2.750  LDA & Aka 7even - Poesie Clandestine
+  29. ██████████████░░░░░░░░░░░░░░░░    2.610  chiello - Ti Penso Sempre
+  30. ██████████░░░░░░░░░░░░░░░░░░░░    1.760  Sal Da Vinci - Per Sempre Sì
 
 
 ======================================================================
@@ -491,7 +596,7 @@
   (distanza media dal resto: 1.035)
 
 ======================================================================
-  PROFILI DEI BRANI CHIAVE
+  PROFILI DI TUTTI I BRANI
 ======================================================================
 
   --- SayF - Tu Mi Piaci Tanto ---
@@ -501,8 +606,20 @@
   Centroid: 2434 Hz | Bandwidth: 2605 Hz
   Contrasto: 22.87 | Flatness: 0.02843
   H/P ratio: 2.2 | Onset: 3.6/s
-  Beat reg: 0.0188 | Quiet: 10.1%
-  Complessita' cromatica: 0.0702
+  Beat CV: 0.0426 | nPVI: 3.3 | Quiet: 10.1%
+  Entropia cromatica: 3.5619 bit | EBU LRA: 5.3 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Tredici Pietro - Uomo Che Cade ---
+  Durata: 217.5s | BPM: 89.1
+  Energia: 0.2449 | Dinamica: 15.1 dB
+  Climax al 63% del brano
+  Centroid: 2834 Hz | Bandwidth: 2991 Hz
+  Contrasto: 22.96 | Flatness: 0.02548
+  H/P ratio: 1.9 | Onset: 2.1/s
+  Beat CV: 0.0445 | nPVI: 3.4 | Quiet: 10.7%
+  Entropia cromatica: 3.5677 bit | EBU LRA: 4.1 LU
   Sezioni: 7
   [Chart salvato in output/]
 
@@ -513,8 +630,68 @@
   Centroid: 2739 Hz | Bandwidth: 2826 Hz
   Contrasto: 21.88 | Flatness: 0.03933
   H/P ratio: 1.5 | Onset: 5.7/s
-  Beat reg: 0.0209 | Quiet: 21.7%
-  Complessita' cromatica: 0.0858
+  Beat CV: 0.0451 | nPVI: 3.2 | Quiet: 21.7%
+  Entropia cromatica: 3.5594 bit | EBU LRA: 9.6 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Arisa - Magica Favola ---
+  Durata: 211.0s | BPM: 83.4
+  Energia: 0.2413 | Dinamica: 16.1 dB
+  Climax al 89% del brano
+  Centroid: 2018 Hz | Bandwidth: 2342 Hz
+  Contrasto: 24.75 | Flatness: 0.01255
+  H/P ratio: 7.5 | Onset: 2.6/s
+  Beat CV: 0.0610 | nPVI: 5.2 | Quiet: 21.3%
+  Entropia cromatica: 3.5619 bit | EBU LRA: 9.5 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Bambole Di Pezza - Resta Con Me ---
+  Durata: 191.0s | BPM: 143.6
+  Energia: 0.3097 | Dinamica: 11.3 dB
+  Climax al 84% del brano
+  Centroid: 2906 Hz | Bandwidth: 2840 Hz
+  Contrasto: 21.84 | Flatness: 0.03957
+  H/P ratio: 4.7 | Onset: 3.3/s
+  Beat CV: 0.0422 | nPVI: 3.2 | Quiet: 8.2%
+  Entropia cromatica: 3.5558 bit | EBU LRA: 5.3 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Elettra Lamborghini - Voilà ---
+  Durata: 192.7s | BPM: 129.2
+  Energia: 0.2819 | Dinamica: 14.4 dB
+  Climax al 74% del brano
+  Centroid: 2514 Hz | Bandwidth: 2675 Hz
+  Contrasto: 22.77 | Flatness: 0.02803
+  H/P ratio: 2.2 | Onset: 4.1/s
+  Beat CV: 0.0308 | nPVI: 3.8 | Quiet: 11.6%
+  Entropia cromatica: 3.5580 bit | EBU LRA: 5.7 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Samurai Jay - Ossessione ---
+  Durata: 188.2s | BPM: 123.0
+  Energia: 0.2894 | Dinamica: 16.5 dB
+  Climax al 89% del brano
+  Centroid: 2854 Hz | Bandwidth: 2819 Hz
+  Contrasto: 23.16 | Flatness: 0.02984
+  H/P ratio: 1.9 | Onset: 2.9/s
+  Beat CV: 0.0383 | nPVI: 3.0 | Quiet: 11.9%
+  Entropia cromatica: 3.5646 bit | EBU LRA: 5.1 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Tommaso Paradiso - I Romantici ---
+  Durata: 240.0s | BPM: 143.6
+  Energia: 0.2806 | Dinamica: 27.3 dB
+  Climax al 74% del brano
+  Centroid: 2228 Hz | Bandwidth: 2471 Hz
+  Contrasto: 23.58 | Flatness: 0.01819
+  H/P ratio: 5.4 | Onset: 2.4/s
+  Beat CV: 0.0410 | nPVI: 4.0 | Quiet: 15.2%
+  Entropia cromatica: 3.5529 bit | EBU LRA: 6.7 LU
   Sezioni: 7
   [Chart salvato in output/]
 
@@ -525,8 +702,80 @@
   Centroid: 1934 Hz | Bandwidth: 2290 Hz
   Contrasto: 24.99 | Flatness: 0.00955
   H/P ratio: 6.5 | Onset: 2.3/s
-  Beat reg: 0.0405 | Quiet: 17.7%
-  Complessita' cromatica: 0.0536
+  Beat CV: 0.0700 | nPVI: 5.4 | Quiet: 17.7%
+  Entropia cromatica: 3.5620 bit | EBU LRA: 6.0 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Mara Sattei - Le Cose Che Non Sai Di Me ---
+  Durata: 204.6s | BPM: 143.6
+  Energia: 0.2781 | Dinamica: 17.2 dB
+  Climax al 68% del brano
+  Centroid: 2463 Hz | Bandwidth: 2682 Hz
+  Contrasto: 23.11 | Flatness: 0.01923
+  H/P ratio: 4.4 | Onset: 3.2/s
+  Beat CV: 0.0349 | nPVI: 2.9 | Quiet: 14.5%
+  Entropia cromatica: 3.5657 bit | EBU LRA: 8.3 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Dargen D'Amico - Ai Ai ---
+  Durata: 203.2s | BPM: 123.0
+  Energia: 0.2305 | Dinamica: 16.1 dB
+  Climax al 95% del brano
+  Centroid: 2459 Hz | Bandwidth: 2670 Hz
+  Contrasto: 21.84 | Flatness: 0.02912
+  H/P ratio: 1.9 | Onset: 3.8/s
+  Beat CV: 0.0425 | nPVI: 3.7 | Quiet: 10.4%
+  Entropia cromatica: 3.5689 bit | EBU LRA: 4.5 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Luchè - Labirinto ---
+  Durata: 227.3s | BPM: 112.3
+  Energia: 0.3587 | Dinamica: 18.3 dB
+  Climax al 74% del brano
+  Centroid: 2227 Hz | Bandwidth: 2593 Hz
+  Contrasto: 23.20 | Flatness: 0.01330
+  H/P ratio: 4.1 | Onset: 4.2/s
+  Beat CV: 0.0644 | nPVI: 5.2 | Quiet: 9.8%
+  Entropia cromatica: 3.5572 bit | EBU LRA: 3.5 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Patty Pravo - Opera ---
+  Durata: 222.7s | BPM: 103.4
+  Energia: 0.2648 | Dinamica: 15.1 dB
+  Climax al 95% del brano
+  Centroid: 2008 Hz | Bandwidth: 2344 Hz
+  Contrasto: 23.43 | Flatness: 0.01977
+  H/P ratio: 9.3 | Onset: 2.5/s
+  Beat CV: 0.0455 | nPVI: 4.5 | Quiet: 10.2%
+  Entropia cromatica: 3.5406 bit | EBU LRA: 6.1 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- RAF - Ora E Per Sempre ---
+  Durata: 197.0s | BPM: 152.0
+  Energia: 0.2353 | Dinamica: 23.7 dB
+  Climax al 84% del brano
+  Centroid: 2479 Hz | Bandwidth: 2749 Hz
+  Contrasto: 23.72 | Flatness: 0.02089
+  H/P ratio: 6.6 | Onset: 2.4/s
+  Beat CV: 0.0440 | nPVI: 3.4 | Quiet: 13.9%
+  Entropia cromatica: 3.5667 bit | EBU LRA: 8.1 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- J-AX - Italia Starter Pack ---
+  Durata: 170.4s | BPM: 117.5
+  Energia: 0.2750 | Dinamica: 10.4 dB
+  Climax al 68% del brano
+  Centroid: 2847 Hz | Bandwidth: 2883 Hz
+  Contrasto: 21.49 | Flatness: 0.03913
+  H/P ratio: 2.7 | Onset: 4.0/s
+  Beat CV: 0.0355 | nPVI: 3.6 | Quiet: 6.2%
+  Entropia cromatica: 3.5705 bit | EBU LRA: 3.2 LU
   Sezioni: 7
   [Chart salvato in output/]
 
@@ -537,8 +786,8 @@
   Centroid: 2189 Hz | Bandwidth: 2494 Hz
   Contrasto: 24.30 | Flatness: 0.01721
   H/P ratio: 3.3 | Onset: 2.8/s
-  Beat reg: 0.0339 | Quiet: 16.4%
-  Complessita' cromatica: 0.0511
+  Beat CV: 0.0534 | nPVI: 5.2 | Quiet: 16.4%
+  Entropia cromatica: 3.5693 bit | EBU LRA: 7.9 LU
   Sezioni: 7
   [Chart salvato in output/]
 
@@ -549,8 +798,8 @@
   Centroid: 2308 Hz | Bandwidth: 2576 Hz
   Contrasto: 24.76 | Flatness: 0.01440
   H/P ratio: 7.7 | Onset: 2.1/s
-  Beat reg: 0.0149 | Quiet: 19.5%
-  Complessita' cromatica: 0.0784
+  Beat CV: 0.0398 | nPVI: 3.5 | Quiet: 19.5%
+  Entropia cromatica: 3.5471 bit | EBU LRA: 10.7 LU
   Sezioni: 7
   [Chart salvato in output/]
 
@@ -561,8 +810,8 @@
   Centroid: 2412 Hz | Bandwidth: 2647 Hz
   Contrasto: 23.35 | Flatness: 0.01998
   H/P ratio: 4.2 | Onset: 3.5/s
-  Beat reg: 0.0202 | Quiet: 25.1%
-  Complessita' cromatica: 0.0561
+  Beat CV: 0.0480 | nPVI: 4.0 | Quiet: 25.1%
+  Entropia cromatica: 3.5675 bit | EBU LRA: 9.0 LU
   Sezioni: 7
   [Chart salvato in output/]
 
@@ -573,8 +822,8 @@
   Centroid: 2250 Hz | Bandwidth: 2492 Hz
   Contrasto: 22.77 | Flatness: 0.02866
   H/P ratio: 2.9 | Onset: 3.0/s
-  Beat reg: 0.0251 | Quiet: 10.2%
-  Complessita' cromatica: 0.0606
+  Beat CV: 0.0536 | nPVI: 3.6 | Quiet: 10.2%
+  Entropia cromatica: 3.5688 bit | EBU LRA: 3.8 LU
   Sezioni: 7
   [Chart salvato in output/]
 
@@ -585,7 +834,127 @@
   Centroid: 2308 Hz | Bandwidth: 2513 Hz
   Contrasto: 23.86 | Flatness: 0.02124
   H/P ratio: 3.8 | Onset: 3.1/s
-  Beat reg: 0.0397 | Quiet: 26.9%
-  Complessita' cromatica: 0.0886
+  Beat CV: 0.0531 | nPVI: 4.7 | Quiet: 26.9%
+  Entropia cromatica: 3.5481 bit | EBU LRA: 11.0 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Enrico Nigiotti - Ogni Volta Che Non So Volare ---
+  Durata: 180.5s | BPM: 123.0
+  Energia: 0.2306 | Dinamica: 14.1 dB
+  Climax al 79% del brano
+  Centroid: 1974 Hz | Bandwidth: 2227 Hz
+  Contrasto: 22.76 | Flatness: 0.02593
+  H/P ratio: 3.2 | Onset: 2.3/s
+  Beat CV: 0.0564 | nPVI: 4.2 | Quiet: 8.4%
+  Entropia cromatica: 3.5423 bit | EBU LRA: 6.8 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Sal Da Vinci - Per Sempre Sì ---
+  Durata: 175.1s | BPM: 123.0
+  Energia: 0.3058 | Dinamica: 19.3 dB
+  Climax al 95% del brano
+  Centroid: 3275 Hz | Bandwidth: 2991 Hz
+  Contrasto: 23.13 | Flatness: 0.04124
+  H/P ratio: 3.2 | Onset: 4.4/s
+  Beat CV: 0.0305 | nPVI: 1.8 | Quiet: 11.6%
+  Entropia cromatica: 3.5692 bit | EBU LRA: 3.5 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Eddie Brock - Avvoltoi ---
+  Durata: 165.3s | BPM: 123.0
+  Energia: 0.2424 | Dinamica: 24.1 dB
+  Climax al 79% del brano
+  Centroid: 2132 Hz | Bandwidth: 2389 Hz
+  Contrasto: 24.75 | Flatness: 0.01468
+  H/P ratio: 3.7 | Onset: 1.8/s
+  Beat CV: 0.0399 | nPVI: 3.9 | Quiet: 20.7%
+  Entropia cromatica: 3.5487 bit | EBU LRA: 10.9 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- chiello - Ti Penso Sempre ---
+  Durata: 154.6s | BPM: 76.0
+  Energia: 0.2406 | Dinamica: 16.1 dB
+  Climax al 84% del brano
+  Centroid: 1919 Hz | Bandwidth: 2180 Hz
+  Contrasto: 23.73 | Flatness: 0.02135
+  H/P ratio: 2.4 | Onset: 2.8/s
+  Beat CV: 0.0401 | nPVI: 2.6 | Quiet: 16.7%
+  Entropia cromatica: 3.5498 bit | EBU LRA: 8.9 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Maria Antonietta & Colombre - La Felicità E Basta ---
+  Durata: 208.6s | BPM: 123.0
+  Energia: 0.2331 | Dinamica: 15.1 dB
+  Climax al 95% del brano
+  Centroid: 2802 Hz | Bandwidth: 2848 Hz
+  Contrasto: 22.88 | Flatness: 0.03144
+  H/P ratio: 1.2 | Onset: 3.8/s
+  Beat CV: 0.0453 | nPVI: 3.9 | Quiet: 9.4%
+  Entropia cromatica: 3.5561 bit | EBU LRA: 3.6 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Leo Gassmann - Naturale ---
+  Durata: 182.5s | BPM: 152.0
+  Energia: 0.2723 | Dinamica: 15.5 dB
+  Climax al 74% del brano
+  Centroid: 2672 Hz | Bandwidth: 2698 Hz
+  Contrasto: 23.58 | Flatness: 0.02988
+  H/P ratio: 3.4 | Onset: 3.1/s
+  Beat CV: 0.0503 | nPVI: 4.4 | Quiet: 17.2%
+  Entropia cromatica: 3.5403 bit | EBU LRA: 7.3 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Francesco Renga - Il Meglio Di Me ---
+  Durata: 167.1s | BPM: 123.0
+  Energia: 0.2569 | Dinamica: 17.8 dB
+  Climax al 79% del brano
+  Centroid: 1994 Hz | Bandwidth: 2495 Hz
+  Contrasto: 22.65 | Flatness: 0.01182
+  H/P ratio: 4.5 | Onset: 2.8/s
+  Beat CV: 0.0528 | nPVI: 5.4 | Quiet: 13.9%
+  Entropia cromatica: 3.5655 bit | EBU LRA: 3.9 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- LDA & Aka 7even - Poesie Clandestine ---
+  Durata: 183.3s | BPM: 107.7
+  Energia: 0.2509 | Dinamica: 21.5 dB
+  Climax al 58% del brano
+  Centroid: 3002 Hz | Bandwidth: 2908 Hz
+  Contrasto: 23.60 | Flatness: 0.03285
+  H/P ratio: 4.0 | Onset: 4.0/s
+  Beat CV: 0.0430 | nPVI: 2.8 | Quiet: 17.8%
+  Entropia cromatica: 3.5629 bit | EBU LRA: 8.5 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Malika Ayane - Animali Notturni ---
+  Durata: 178.3s | BPM: 107.7
+  Energia: 0.2652 | Dinamica: 15.6 dB
+  Climax al 32% del brano
+  Centroid: 3192 Hz | Bandwidth: 3048 Hz
+  Contrasto: 23.21 | Flatness: 0.04413
+  H/P ratio: 1.4 | Onset: 5.3/s
+  Beat CV: 0.0236 | nPVI: 2.9 | Quiet: 10.2%
+  Entropia cromatica: 3.5742 bit | EBU LRA: 5.2 LU
+  Sezioni: 7
+  [Chart salvato in output/]
+
+  --- Michele Bravi - Prima O Poi ---
+  Durata: 188.7s | BPM: 136.0
+  Energia: 0.2142 | Dinamica: 34.1 dB
+  Climax al 84% del brano
+  Centroid: 2446 Hz | Bandwidth: 2704 Hz
+  Contrasto: 23.34 | Flatness: 0.02061
+  H/P ratio: 4.3 | Onset: 3.5/s
+  Beat CV: 0.0619 | nPVI: 5.3 | Quiet: 23.0%
+  Entropia cromatica: 3.5527 bit | EBU LRA: 9.6 LU
   Sezioni: 7
   [Chart salvato in output/]

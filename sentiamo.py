@@ -17,6 +17,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
+import pyloudnorm as pyln
 import soundfile as sf
 from sklearn.metrics import pairwise_distances
 from sklearn.preprocessing import StandardScaler
@@ -94,7 +95,7 @@ def extract_features(filepath: Path) -> dict:
     rms_mean = float(np.mean(rms))
     features["rms_mean"] = rms_mean
 
-    # Dynamic range (rapporto picco/minimo in dB, escludendo silenzi)
+    # Dynamic range (rapporto picco/minimo in dB, escludendo silenzi) — legacy
     rms_nonzero = rms[rms > 0]
     if len(rms_nonzero) > 10:
         p95 = np.percentile(rms_nonzero, 95)
@@ -105,6 +106,17 @@ def extract_features(filepath: Path) -> dict:
             features["dynamic_range_db"] = 0.0
     else:
         features["dynamic_range_db"] = 0.0
+
+    # EBU R128 Loudness Range (LRA) — EBU Tech 3342
+    # Carica a sample rate nativo per K-weighting accurato
+    try:
+        audio_native, sr_native = sf.read(str(filepath))
+        if audio_native.ndim > 1:
+            audio_native = np.mean(audio_native, axis=1)
+        meter = pyln.Meter(sr_native)
+        features["ebu_lra_lu"] = round(float(meter.loudness_range(audio_native)), 2)
+    except Exception:
+        features["ebu_lra_lu"] = 0.0
 
     # Climax position (dove cade il picco di energia, 0.0-1.0)
     peak_idx = int(np.argmax(energy_curve))
@@ -125,13 +137,32 @@ def extract_features(filepath: Path) -> dict:
         tempo = float(tempo[0]) if len(tempo) > 0 else 0.0
     features["bpm"] = round(float(tempo), 1)
 
-    # Beat regularity (varianza degli intervalli tra beat)
+    # Beat regularity (std degli intervalli tra beat) — legacy
     if len(beats) > 2:
         beat_times = librosa.frames_to_time(beats, sr=sr)
         intervals = np.diff(beat_times)
         features["beat_regularity"] = round(float(np.std(intervals)), 4)
+
+        # Beat CV (Coefficient of Variation) — adimensionale, normalizzato
+        mean_ioi = float(np.mean(intervals))
+        if mean_ioi > 0:
+            features["beat_cv"] = round(float(np.std(intervals) / mean_ioi), 4)
+        else:
+            features["beat_cv"] = 0.0
+
+        # nPVI (normalized Pairwise Variability Index) — Patel & Daniele 2003
+        if len(intervals) > 1:
+            d = intervals
+            npvi = 100 * np.mean(
+                np.abs(d[:-1] - d[1:]) / ((d[:-1] + d[1:]) / 2)
+            )
+            features["beat_npvi"] = round(float(npvi), 2)
+        else:
+            features["beat_npvi"] = 0.0
     else:
         features["beat_regularity"] = 0.0
+        features["beat_cv"] = 0.0
+        features["beat_npvi"] = 0.0
 
     # Onset density (eventi per secondo)
     onsets = librosa.onset.onset_detect(y=y, sr=sr)
@@ -165,10 +196,17 @@ def extract_features(filepath: Path) -> dict:
         features["harmonic_percussive_ratio"] = float("inf")
 
     # ── 4. COMPLESSITA' ARMONICA ─────────────────────────────────────
-    # Chroma complexity (varianza della distribuzione cromatica)
+    # Shannon entropy cromatica — Weiss & Mueller 2015, ICASSP
+    # max = log2(12) = 3.585 (distribuzione uniforme su 12 classi)
     chroma = librosa.feature.chroma_stft(y=y, sr=sr)
     chroma_mean = np.mean(chroma, axis=1)  # 12 valori
-    features["chroma_complexity"] = round(float(np.std(chroma_mean)), 5)
+    chroma_sum = np.sum(chroma_mean)
+    if chroma_sum > 0:
+        p = chroma_mean / chroma_sum
+        p = p[p > 0]  # evita log(0)
+        features["chroma_entropy"] = round(float(-np.sum(p * np.log2(p))), 4)
+    else:
+        features["chroma_entropy"] = 0.0
 
     # MFCC signature (primi 13 coefficienti, media)
     mfccs = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=13)
@@ -262,20 +300,20 @@ def plot_scatter_bpm_centroid(all_features: dict):
     plt.close(fig)
 
 
-def plot_scatter_dynamics_complexity(all_features: dict):
-    """Scatter: Dynamic Range vs Chroma Complexity."""
+def plot_scatter_dynamics_entropy(all_features: dict):
+    """Scatter: EBU LRA vs Chroma Entropy."""
     fig, ax = plt.subplots(figsize=(12, 8))
     for name, feats in all_features.items():
         short = name.split(" - ")[0] if " - " in name else name[:15]
-        ax.scatter(feats["dynamic_range_db"], feats["chroma_complexity"], s=60, alpha=0.7)
-        ax.annotate(short, (feats["dynamic_range_db"], feats["chroma_complexity"]),
+        ax.scatter(feats["ebu_lra_lu"], feats["chroma_entropy"], s=60, alpha=0.7)
+        ax.annotate(short, (feats["ebu_lra_lu"], feats["chroma_entropy"]),
                     fontsize=5, alpha=0.8, ha="center", va="bottom")
-    ax.set_xlabel("Dynamic Range (dB)")
-    ax.set_ylabel("Chroma Complexity")
-    ax.set_title("Dinamica vs Complessita' Armonica — Sanremo 2026")
+    ax.set_xlabel("EBU R128 LRA (LU)")
+    ax.set_ylabel("Chroma Entropy (bit)")
+    ax.set_title("Dinamica (EBU LRA) vs Entropia Cromatica — Sanremo 2026")
     ax.grid(True, alpha=0.3)
     fig.tight_layout()
-    fig.savefig(OUT_DIR / "scatter_dynamics_complexity.png", dpi=150)
+    fig.savefig(OUT_DIR / "scatter_dynamics_entropy.png", dpi=150)
     plt.close(fig)
 
 
@@ -322,10 +360,10 @@ def plot_individual_profile(name: str, feats: dict, all_features: dict):
 
     # 2. Percentili rispetto al festival
     ax = axes[0, 1]
-    metrics = ["rms_mean", "dynamic_range_db", "bpm", "spectral_centroid",
-               "spectral_contrast", "onset_density", "chroma_complexity"]
-    labels = ["Energia", "Dinamica", "BPM", "Luminosita'",
-              "Contrasto", "Densita'", "Compless."]
+    metrics = ["rms_mean", "ebu_lra_lu", "bpm", "spectral_centroid",
+               "spectral_contrast", "onset_density", "chroma_entropy"]
+    labels = ["Energia", "LRA (LU)", "BPM", "Luminosita'",
+              "Contrasto", "Densita'", "Entropia"]
     percentiles = []
     for m in metrics:
         all_vals = sorted([f[m] for f in all_features.values()])
@@ -356,15 +394,16 @@ def plot_individual_profile(name: str, feats: dict, all_features: dict):
         f"Durata: {feats['duration_s']:.0f}s\n"
         f"BPM: {feats['bpm']}\n"
         f"Energia media: {feats['rms_mean']:.4f}\n"
+        f"EBU LRA: {feats['ebu_lra_lu']:.1f} LU\n"
         f"Dynamic range: {feats['dynamic_range_db']:.1f} dB\n"
         f"Climax al: {feats['climax_position']*100:.0f}% del brano\n"
         f"Quiet ratio: {feats['quiet_ratio']*100:.1f}%\n"
         f"Centroid: {feats['spectral_centroid']:.0f} Hz\n"
         f"H/P ratio: {feats['harmonic_percussive_ratio']:.1f}\n"
         f"Onset density: {feats['onset_density']:.1f}/s\n"
-        f"Beat regularity: {feats['beat_regularity']:.4f}\n"
+        f"Beat CV: {feats['beat_cv']:.4f} | nPVI: {feats['beat_npvi']:.1f}\n"
         f"Sezioni: {feats['n_sections']}\n"
-        f"Complessita' cromatica: {feats['chroma_complexity']:.4f}"
+        f"Entropia cromatica: {feats['chroma_entropy']:.4f} bit"
     )
     ax.text(0.1, 0.9, stats_text, transform=ax.transAxes, fontsize=10,
             verticalalignment="top", fontfamily="monospace",
@@ -506,10 +545,30 @@ def main():
         [(n, f["harmonic_percussive_ratio"]) for n, f in all_features.items()])
     report_lines.append(r)
 
-    # Chroma complexity
+    # Chroma entropy
     r = print_ranking(
-        "CHROMA COMPLEXITY — Chi ha l'armonia piu' ricca?",
-        [(n, f["chroma_complexity"]) for n, f in all_features.items()])
+        "CHROMA ENTROPY (bit) — Chi ha l'armonia piu' ricca?",
+        [(n, f["chroma_entropy"]) for n, f in all_features.items()],
+        unit=" bit")
+    report_lines.append(r)
+
+    # EBU R128 LRA
+    r = print_ranking(
+        "EBU R128 LRA (LU) — Chi ha piu' dinamica?",
+        [(n, f["ebu_lra_lu"]) for n, f in all_features.items()],
+        unit=" LU")
+    report_lines.append(r)
+
+    # Beat CV
+    r = print_ranking(
+        "BEAT CV — Chi ha il ritmo piu' variabile? (alto = umano)",
+        [(n, f["beat_cv"]) for n, f in all_features.items()])
+    report_lines.append(r)
+
+    # nPVI
+    r = print_ranking(
+        "nPVI — Variabilita' ritmica (Patel & Daniele 2003)",
+        [(n, f["beat_npvi"]) for n, f in all_features.items()])
     report_lines.append(r)
 
     # Climax position
@@ -565,8 +624,8 @@ def main():
         report_lines.append(f"  Centroid: {feats['spectral_centroid']:.0f} Hz | Bandwidth: {feats['spectral_bandwidth']:.0f} Hz")
         report_lines.append(f"  Contrasto: {feats['spectral_contrast']:.2f} | Flatness: {feats['spectral_flatness']:.5f}")
         report_lines.append(f"  H/P ratio: {feats['harmonic_percussive_ratio']:.1f} | Onset: {feats['onset_density']:.1f}/s")
-        report_lines.append(f"  Beat reg: {feats['beat_regularity']:.4f} | Quiet: {feats['quiet_ratio']*100:.1f}%")
-        report_lines.append(f"  Complessita' cromatica: {feats['chroma_complexity']:.4f}")
+        report_lines.append(f"  Beat CV: {feats['beat_cv']:.4f} | nPVI: {feats['beat_npvi']:.1f} | Quiet: {feats['quiet_ratio']*100:.1f}%")
+        report_lines.append(f"  Entropia cromatica: {feats['chroma_entropy']:.4f} bit | EBU LRA: {feats['ebu_lra_lu']:.1f} LU")
         report_lines.append(f"  Sezioni: {feats['n_sections']}")
 
         # Plot individuale
@@ -581,8 +640,8 @@ def main():
     print("  similarity_heatmap.png")
     plot_scatter_bpm_centroid(all_features)
     print("  scatter_bpm_centroid.png")
-    plot_scatter_dynamics_complexity(all_features)
-    print("  scatter_dynamics_complexity.png")
+    plot_scatter_dynamics_entropy(all_features)
+    print("  scatter_dynamics_entropy.png")
     plot_harmonic_vs_percussive(all_features)
     print("  harmonic_percussive.png")
 

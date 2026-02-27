@@ -8,7 +8,7 @@ Ho analizzato i testi, letto le pagelle, studiato le classifiche. Poi mi hanno f
 
 ## La classifica — Complessità totale
 
-Armonia + vocabolario + dinamica + range vocale + ritmo umano. La misura più completa di quanto un brano sia musicalmente e testualmente ricco.
+Entropia cromatica + vocabolario + LRA + range vocale + beat CV. La misura più completa di quanto un brano sia musicalmente e testualmente ricco.
 
 ![Complessità Totale](output/cross_complessita_totale.png)
 
@@ -22,7 +22,7 @@ Ritornello + energia + ripetitività + compressione. Chi è fatto per la radio.
 ![Formula Commerciale](output/cross_formula_commerciale.png)
 
 ### Autorialità
-Vocabolario + hapax + no ritornello + armonia + dinamica. Chi scrive, chi copia.
+Vocabolario + hapax + compression ratio + entropia cromatica + LRA. Chi scrive, chi copia.
 
 ![Autorialità](output/cross_autorialita.png)
 
@@ -32,7 +32,7 @@ Range + stabilità + presenza vocale. Chi sa cantare davvero.
 ![Controllo Vocale](output/cross_controllo_vocale.png)
 
 ### Tensione narrativa
-Dinamica + silenzio + climax al punto giusto + no ritornello. Chi racconta una storia col suono.
+LRA + silenzio + climax al punto giusto + no ritornello. Chi racconta una storia col suono.
 
 ![Tensione Narrativa](output/cross_tensione_narrativa.png)
 
@@ -63,9 +63,31 @@ I 6 artisti più presenti nelle top 10 di tutte le classifiche, confrontati su r
 
 ## Correlazioni tra dimensioni
 
-Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
+Cosa si muove insieme, cosa si oppone. 19 dimensioni incrociate.
 
 ![Correlations](output/cross_correlations.png)
+
+---
+
+## PCA esplorativa — Classifiche data-driven
+
+Le 8 classifiche sopra usano pesi scelti a mano. La PCA lascia parlare i dati: 25 feature scalari, standardizzate, decomposte in componenti principali. 8 PC spiegano l'82% della varianza.
+
+### Scree plot
+
+![Scree](output/pca_scree.png)
+
+### Loadings — Cosa pesa in ogni componente
+
+![Loadings](output/pca_loadings.png)
+
+### Ranking per PC1
+
+![PC1](output/pca_pc1.png)
+
+### Ranking per PC2
+
+![PC2](output/pca_pc2.png)
 
 ---
 
@@ -83,9 +105,9 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 
 ![Harmonic vs Percussive](output/harmonic_percussive.png)
 
-### Dinamica vs Complessità Armonica
+### Dinamica (EBU LRA) vs Entropia Cromatica
 
-![Dynamics vs Complexity](output/scatter_dynamics_complexity.png)
+![Dynamics vs Entropy](output/scatter_dynamics_entropy.png)
 
 ### Mappa delle somiglianze timbriche
 
@@ -122,15 +144,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | 9 | Mara Sattei - Le Cose Che Non Sai Di Me | 0.278 |
 | 10 | Fedez & Marco Masini - Male Necessario | 0.275 |
 
-### Dynamic Range (dB)
+### EBU R128 LRA (LU)
 
-| # | Artista | dB |
+| # | Artista | LU |
 |---|---------|-----|
-| 1 | Michele Bravi - Prima O Poi | 34.15 |
-| 2 | Tommaso Paradiso - I Romantici | 27.27 |
-| 3 | Fulminacci - Stupida Sfortuna | 25.11 |
-| 4 | Eddie Brock - Avvoltoi | 24.13 |
-| 5 | RAF - Ora E Per Sempre | 23.66 |
+| 1 | Nayt - Prima Che | 11.03 |
+| 2 | Eddie Brock - Avvoltoi | 10.92 |
+| 3 | Levante - Sei Tu | 10.65 |
+| 4 | Ditonellapiaga - Che Fastidio! | 9.64 |
+| 5 | Michele Bravi - Prima O Poi | 9.62 |
 | 6 | Nayt - Prima Che | 23.32 |
 | 7 | LDA & Aka 7even - Poesie Clandestine | 21.51 |
 | 8 | Fedez & Marco Masini - Male Necessario | 21.22 |
@@ -152,15 +174,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | 9 | Michele Bravi - Prima O Poi | 136.0 |
 | 10 | Ditonellapiaga - Che Fastidio! | 129.2 |
 
-### Chroma Complexity — Armonia
+### EBU R128 LRA — Dinamica
 
-| # | Artista | Complessità |
+| # | Artista | LU |
 |---|---------|-----|
-| 1 | Nayt - Prima Che | 0.089 |
-| 2 | chiello - Ti Penso Sempre | 0.086 |
-| 3 | Luchè - Labirinto | 0.086 |
-| 4 | Ditonellapiaga - Che Fastidio! | 0.086 |
-| 5 | Enrico Nigiotti - Ogni Volta Che Non So Volare | 0.085 |
+| 1 | Nayt - Prima Che | 11.03 |
+| 2 | Eddie Brock - Avvoltoi | 10.92 |
+| 3 | Levante - Sei Tu | 10.65 |
+| 4 | Ditonellapiaga - Che Fastidio! | 9.64 |
+| 5 | Michele Bravi - Prima O Poi | 9.62 |
 
 ---
 
@@ -200,14 +222,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 209.7s |
 | BPM | 136.0 |
 | Energia | 0.2483 |
-| Dynamic Range | 13.1 dB |
+| EBU LRA | 5.28 LU |
 | Climax | al 74% del brano |
 | Centroid | 2434 Hz |
 | H/P ratio | 2.2 |
 | Onset density | 3.6/s |
-| Beat regularity | 0.0188 |
+| Beat CV | 0.0426 |
+| nPVI | 3.3 |
 | Quiet ratio | 10.1% |
-| Chroma complexity | 0.0702 |
+| Chroma entropy | 3.5619 bit |
 
 ### Tredici Pietro - Uomo Che Cade
 ![Tredici Pietro](output/profile_Tredici_Pietro_-_Uomo_Che_Cade.png)
@@ -217,14 +240,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 217.5s |
 | BPM | 89.1 |
 | Energia | 0.2449 |
-| Dynamic Range | 15.1 dB |
+| EBU LRA | 4.06 LU |
 | Climax | al 63% del brano |
 | Centroid | 2834 Hz |
 | H/P ratio | 1.9 |
 | Onset density | 2.1/s |
-| Beat regularity | 0.0296 |
+| Beat CV | 0.0445 |
+| nPVI | 3.4 |
 | Quiet ratio | 10.7% |
-| Chroma complexity | 0.0623 |
+| Chroma entropy | 3.5677 bit |
 
 ### Ditonellapiaga - Che Fastidio!
 ![Ditonellapiaga](output/profile_Ditonellapiaga_-_Che_Fastidio!.png)
@@ -234,14 +258,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 194.3s |
 | BPM | 129.2 |
 | Energia | 0.2865 |
-| Dynamic Range | 19.5 dB |
+| EBU LRA | 9.64 LU |
 | Climax | al 89% del brano |
 | Centroid | 2739 Hz |
 | H/P ratio | 1.5 |
 | Onset density | 5.7/s |
-| Beat regularity | 0.0209 |
+| Beat CV | 0.0451 |
+| nPVI | 3.2 |
 | Quiet ratio | 21.7% |
-| Chroma complexity | 0.0858 |
+| Chroma entropy | 3.5594 bit |
 
 ### Arisa - Magica Favola
 ![Arisa](output/profile_Arisa_-_Magica_Favola.png)
@@ -251,14 +276,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 211.0s |
 | BPM | 83.4 |
 | Energia | 0.2413 |
-| Dynamic Range | 16.1 dB |
+| EBU LRA | 9.52 LU |
 | Climax | al 89% del brano |
 | Centroid | 2018 Hz |
 | H/P ratio | 7.5 |
 | Onset density | 2.6/s |
-| Beat regularity | 0.0434 |
+| Beat CV | 0.0610 |
+| nPVI | 5.2 |
 | Quiet ratio | 21.3% |
-| Chroma complexity | 0.0572 |
+| Chroma entropy | 3.5619 bit |
 
 ### Bambole Di Pezza - Resta Con Me
 ![Bambole Di Pezza](output/profile_Bambole_Di_Pezza_-_Resta_Con_Me.png)
@@ -268,14 +294,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 191.0s |
 | BPM | 143.6 |
 | Energia | 0.3097 |
-| Dynamic Range | 11.3 dB |
+| EBU LRA | 5.3 LU |
 | Climax | al 84% del brano |
 | Centroid | 2906 Hz |
 | H/P ratio | 4.7 |
 | Onset density | 3.3/s |
-| Beat regularity | 0.0176 |
+| Beat CV | 0.0422 |
+| nPVI | 3.2 |
 | Quiet ratio | 8.2% |
-| Chroma complexity | 0.0820 |
+| Chroma entropy | 3.5558 bit |
 
 ### Elettra Lamborghini - Voilà
 ![Elettra Lamborghini](output/profile_Elettra_Lamborghini_-_Voilà.png)
@@ -285,14 +312,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 192.7s |
 | BPM | 129.2 |
 | Energia | 0.2819 |
-| Dynamic Range | 14.4 dB |
+| EBU LRA | 5.69 LU |
 | Climax | al 74% del brano |
 | Centroid | 2514 Hz |
 | H/P ratio | 2.2 |
 | Onset density | 4.1/s |
-| Beat regularity | 0.0140 |
+| Beat CV | 0.0308 |
+| nPVI | 3.8 |
 | Quiet ratio | 11.6% |
-| Chroma complexity | 0.0768 |
+| Chroma entropy | 3.5580 bit |
 
 ### Samurai Jay - Ossessione
 ![Samurai Jay](output/profile_Samurai_Jay_-_Ossessione.png)
@@ -302,14 +330,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 188.2s |
 | BPM | 123.0 |
 | Energia | 0.2894 |
-| Dynamic Range | 16.5 dB |
+| EBU LRA | 5.07 LU |
 | Climax | al 89% del brano |
 | Centroid | 2854 Hz |
 | H/P ratio | 1.9 |
 | Onset density | 2.9/s |
-| Beat regularity | 0.0188 |
+| Beat CV | 0.0383 |
+| nPVI | 3.0 |
 | Quiet ratio | 11.9% |
-| Chroma complexity | 0.0629 |
+| Chroma entropy | 3.5646 bit |
 
 ### Tommaso Paradiso - I Romantici
 ![Tommaso Paradiso](output/profile_Tommaso_Paradiso_-_I_Romantici.png)
@@ -319,14 +348,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 240.0s |
 | BPM | 143.6 |
 | Energia | 0.2806 |
-| Dynamic Range | 27.3 dB |
+| EBU LRA | 6.71 LU |
 | Climax | al 74% del brano |
 | Centroid | 2228 Hz |
 | H/P ratio | 5.4 |
 | Onset density | 2.4/s |
-| Beat regularity | 0.0175 |
+| Beat CV | 0.0410 |
+| nPVI | 4.0 |
 | Quiet ratio | 15.2% |
-| Chroma complexity | 0.0786 |
+| Chroma entropy | 3.5529 bit |
 
 ### Serena Brancale - Qui Con Me
 ![Serena Brancale](output/profile_Serena_Brancale_-_Qui_Con_Me.png)
@@ -336,14 +366,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 196.1s |
 | BPM | 103.4 |
 | Energia | 0.2580 |
-| Dynamic Range | 18.1 dB |
+| EBU LRA | 6.05 LU |
 | Climax | al 84% del brano |
 | Centroid | 1934 Hz |
 | H/P ratio | 6.5 |
 | Onset density | 2.3/s |
-| Beat regularity | 0.0405 |
+| Beat CV | 0.0700 |
+| nPVI | 5.4 |
 | Quiet ratio | 17.7% |
-| Chroma complexity | 0.0536 |
+| Chroma entropy | 3.5620 bit |
 
 ### Mara Sattei - Le Cose Che Non Sai Di Me
 ![Mara Sattei](output/profile_Mara_Sattei_-_Le_Cose_Che_Non_Sai_Di_Me.png)
@@ -353,14 +384,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 204.6s |
 | BPM | 143.6 |
 | Energia | 0.2781 |
-| Dynamic Range | 17.2 dB |
+| EBU LRA | 8.34 LU |
 | Climax | al 68% del brano |
 | Centroid | 2463 Hz |
 | H/P ratio | 4.4 |
 | Onset density | 3.2/s |
-| Beat regularity | 0.0145 |
+| Beat CV | 0.0349 |
+| nPVI | 2.9 |
 | Quiet ratio | 14.5% |
-| Chroma complexity | 0.0505 |
+| Chroma entropy | 3.5657 bit |
 
 ### Dargen D'Amico - Ai Ai
 ![Dargen D'Amico](output/profile_Dargen_D'Amico_-_Ai_Ai.png)
@@ -370,14 +402,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 203.2s |
 | BPM | 123.0 |
 | Energia | 0.2305 |
-| Dynamic Range | 16.1 dB |
+| EBU LRA | 4.51 LU |
 | Climax | al 95% del brano |
 | Centroid | 2459 Hz |
 | H/P ratio | 1.9 |
 | Onset density | 3.8/s |
-| Beat regularity | 0.0208 |
+| Beat CV | 0.0425 |
+| nPVI | 3.7 |
 | Quiet ratio | 10.4% |
-| Chroma complexity | 0.0606 |
+| Chroma entropy | 3.5689 bit |
 
 ### Luchè - Labirinto
 ![Luchè](output/profile_Luchè_-_Labirinto.png)
@@ -387,14 +420,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 227.3s |
 | BPM | 112.3 |
 | Energia | 0.3587 |
-| Dynamic Range | 18.3 dB |
+| EBU LRA | 3.53 LU |
 | Climax | al 74% del brano |
 | Centroid | 2227 Hz |
 | H/P ratio | 4.1 |
 | Onset density | 4.2/s |
-| Beat regularity | 0.0342 |
+| Beat CV | 0.0644 |
+| nPVI | 5.2 |
 | Quiet ratio | 9.8% |
-| Chroma complexity | 0.0861 |
+| Chroma entropy | 3.5572 bit |
 
 ### Patty Pravo - Opera
 ![Patty Pravo](output/profile_Patty_Pravo_-_Opera.png)
@@ -404,14 +438,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 222.7s |
 | BPM | 103.4 |
 | Energia | 0.2648 |
-| Dynamic Range | 15.1 dB |
+| EBU LRA | 6.13 LU |
 | Climax | al 95% del brano |
 | Centroid | 2008 Hz |
 | H/P ratio | 9.3 |
 | Onset density | 2.5/s |
-| Beat regularity | 0.0267 |
+| Beat CV | 0.0455 |
+| nPVI | 4.5 |
 | Quiet ratio | 10.2% |
-| Chroma complexity | 0.0779 |
+| Chroma entropy | 3.5406 bit |
 
 ### RAF - Ora E Per Sempre
 ![RAF](output/profile_RAF_-_Ora_E_Per_Sempre.png)
@@ -421,14 +456,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 197.0s |
 | BPM | 152.0 |
 | Energia | 0.2353 |
-| Dynamic Range | 23.7 dB |
+| EBU LRA | 8.05 LU |
 | Climax | al 84% del brano |
 | Centroid | 2479 Hz |
 | H/P ratio | 6.6 |
 | Onset density | 2.4/s |
-| Beat regularity | 0.0175 |
+| Beat CV | 0.0440 |
+| nPVI | 3.4 |
 | Quiet ratio | 13.9% |
-| Chroma complexity | 0.0550 |
+| Chroma entropy | 3.5667 bit |
 
 ### J-AX - Italia Starter Pack
 ![J-AX](output/profile_J-AX_-_Italia_Starter_Pack.png)
@@ -438,14 +474,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 170.4s |
 | BPM | 117.5 |
 | Energia | 0.2750 |
-| Dynamic Range | 10.4 dB |
+| EBU LRA | 3.16 LU |
 | Climax | al 68% del brano |
 | Centroid | 2847 Hz |
 | H/P ratio | 2.7 |
 | Onset density | 4.0/s |
-| Beat regularity | 0.0184 |
+| Beat CV | 0.0355 |
+| nPVI | 3.6 |
 | Quiet ratio | 6.2% |
-| Chroma complexity | 0.0609 |
+| Chroma entropy | 3.5705 bit |
 
 ### Fulminacci - Stupida Sfortuna
 ![Fulminacci](output/profile_Fulminacci_-_Stupida_Sfortuna.png)
@@ -455,14 +492,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 175.0s |
 | BPM | 95.7 |
 | Energia | 0.2165 |
-| Dynamic Range | 25.1 dB |
+| EBU LRA | 7.9 LU |
 | Climax | al 84% del brano |
 | Centroid | 2189 Hz |
 | H/P ratio | 3.3 |
 | Onset density | 2.8/s |
-| Beat regularity | 0.0339 |
+| Beat CV | 0.0534 |
+| nPVI | 5.2 |
 | Quiet ratio | 16.4% |
-| Chroma complexity | 0.0511 |
+| Chroma entropy | 3.5693 bit |
 
 ### Levante - Sei Tu
 ![Levante](output/profile_Levante_-_Sei_Tu.png)
@@ -472,14 +510,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 211.6s |
 | BPM | 161.5 |
 | Energia | 0.2657 |
-| Dynamic Range | 18.8 dB |
+| EBU LRA | 10.65 LU |
 | Climax | al 84% del brano |
 | Centroid | 2308 Hz |
 | H/P ratio | 7.7 |
 | Onset density | 2.1/s |
-| Beat regularity | 0.0149 |
+| Beat CV | 0.0398 |
+| nPVI | 3.5 |
 | Quiet ratio | 19.5% |
-| Chroma complexity | 0.0784 |
+| Chroma entropy | 3.5471 bit |
 
 ### Fedez & Marco Masini - Male Necessario
 ![Fedez & Marco Masini](output/profile_Fedez_&_Marco_Masini_-_Male_Necessario.png)
@@ -489,14 +528,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 187.6s |
 | BPM | 143.6 |
 | Energia | 0.2754 |
-| Dynamic Range | 21.2 dB |
+| EBU LRA | 9.0 LU |
 | Climax | al 74% del brano |
 | Centroid | 2412 Hz |
 | H/P ratio | 4.2 |
 | Onset density | 3.5/s |
-| Beat regularity | 0.0202 |
+| Beat CV | 0.0480 |
+| nPVI | 4.0 |
 | Quiet ratio | 25.1% |
-| Chroma complexity | 0.0561 |
+| Chroma entropy | 3.5675 bit |
 
 ### Ermal Meta - Stella Stellina
 ![Ermal Meta](output/profile_Ermal_Meta_-_Stella_Stellina.png)
@@ -506,14 +546,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 198.9s |
 | BPM | 129.2 |
 | Energia | 0.3083 |
-| Dynamic Range | 15.3 dB |
+| EBU LRA | 3.83 LU |
 | Climax | al 84% del brano |
 | Centroid | 2250 Hz |
 | H/P ratio | 2.9 |
 | Onset density | 3.0/s |
-| Beat regularity | 0.0251 |
+| Beat CV | 0.0536 |
+| nPVI | 3.6 |
 | Quiet ratio | 10.2% |
-| Chroma complexity | 0.0606 |
+| Chroma entropy | 3.5688 bit |
 
 ### Nayt - Prima Che
 ![Nayt](output/profile_Nayt_-_Prima_Che.png)
@@ -523,14 +564,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 183.0s |
 | BPM | 80.7 |
 | Energia | 0.2623 |
-| Dynamic Range | 23.3 dB |
+| EBU LRA | 11.03 LU |
 | Climax | al 53% del brano |
 | Centroid | 2308 Hz |
 | H/P ratio | 3.8 |
 | Onset density | 3.1/s |
-| Beat regularity | 0.0397 |
+| Beat CV | 0.0531 |
+| nPVI | 4.7 |
 | Quiet ratio | 26.9% |
-| Chroma complexity | 0.0886 |
+| Chroma entropy | 3.5481 bit |
 
 ### Enrico Nigiotti - Ogni Volta Che Non So Volare
 ![Enrico Nigiotti](output/profile_Enrico_Nigiotti_-_Ogni_Volta_Che_Non_So_Volare.png)
@@ -540,14 +582,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 180.5s |
 | BPM | 123.0 |
 | Energia | 0.2306 |
-| Dynamic Range | 14.1 dB |
+| EBU LRA | 6.75 LU |
 | Climax | al 79% del brano |
 | Centroid | 1974 Hz |
 | H/P ratio | 3.2 |
 | Onset density | 2.3/s |
-| Beat regularity | 0.0273 |
+| Beat CV | 0.0564 |
+| nPVI | 4.2 |
 | Quiet ratio | 8.4% |
-| Chroma complexity | 0.0854 |
+| Chroma entropy | 3.5423 bit |
 
 ### Sal Da Vinci - Per Sempre Sì
 ![Sal Da Vinci](output/profile_Sal_Da_Vinci_-_Per_Sempre_Sì.png)
@@ -557,14 +600,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 175.1s |
 | BPM | 123.0 |
 | Energia | 0.3058 |
-| Dynamic Range | 19.3 dB |
+| EBU LRA | 3.53 LU |
 | Climax | al 95% del brano |
 | Centroid | 3275 Hz |
 | H/P ratio | 3.2 |
 | Onset density | 4.4/s |
-| Beat regularity | 0.0149 |
+| Beat CV | 0.0305 |
+| nPVI | 1.8 |
 | Quiet ratio | 11.6% |
-| Chroma complexity | 0.0566 |
+| Chroma entropy | 3.5692 bit |
 
 ### Eddie Brock - Avvoltoi
 ![Eddie Brock](output/profile_Eddie_Brock_-_Avvoltoi.png)
@@ -574,14 +618,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 165.3s |
 | BPM | 123.0 |
 | Energia | 0.2424 |
-| Dynamic Range | 24.1 dB |
+| EBU LRA | 10.92 LU |
 | Climax | al 79% del brano |
 | Centroid | 2132 Hz |
 | H/P ratio | 3.7 |
 | Onset density | 1.8/s |
-| Beat regularity | 0.0192 |
+| Beat CV | 0.0399 |
+| nPVI | 3.9 |
 | Quiet ratio | 20.7% |
-| Chroma complexity | 0.0758 |
+| Chroma entropy | 3.5487 bit |
 
 ### chiello - Ti Penso Sempre
 ![chiello](output/profile_chiello_-_Ti_Penso_Sempre.png)
@@ -591,14 +636,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 154.6s |
 | BPM | 76.0 |
 | Energia | 0.2406 |
-| Dynamic Range | 16.1 dB |
+| EBU LRA | 8.88 LU |
 | Climax | al 84% del brano |
 | Centroid | 1919 Hz |
 | H/P ratio | 2.4 |
 | Onset density | 2.8/s |
-| Beat regularity | 0.0315 |
+| Beat CV | 0.0401 |
+| nPVI | 2.6 |
 | Quiet ratio | 16.7% |
-| Chroma complexity | 0.0865 |
+| Chroma entropy | 3.5498 bit |
 
 ### Maria Antonietta & Colombre - La Felicità E Basta
 ![Maria Antonietta & Colombre](output/profile_Maria_Antonietta_&_Colombre_-_La_Felicità_E_Basta.png)
@@ -608,14 +654,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 208.6s |
 | BPM | 123.0 |
 | Energia | 0.2331 |
-| Dynamic Range | 15.1 dB |
+| EBU LRA | 3.61 LU |
 | Climax | al 95% del brano |
 | Centroid | 2802 Hz |
 | H/P ratio | 1.2 |
 | Onset density | 3.8/s |
-| Beat regularity | 0.0219 |
+| Beat CV | 0.0453 |
+| nPVI | 3.9 |
 | Quiet ratio | 9.4% |
-| Chroma complexity | 0.0717 |
+| Chroma entropy | 3.5561 bit |
 
 ### Leo Gassmann - Naturale
 ![Leo Gassmann](output/profile_Leo_Gassmann_-_Naturale.png)
@@ -625,14 +672,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 182.5s |
 | BPM | 152.0 |
 | Energia | 0.2723 |
-| Dynamic Range | 15.5 dB |
+| EBU LRA | 7.3 LU |
 | Climax | al 74% del brano |
 | Centroid | 2672 Hz |
 | H/P ratio | 3.4 |
 | Onset density | 3.1/s |
-| Beat regularity | 0.0195 |
+| Beat CV | 0.0503 |
+| nPVI | 4.4 |
 | Quiet ratio | 17.2% |
-| Chroma complexity | 0.0829 |
+| Chroma entropy | 3.5403 bit |
 
 ### Francesco Renga - Il Meglio Di Me
 ![Francesco Renga](output/profile_Francesco_Renga_-_Il_Meglio_Di_Me.png)
@@ -642,14 +690,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 167.1s |
 | BPM | 123.0 |
 | Energia | 0.2569 |
-| Dynamic Range | 17.8 dB |
+| EBU LRA | 3.88 LU |
 | Climax | al 79% del brano |
 | Centroid | 1994 Hz |
 | H/P ratio | 4.5 |
 | Onset density | 2.8/s |
-| Beat regularity | 0.0252 |
+| Beat CV | 0.0528 |
+| nPVI | 5.4 |
 | Quiet ratio | 13.9% |
-| Chroma complexity | 0.0566 |
+| Chroma entropy | 3.5655 bit |
 
 ### LDA & Aka 7even - Poesie Clandestine
 ![LDA & Aka 7even](output/profile_LDA_&_Aka_7even_-_Poesie_Clandestine.png)
@@ -659,14 +708,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 183.3s |
 | BPM | 107.7 |
 | Energia | 0.2509 |
-| Dynamic Range | 21.5 dB |
+| EBU LRA | 8.5 LU |
 | Climax | al 58% del brano |
 | Centroid | 3002 Hz |
 | H/P ratio | 4.0 |
 | Onset density | 4.0/s |
-| Beat regularity | 0.0239 |
+| Beat CV | 0.0430 |
+| nPVI | 2.8 |
 | Quiet ratio | 17.8% |
-| Chroma complexity | 0.0627 |
+| Chroma entropy | 3.5629 bit |
 
 ### Malika Ayane - Animali Notturni
 ![Malika Ayane](output/profile_Malika_Ayane_-_Animali_Notturni.png)
@@ -676,14 +726,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 178.3s |
 | BPM | 107.7 |
 | Energia | 0.2652 |
-| Dynamic Range | 15.6 dB |
+| EBU LRA | 5.24 LU |
 | Climax | al 32% del brano |
 | Centroid | 3192 Hz |
 | H/P ratio | 1.4 |
 | Onset density | 5.3/s |
-| Beat regularity | 0.0130 |
+| Beat CV | 0.0236 |
+| nPVI | 2.9 |
 | Quiet ratio | 10.2% |
-| Chroma complexity | 0.0459 |
+| Chroma entropy | 3.5742 bit |
 
 ### Michele Bravi - Prima O Poi
 ![Michele Bravi](output/profile_Michele_Bravi_-_Prima_O_Poi.png)
@@ -693,14 +744,15 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 | Durata | 188.7s |
 | BPM | 136.0 |
 | Energia | 0.2142 |
-| Dynamic Range | 34.1 dB |
+| EBU LRA | 9.62 LU |
 | Climax | al 84% del brano |
 | Centroid | 2446 Hz |
 | H/P ratio | 4.3 |
 | Onset density | 3.5/s |
-| Beat regularity | 0.0275 |
+| Beat CV | 0.0619 |
+| nPVI | 5.3 |
 | Quiet ratio | 23.0% |
-| Chroma complexity | 0.0735 |
+| Chroma entropy | 3.5527 bit |
 
 </details>
 
@@ -708,12 +760,20 @@ Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
 
 ## Nota metodologica
 
-- Ricchezza lessicale misurata con **MATTR** (Moving Average TTR, finestra 50 parole) invece del TTR grezzo per evitare bias legato alla lunghezza del testo
-- Separazione vocale con **Demucs htdemucs** su CPU
-- Pitch tracking via **pyin** (librosa) — i valori estremi di range vocale (>25 semitoni) possono contenere artefatti dalla separazione
-- Il vibrato detection è sperimentale — i risultati per artisti rap (J-AX) sono probabilmente artefatti
+Ogni metrica è scelta per essere citabile e difendibile con la letteratura MIR:
 
-**[Analisi incrociata completa — report, correlazioni, outlier](output/analisi_incrociata.md)**
+- **EBU R128 LRA** (Loudness Range, EBU Tech 3342) al posto del dynamic range P95/P5 — standard broadcast, misura K-weighted via `pyloudnorm`
+- **Shannon entropy cromatica** (Weiss & Mueller 2015, ICASSP) al posto di std(chroma) — max = log2(12) = 3.585 bit per distribuzione uniforme
+- **Beat CV** (Coefficient of Variation) e **nPVI** (normalized Pairwise Variability Index, Patel & Daniele 2003) — metriche adimensionali di variabilità ritmica
+- **Hapax ratio** corretto: denominatore = unique words (types), non total words (Baayen 2001)
+- **Compression ratio** (zlib, Parada-Cabaleiro et al. 2024, Scientific Reports) — misura information-theoretic della ripetitività testuale
+- **CREPE pitch tracking** (Kim et al. 2018) al posto di pyin — modello neurale, periodicity threshold 0.21, silence suppression -60dB
+- Ricchezza lessicale misurata con **MATTR** (Moving Average TTR, finestra 50 parole)
+- Separazione vocale con **Demucs htdemucs** su CPU
+- **PCA esplorativa** su 25 feature scalari (StandardScaler + sklearn PCA) — 8 PC per ≥80% varianza
+- Le 8 classifiche ad-hoc sono **indici esplorativi non validati** — la PCA offre un'alternativa data-driven
+
+**[Analisi incrociata completa — report, correlazioni, outlier](output/cross_report.txt)**
 
 ---
 
@@ -735,6 +795,8 @@ La deep analysis richiede Demucs e PyTorch — su CPU ci vogliono ~60 minuti per
 - Python 3.13, uv
 - librosa, numpy, matplotlib, soundfile, scikit-learn, scipy
 - torch, torchaudio, demucs (separazione vocale)
+- torchcrepe (CREPE pitch tracking)
+- pyloudnorm (EBU R128 LRA)
 - requests, beautifulsoup4, lyricsgenius (scraping testi)
 
 ## Licenza

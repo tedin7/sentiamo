@@ -173,7 +173,7 @@ def analyze_lyrics(text: str) -> dict:
     from collections import Counter
     word_freq = Counter(words)
     hapax = sum(1 for w, c in word_freq.items() if c == 1)
-    hapax_ratio = hapax / total_words if total_words > 0 else 0
+    hapax_ratio = hapax / unique_words if unique_words > 0 else 0
 
     # Tasso di ripetizione (parole ripetute / totale)
     repetition_rate = 1 - ttr
@@ -188,6 +188,15 @@ def analyze_lyrics(text: str) -> dict:
     line_counts = Counter(lines)
     repeated_lines = sum(c for l, c in line_counts.items() if c > 1)
     chorus_ratio = repeated_lines / len(lines) if lines else 0
+
+    # Compression ratio (zlib) — Parada-Cabaleiro et al. 2024
+    # Basso = testo piu' ripetitivo/prevedibile
+    import zlib
+    text_bytes = text.encode("utf-8")
+    if len(text_bytes) > 0:
+        compression_ratio = len(zlib.compress(text_bytes)) / len(text_bytes)
+    else:
+        compression_ratio = 0.0
 
     # Top 10 parole piu' frequenti (escluse stop words italiane)
     stop_words = {
@@ -212,6 +221,7 @@ def analyze_lyrics(text: str) -> dict:
         "words_per_line": round(words_per_line, 2),
         "avg_word_length": round(avg_word_length, 2),
         "chorus_ratio": round(chorus_ratio, 3),
+        "compression_ratio": round(compression_ratio, 4),
         "top_words": top_words,
     }
 
@@ -280,17 +290,67 @@ def separate_vocals_demucs(filepath: Path, out_path: Path) -> Path | None:
 
 
 def analyze_vocals(vocal_path: Path) -> dict:
-    """Analizza la traccia vocale isolata."""
+    """Analizza la traccia vocale isolata con CREPE pitch tracking (Kim et al. 2018)."""
+    import torch
+    import torchcrepe
+
     y, sr = librosa.load(vocal_path, sr=SR, mono=True)
     duration = len(y) / sr
 
-    # Pitch tracking (pyin)
-    f0, voiced_flag, voiced_prob = librosa.pyin(
-        y, fmin=librosa.note_to_hz("C2"),
-        fmax=librosa.note_to_hz("C6"), sr=sr
+    # CREPE pitch tracking — Kim et al. 2018
+    # Usa 16kHz come richiesto da CREPE
+    CREPE_SR = 16000
+    y_16k = librosa.resample(y, orig_sr=SR, target_sr=CREPE_SR)
+    audio_tensor = torch.from_numpy(y_16k).unsqueeze(0).float()
+
+    hop_samples = int(CREPE_SR * 0.01)  # 10ms hop
+    fmin = float(librosa.note_to_hz("C2"))
+    fmax = float(librosa.note_to_hz("C6"))
+
+    # CREPE predict
+    pitch, periodicity = torchcrepe.predict(
+        audio_tensor, CREPE_SR,
+        hop_length=hop_samples,
+        fmin=fmin, fmax=fmax,
+        model="full",
+        batch_size=512,
+        device="cpu",
+        return_periodicity=True,
     )
 
-    f0_valid = f0[~np.isnan(f0)]
+    pitch = pitch.squeeze(0).numpy()
+    periodicity = periodicity.squeeze(0).numpy()
+
+    # Silence suppression: -60 dB threshold
+    # Compute frame-level RMS at same hop rate
+    frame_len_16k = hop_samples * 4
+    rms_frames = librosa.feature.rms(
+        y=y_16k, frame_length=frame_len_16k, hop_length=hop_samples
+    )[0]
+    # Align lengths
+    min_len = min(len(pitch), len(rms_frames))
+    pitch = pitch[:min_len]
+    periodicity = periodicity[:min_len]
+    rms_frames = rms_frames[:min_len]
+
+    rms_db = 20 * np.log10(rms_frames + 1e-10)
+    silence_mask = rms_db < -60
+
+    # Voiced mask: periodicity > 0.21 AND not silent
+    voiced_mask = (periodicity > 0.21) & (~silence_mask)
+
+    # Mean smoothing (window=5)
+    if np.sum(voiced_mask) > 5:
+        pitch_smooth = np.copy(pitch)
+        for i in range(2, len(pitch_smooth) - 2):
+            if voiced_mask[i]:
+                neighbors = pitch_smooth[max(0, i-2):i+3]
+                neighbor_mask = voiced_mask[max(0, i-2):i+3]
+                if np.sum(neighbor_mask) > 0:
+                    pitch_smooth[i] = np.mean(neighbors[neighbor_mask])
+        f0_valid = pitch_smooth[voiced_mask]
+    else:
+        f0_valid = pitch[voiced_mask]
 
     results = {}
 
@@ -306,8 +366,7 @@ def analyze_vocals(vocal_path: Path) -> dict:
         f0_median = float(np.median(f0_valid))
         results["vocal_median_hz"] = round(f0_median, 1)
 
-        # Stabilita' del pitch (std in cents)
-        # Deviazione in cents dal pitch medio locale
+        # Stabilita' del pitch (std in cents dal pitch medio locale)
         cents_dev = []
         window = 10
         for i in range(window, len(f0_valid) - window):
@@ -320,8 +379,7 @@ def analyze_vocals(vocal_path: Path) -> dict:
         else:
             results["pitch_stability_cents"] = 0.0
 
-        # Vibrato detection (oscillazione periodica del pitch)
-        # Calcola autocorrelazione delle variazioni di pitch
+        # Vibrato detection (autocorrelazione variazioni pitch, 4-8 Hz)
         if len(f0_valid) > 50:
             f0_diff = np.diff(f0_valid)
             if np.std(f0_diff) > 0:
@@ -329,10 +387,8 @@ def analyze_vocals(vocal_path: Path) -> dict:
                                         f0_diff - np.mean(f0_diff), mode="full")
                 autocorr = autocorr[len(autocorr)//2:]
                 autocorr = autocorr / (autocorr[0] + 1e-10)
-                # Cerca picco tra 4-8 Hz (tipico vibrato)
-                # Frame rate ~ sr/hop_length
-                hop = 512
-                frame_rate = sr / hop
+                # Frame rate CREPE = CREPE_SR / hop_samples = 100 Hz
+                frame_rate = CREPE_SR / hop_samples
                 min_lag = int(frame_rate / 8)  # 8 Hz
                 max_lag = int(frame_rate / 4)  # 4 Hz
                 if max_lag < len(autocorr) and min_lag < max_lag:
@@ -352,9 +408,8 @@ def analyze_vocals(vocal_path: Path) -> dict:
         results["pitch_stability_cents"] = 0.0
         results["vibrato_strength"] = 0.0
 
-    # Voiced ratio (quanto tempo c'e' voce vs silenzio)
-    voiced_ratio = float(np.sum(voiced_flag)) / len(voiced_flag) if len(voiced_flag) > 0 else 0
-    results["voiced_ratio"] = round(voiced_ratio, 3)
+    # Voiced ratio
+    results["voiced_ratio"] = round(float(np.sum(voiced_mask) / len(voiced_mask)), 3) if len(voiced_mask) > 0 else 0.0
 
     # Energia vocale (RMS)
     rms = librosa.feature.rms(y=y)[0]
