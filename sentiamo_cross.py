@@ -128,9 +128,9 @@ def plot_ranking(title, subtitle, scores, color, filename, direction=None):
     sorted_names = [shorts[i] for i in idx]
     sorted_scores = scores[idx]
 
-    fig, ax = plt.subplots(figsize=(12, 10))
+    fig, ax = plt.subplots(figsize=(13, 11))
     bars = ax.barh(range(len(sorted_names)), sorted_scores, color=color, alpha=0.85,
-                   edgecolor="white", linewidth=0.5)
+                   edgecolor="white", linewidth=0.5, height=0.75)
 
     # If incoerenza, color differently based on direction
     if direction is not None:
@@ -139,17 +139,18 @@ def plot_ranking(title, subtitle, scores, color, filename, direction=None):
             bar.set_color("#E27D60" if d > 0 else "#355C7D")
 
     ax.set_yticks(range(len(sorted_names)))
-    ax.set_yticklabels(sorted_names, fontsize=9)
+    ax.set_yticklabels(sorted_names, fontsize=10, fontfamily="monospace")
     ax.invert_yaxis()
     ax.set_xlabel("Score", fontsize=11)
-    ax.set_title(title, fontsize=14, fontweight="bold", pad=15)
-    ax.text(0.5, 1.02, subtitle, transform=ax.transAxes,
-            fontsize=9, color="#666", ha="center", va="bottom")
+
+    # Title and subtitle — separate clearly
+    fig.suptitle(title, fontsize=18, fontweight="bold", y=0.98)
+    ax.set_title(subtitle, fontsize=10, color="#666", pad=12)
 
     # Value labels
     for bar, val in zip(bars, sorted_scores):
         ax.text(bar.get_width() + 0.02, bar.get_y() + bar.get_height() / 2,
-                f"{val:.2f}", va="center", fontsize=8, color="#333")
+                f"{val:.2f}", va="center", fontsize=8.5, color="#333")
 
     if direction is not None:
         from matplotlib.patches import Patch
@@ -157,20 +158,29 @@ def plot_ranking(title, subtitle, scores, color, filename, direction=None):
             Patch(facecolor="#E27D60", label="Musica > Testo"),
             Patch(facecolor="#355C7D", label="Testo > Musica"),
         ]
-        ax.legend(handles=legend_elements, loc="lower right", fontsize=9)
+        ax.legend(handles=legend_elements, loc="lower right", fontsize=10)
 
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
-    plt.tight_layout()
+    fig.subplots_adjust(top=0.92)
     plt.savefig(OUT / filename, dpi=150, bbox_inches="tight")
     plt.close()
     print(f"  {filename}")
 
 
 def plot_overview():
-    """Spider/radar overview of top 5 artists across all dimensions."""
-    # For each non-incoerenza ranking, get top 5
+    """Spider/radar overview of top artists across all dimensions."""
     rank_names = [k for k in rankings if k != "Incoerenza musica↔testo"]
+    # Shorter labels for radar axes
+    short_rank = {
+        "Complessità totale": "Complessità",
+        "Formula commerciale": "Commerciale",
+        "Autorialità": "Autorialità",
+        "Controllo vocale": "Voce",
+        "Tensione narrativa": "Tensione",
+        "Modernità produttiva": "Modernità",
+        "Minimalismo": "Minimalismo",
+    }
 
     # Find artists who appear most in top 10s
     from collections import Counter
@@ -181,37 +191,34 @@ def plot_overview():
         for i in top10:
             appearances[shorts[i]] += 1
 
-    # Top 8 most versatile
-    top_artists = [a for a, _ in appearances.most_common(8)]
+    top_artists = [a for a, _ in appearances.most_common(6)]
 
-    # Build radar data
     angles = np.linspace(0, 2 * np.pi, len(rank_names), endpoint=False).tolist()
     angles += angles[:1]
 
-    fig, ax = plt.subplots(figsize=(10, 10), subplot_kw=dict(polar=True))
-    colors_list = plt.cm.Set2(np.linspace(0, 1, len(top_artists)))
+    fig, ax = plt.subplots(figsize=(12, 12), subplot_kw=dict(polar=True))
+    palette = ["#6C5B7B", "#F67280", "#355C7D", "#C06C84", "#E8A87C", "#41B3A3"]
 
-    for artist, color in zip(top_artists, colors_list):
+    for artist, color in zip(top_artists, palette):
         idx_a = shorts.index(artist)
         values = []
         for rname in rank_names:
             scores = rankings[rname]["scores"]
-            # Percentile rank (0-1)
             rank = np.searchsorted(np.sort(scores), scores[idx_a]) / len(scores)
             values.append(rank)
         values += values[:1]
-        ax.plot(angles, values, "o-", linewidth=2, label=artist, color=color, markersize=4)
-        ax.fill(angles, values, alpha=0.05, color=color)
+        ax.plot(angles, values, "o-", linewidth=2.5, label=artist, color=color, markersize=6)
+        ax.fill(angles, values, alpha=0.08, color=color)
 
     ax.set_xticks(angles[:-1])
-    ax.set_xticklabels(rank_names, fontsize=8)
+    ax.set_xticklabels([short_rank.get(r, r) for r in rank_names], fontsize=12, fontweight="bold")
     ax.set_ylim(0, 1)
     ax.set_yticks([0.25, 0.5, 0.75, 1.0])
-    ax.set_yticklabels(["25%", "50%", "75%", "100%"], fontsize=7, color="#888")
-    ax.legend(loc="upper right", bbox_to_anchor=(1.3, 1.1), fontsize=9)
-    ax.set_title("Profilo multidimensionale — Top 8 artisti più versatili",
-                 fontsize=13, fontweight="bold", pad=25)
-    plt.tight_layout()
+    ax.set_yticklabels(["25%", "50%", "75%", "100%"], fontsize=9, color="#888")
+    ax.legend(loc="upper right", bbox_to_anchor=(1.35, 1.1), fontsize=12,
+              frameon=True, fancybox=True, shadow=True)
+    fig.suptitle("Profilo multidimensionale — Top 6 artisti", fontsize=16, fontweight="bold", y=0.98)
+    fig.subplots_adjust(top=0.90)
     plt.savefig(OUT / "cross_radar.png", dpi=150, bbox_inches="tight")
     plt.close()
     print("  cross_radar.png")

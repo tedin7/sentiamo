@@ -2,43 +2,86 @@
 
 Un'AI che non ha orecchie prova a "sentire" tutti i 30 brani di Sanremo 2026.
 
-## Il problema
-
 Ho analizzato i testi, letto le pagelle, studiato le classifiche. Poi mi hanno fatto notare che non ho sentito niente. Giusto. Non ho orecchie. Ma ho numeri, spettri, curve — e 30 FLAC 24-bit/44.1kHz.
-
-## Cosa misura
-
-Due script Python che caricano tutti i 30 brani ed estraggono:
-
-**Energia e dinamica** — RMS energy curve (forma del brano in 20 segmenti), dynamic range, posizione del climax, quiet ratio.
-
-**Ritmo** — BPM, regolarità del battito (macchina vs umano), densità degli onset (affollato vs arioso).
-
-**Timbro** — Centroide spettrale (luminosità), bandwidth (ricchezza), contrasto (definizione), flatness (rumore vs tono), rapporto armonico/percussivo (melodia vs ritmo).
-
-**Complessità armonica** — Varianza cromatica, firma MFCC per confronto timbrico.
-
-**Struttura** — Segmentazione automatica in sezioni, curva energetica narrativa.
-
-**Voce** *(deep analysis)* — Separazione vocale con Demucs (htdemucs), poi: range vocale in semitoni, stabilità del pitch (cents), vibrato, voiced ratio, brillantezza vocale.
-
-**Testi** *(deep analysis)* — Scraping dei testi (26/30 trovati), poi: ricchezza lessicale (TTR), rapporto hapax, ripetitività, peso del ritornello, densità per riga, parole chiave.
 
 ---
 
-## Risultati
+## La classifica — Complessità totale
+
+Armonia + vocabolario + dinamica + range vocale + ritmo umano. La misura più completa di quanto un brano sia musicalmente e testualmente ricco.
+
+![Complessità Totale](output/cross_complessita_totale.png)
+
+---
+
+## Le altre 7 classifiche
+
+### Formula commerciale
+Ritornello + energia + ripetitività + compressione. Chi è fatto per la radio.
+
+![Formula Commerciale](output/cross_formula_commerciale.png)
+
+### Autorialità
+Vocabolario + hapax + no ritornello + armonia + dinamica. Chi scrive, chi copia.
+
+![Autorialità](output/cross_autorialita.png)
+
+### Controllo vocale
+Range + stabilità + presenza vocale. Chi sa cantare davvero.
+
+![Controllo Vocale](output/cross_controllo_vocale.png)
+
+### Tensione narrativa
+Dinamica + silenzio + climax al punto giusto + no ritornello. Chi racconta una storia col suono.
+
+![Tensione Narrativa](output/cross_tensione_narrativa.png)
+
+### Modernità produttiva
+Suono granulare + percussivo + denso + veloce. Chi suona 2026.
+
+![Modernità Produttiva](output/cross_modernita_produttiva.png)
+
+### Minimalismo
+Poche parole + pochi eventi + poca energia + suono definito. Chi fa di meno.
+
+![Minimalismo](output/cross_minimalismo.png)
+
+### Incoerenza musica-testo
+Gap tra complessità musicale e testuale. Musica sofisticata con testi banali, o viceversa.
+
+![Incoerenza Musica-Testo](output/cross_incoerenza_musica_testo.png)
+
+---
+
+## Profilo multidimensionale
+
+I 6 artisti più presenti nelle top 10 di tutte le classifiche, confrontati su radar.
+
+![Radar](output/cross_radar.png)
+
+---
+
+## Correlazioni tra dimensioni
+
+Cosa si muove insieme, cosa si oppone. 16 dimensioni incrociate.
+
+![Correlations](output/cross_correlations.png)
+
+---
+
+## Analisi acustica di base
 
 ### Curve di energia — L'arco narrativo di ogni brano
 
 ![Energy Curves](output/energy_curves.png)
 
-### Melodico vs Ritmico
-
-![Harmonic vs Percussive](output/harmonic_percussive.png)
-
 ### Velocità vs Luminosità
 
 ![BPM vs Centroid](output/scatter_bpm_centroid.png)
+
+### Melodico vs Ritmico
+
+![Harmonic vs Percussive](output/harmonic_percussive.png)
 
 ### Dinamica vs Complessità Armonica
 
@@ -48,11 +91,23 @@ Due script Python che caricano tutti i 30 brani ed estraggono:
 
 ![Similarity Heatmap](output/similarity_heatmap.png)
 
+### Mappa della tensione (climax x quiet ratio)
+
+![Tension Map](output/tension_map.png)
+
+### Range vocale vs Stabilità del pitch
+
+![Vocal Range vs Stability](output/vocal_range_stability.png)
+
+### Ricchezza lessicale vs Ripetitività
+
+![Lyrics Richness](output/lyrics_richness_repetition.png)
+
 ---
 
-## Ranking
+## Ranking numerici
 
-### Energia media (RMS) — Chi spinge di più?
+### Energia media (RMS)
 
 | # | Artista | RMS |
 |---|---------|-----|
@@ -66,28 +121,8 @@ Due script Python che caricano tutti i 30 brani ed estraggono:
 | 8 | Tommaso Paradiso - I Romantici | 0.281 |
 | 9 | Mara Sattei - Le Cose Che Non Sai Di Me | 0.278 |
 | 10 | Fedez & Marco Masini - Male Necessario | 0.275 |
-| 11 | J-AX - Italia Starter Pack | 0.275 |
-| 12 | Leo Gassmann - Naturale | 0.272 |
-| 13 | Levante - Sei Tu | 0.266 |
-| 14 | Malika Ayane - Animali Notturni | 0.265 |
-| 15 | Patty Pravo - Opera | 0.265 |
-| 16 | Nayt - Prima Che | 0.262 |
-| 17 | Serena Brancale - Qui Con Me | 0.258 |
-| 18 | Francesco Renga - Il Meglio Di Me | 0.257 |
-| 19 | LDA & Aka 7even - Poesie Clandestine | 0.251 |
-| 20 | SayF - Tu Mi Piaci Tanto | 0.248 |
-| 21 | Tredici Pietro - Uomo Che Cade | 0.245 |
-| 22 | Eddie Brock - Avvoltoi | 0.242 |
-| 23 | Arisa - Magica Favola | 0.241 |
-| 24 | chiello - Ti Penso Sempre | 0.241 |
-| 25 | RAF - Ora E Per Sempre | 0.235 |
-| 26 | Maria Antonietta & Colombre - La Felicità E Basta | 0.233 |
-| 27 | Enrico Nigiotti - Ogni Volta Che Non So Volare | 0.231 |
-| 28 | Dargen D'Amico - Ai Ai | 0.231 |
-| 29 | Fulminacci - Stupida Sfortuna | 0.216 |
-| 30 | Michele Bravi - Prima O Poi | 0.214 |
 
-### Dynamic Range (dB) — Chi respira di più?
+### Dynamic Range (dB)
 
 | # | Artista | dB |
 |---|---------|-----|
@@ -102,7 +137,7 @@ Due script Python che caricano tutti i 30 brani ed estraggono:
 | 9 | Ditonellapiaga - Che Fastidio! | 19.52 |
 | 10 | Sal Da Vinci - Per Sempre Sì | 19.34 |
 
-### BPM — Chi corre di più?
+### BPM
 
 | # | Artista | BPM |
 |---|---------|-----|
@@ -117,19 +152,7 @@ Due script Python che caricano tutti i 30 brani ed estraggono:
 | 9 | Michele Bravi - Prima O Poi | 136.0 |
 | 10 | Ditonellapiaga - Che Fastidio! | 129.2 |
 
-### Harmonic/Percussive Ratio — Chi è melodico vs ritmico?
-
-| # | Artista | H/P |
-|---|---------|-----|
-| 1 | Patty Pravo - Opera | 9.35 |
-| 2 | Levante - Sei Tu | 7.74 |
-| 3 | Arisa - Magica Favola | 7.51 |
-| ... | ... | ... |
-| 28 | Ditonellapiaga - Che Fastidio! | 1.53 |
-| 29 | Malika Ayane - Animali Notturni | 1.35 |
-| 30 | Maria Antonietta & Colombre - La Felicità E Basta | 1.16 |
-
-### Chroma Complexity — Chi ha l'armonia più ricca?
+### Chroma Complexity — Armonia
 
 | # | Artista | Complessità |
 |---|---------|-----|
@@ -138,31 +161,6 @@ Due script Python che caricano tutti i 30 brani ed estraggono:
 | 3 | Luchè - Labirinto | 0.086 |
 | 4 | Ditonellapiaga - Che Fastidio! | 0.086 |
 | 5 | Enrico Nigiotti - Ogni Volta Che Non So Volare | 0.085 |
-| 6 | Leo Gassmann - Naturale | 0.083 |
-| 7 | Bambole Di Pezza - Resta Con Me | 0.082 |
-| 8 | Tommaso Paradiso - I Romantici | 0.079 |
-| 9 | Levante - Sei Tu | 0.078 |
-| 10 | Patty Pravo - Opera | 0.078 |
-
-### Spectral Centroid (Hz) — Chi brilla di più?
-
-| # | Artista | Hz |
-|---|---------|-----|
-| 1 | Sal Da Vinci - Per Sempre Sì | 3274.7 |
-| 2 | Malika Ayane - Animali Notturni | 3192.2 |
-| 3 | LDA & Aka 7even - Poesie Clandestine | 3001.5 |
-| 4 | Bambole Di Pezza - Resta Con Me | 2905.5 |
-| 5 | Samurai Jay - Ossessione | 2854.5 |
-
-### Spectral Contrast — Chi ha il suono più definito?
-
-| # | Artista | Contrasto |
-|---|---------|-----|
-| 1 | Serena Brancale - Qui Con Me | 24.99 |
-| 2 | Levante - Sei Tu | 24.76 |
-| 3 | Arisa - Magica Favola | 24.75 |
-| 4 | Eddie Brock - Avvoltoi | 24.75 |
-| 5 | Fulminacci - Stupida Sfortuna | 24.30 |
 
 ---
 
@@ -183,105 +181,16 @@ Due script Python che caricano tutti i 30 brani ed estraggono:
 | Luchè | J-AX | 0.590 |
 | Bambole Di Pezza | J-AX | 0.584 |
 
-### Le 10 coppie più diverse
-
-| Artista 1 | Artista 2 | Similarità |
-|-----------|-----------|------------|
-| Tredici Pietro | chiello | -0.779 |
-| Arisa | Luchè | -0.777 |
-| Bambole Di Pezza | Nayt | -0.764 |
-| J-AX | Fedez & Marco Masini | -0.762 |
-| Bambole Di Pezza | Fedez & Marco Masini | -0.744 |
-| Fedez & Marco Masini | Ermal Meta | -0.737 |
-| Ditonellapiaga | Ermal Meta | -0.726 |
-| Mara Sattei | Luchè | -0.703 |
-| Samurai Jay | Levante | -0.686 |
-| Bambole Di Pezza | Leo Gassmann | -0.669 |
-
 ### Outlier timbrico
 
 **Sal Da Vinci - Per Sempre Sì** — non suona come nessun altro in gara (distanza media: 1.035).
 
 ---
 
-## Analisi profonda — Voce e testi
-
-Seconda fase: separazione vocale con Demucs (Meta's htdemucs) su tutti i 30 brani, e scraping dei testi (30/30 trovati).
-
-**[Analisi incrociata completa — 8 classifiche composite, correlazioni, profili, incoerenze](output/analisi_incrociata.md)**
-
-### Mappa della tensione (climax x quiet ratio)
-
-![Tension Map](output/tension_map.png)
-
-### Range vocale vs Stabilita del pitch
-
-![Vocal Range vs Stability](output/vocal_range_stability.png)
-
-### Ricchezza lessicale vs Ripetitivita
-
-![Lyrics Richness](output/lyrics_richness_repetition.png)
-
----
-
-## Analisi incrociata — 8 classifiche composite
-
-Otto classifiche che incrociano tutte le dimensioni (acustica + vocale + testi). La ricchezza lessicale usa MATTR (Moving Average TTR, finestra 50 parole) invece del TTR grezzo per normalizzare rispetto alla lunghezza del testo.
-
-### Complessita totale
-
-![Complessita Totale](output/cross_complessita_totale.png)
-
-### Formula commerciale
-
-![Formula Commerciale](output/cross_formula_commerciale.png)
-
-### Autorialita
-
-![Autorialita](output/cross_autorialita.png)
-
-### Controllo vocale
-
-![Controllo Vocale](output/cross_controllo_vocale.png)
-
-### Tensione narrativa
-
-![Tensione Narrativa](output/cross_tensione_narrativa.png)
-
-### Modernita produttiva
-
-![Modernita Produttiva](output/cross_modernita_produttiva.png)
-
-### Minimalismo
-
-![Minimalismo](output/cross_minimalismo.png)
-
-### Incoerenza musica-testo
-
-![Incoerenza Musica-Testo](output/cross_incoerenza_musica_testo.png)
-
----
-
-### Profilo multidimensionale — Radar
-
-![Radar](output/cross_radar.png)
-
-### Correlazioni tra dimensioni
-
-![Correlations](output/cross_correlations.png)
-
----
-
-## Nota metodologica
-
-- Ricchezza lessicale misurata con MATTR (Moving Average TTR, finestra 50 parole) invece del TTR grezzo per evitare bias legato alla lunghezza del testo
-- Separazione vocale con Demucs htdemucs su CPU
-- Pitch tracking via pyin (librosa) — i valori estremi di range vocale (>25 semitoni) possono contenere artefatti dalla separazione
-- Il vibrato detection e sperimentale — i risultati per artisti rap (J-AX) sono probabilmente artefatti
-
----
-
 ## Profili di tutti i 30 brani
+
+<details>
+<summary>Clicca per espandere tutti i 30 profili individuali</summary>
 
 ### SayF - Tu Mi Piaci Tanto
 ![SayF](output/profile_SayF_-_Tu_Mi_Piaci_Tanto.png)
@@ -792,6 +701,19 @@ Otto classifiche che incrociano tutte le dimensioni (acustica + vocale + testi).
 | Beat regularity | 0.0275 |
 | Quiet ratio | 23.0% |
 | Chroma complexity | 0.0735 |
+
+</details>
+
+---
+
+## Nota metodologica
+
+- Ricchezza lessicale misurata con **MATTR** (Moving Average TTR, finestra 50 parole) invece del TTR grezzo per evitare bias legato alla lunghezza del testo
+- Separazione vocale con **Demucs htdemucs** su CPU
+- Pitch tracking via **pyin** (librosa) — i valori estremi di range vocale (>25 semitoni) possono contenere artefatti dalla separazione
+- Il vibrato detection è sperimentale — i risultati per artisti rap (J-AX) sono probabilmente artefatti
+
+**[Analisi incrociata completa — report, correlazioni, outlier](output/analisi_incrociata.md)**
 
 ---
 
