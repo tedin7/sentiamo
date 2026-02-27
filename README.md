@@ -14,6 +14,37 @@ Entropia cromatica + vocabolario + LRA + range vocale + beat CV. La misura più 
 
 ---
 
+## Cosa emerge
+
+### Il festival si divide lungo due assi (PCA)
+
+La PCA su 25 feature dice che le due dimensioni più importanti sono:
+
+1. **Brillantezza timbrica** (PC1, 31% varianza) — centroid, bandwidth, flatness. Separa il suono lucido/moderno/percussivo (Malika Ayane, Sal Da Vinci, Bambole Di Pezza) dal suono caldo/rotondo/acustico (Arisa, Patty Pravo, Eddie Brock)
+2. **Spazio e respiro** (PC2, 13% varianza) — quiet ratio, dynamic range. Separa chi osa il vuoto (Nayt, Michele Bravi) da chi riempie tutto (J-AX, Enrico Nigiotti)
+
+### La dinamica si conquista sottraendo
+
+La correlazione più forte del dataset: **EBU LRA ↔ quiet ratio (r=0.85)**. Chi ha più dinamica ha anche più silenzio. A Sanremo 2026 la dinamica non si ottiene alzando il volume — si ottiene abbassandolo. Nayt (LRA 11.0, quiet 27%) è l'estremo. J-AX (LRA 3.2, quiet 6%) l'opposto.
+
+### L'armonia non discrimina
+
+L'entropia cromatica è quasi piatta per tutti: 3.54-3.57 su un massimo di 3.58 bit. Tutti i brani usano quasi tutte le 12 note in modo equilibrato. Il vecchio `chroma_complexity` (deviazione standard) dava l'illusione di differenze — era rumore.
+
+### Chi non suona come nessuno
+
+- **Arisa** — il vibrato più alto del festival (0.044), rapporto melodico/percussivo 7.5, BPM bassissimo. L'unica che canta "all'antica"
+- **Patty Pravo** — H/P 9.3 (tutto melodia, zero percussione), meno parole di tutti (78 uniche). Opera minimalista vocale
+- **Nayt** — il più silenzioso (quiet 27%) con la dinamica più alta (LRA 11.0). Costruisce tensione col vuoto
+- **Luchè** — il più energetico (RMS 0.36) ma testo ripetitivo (MATTR 0.72). Musica complessa, testo semplice
+
+### Incoerenze musica↔testo
+
+- **Luchè**: beat CV alto, energia alta, ma vocabolario ultimo quartile → musica > testo
+- **chiello**: MATTR 0.83 su una produzione minimale → testo > musica
+
+---
+
 ## Le altre 7 classifiche
 
 ### Formula commerciale
